@@ -1,0 +1,65 @@
+/*
+body*/
+
+
+
+/* finance charts categories */
+ #chart{
+	/* padding-top: 70px !important; */
+}
+#chart h2{
+	
+	font-weight: bold;
+	font-size: 1em;
+	color: #B06444;
+}  
+.public_finance_charts .row {
+margin-bottom: 7% !important;
+color: #E0E0E0 !important;
+max-height: 100% !important;
+	}
+	.tableauPlaceholder{
+		max-height:100% !important;
+	}
+.county_category{
+}
+ .national_category{
+}
+
+.tableauPlaceholder {
+max-width: 100%; 
+	max-height:100%;}
+object .tableauViz{
+
+	width:100%;
+	 max-height:100%;
+	} 
+ 
+
+
+ /* #touchSlider {
+	width: 100%;
+	height: 150px;
+	margin: 0 auto;
+	background: #ccc;
+	position: relative;
+	overflow: hidden;
+  }
+  
+  #touchSlider ul {
+	width: 99999px;
+	height: 150px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+  }
+  
+  #touchSlider ul li {
+	float: left;
+	width: 100%;
+	height: 150px;
+	background: #9C9;
+	font-size: 14px;
+	color: #fff;
+  } 

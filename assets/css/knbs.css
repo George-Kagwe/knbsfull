@@ -1,0 +1,589 @@
+
+@import url('https://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans');
+
+body { 
+
+  padding-top: 70px;
+  overflow-x: hidden;
+
+	 }
+
+
+ /* start of nav bar css*/
+
+ /*.navbar-fixed-top{
+ 	height: 75px !important;
+ }
+*/
+ /*navbar brand */
+ #logo{
+ 	height: 70px !important;
+ }
+/* end of navbar brand */
+/* 
+
+I will show you how to change a height of a standard Bootstrap navbar.
+
+*/
+
+.navbar {
+  min-height: 80px;
+
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+
+}
+
+.navbar-default .navbar-nav .navbar-fixed-top .caret {
+  color: #a33f21 !important;
+  vertical-align: middle;
+  margin-left:3px;
+  border: none;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: normal;
+  float: right;
+  width: auto;
+  height: auto;
+}
+@media (min-width: 768px) {
+  .navbar-default .navbar-nav .navbar-fixed-top .caret {
+    margin: -4px 0 0 8px !important;
+    font-size: 13px;
+    float: none;
+  }
+
+
+
+.navbar-default .navbar-nav .navbar-fixed-top .caret:after {
+  content: "\f078";
+  font-family:'Inconsolata';
+}
+.navbar-default .navbar-nav .navbar-fixed-top li {
+  margin: 0;
+  border-bottom: 1px solid #D3D3D3;
+}
+@media (min-width: 768px) {
+  .navbar-default .navbar-nav .navbar-fixed-top li {
+    /*border-right: 1px solid #D3D3D3;*/
+   /* padding: -10px;*/
+    margin-right: 0em !important;
+  }
+}
+
+.navbar-default .navbar-nav .navbar-fixed-top li:first-child {
+  border-left-color: #ffffff;
+}
+.navbar-default .navbar-nav   li a {
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  
+  font-weight: bold !important;
+  text-transform: lowercase;
+}
+.navbar-default .navbar-nav  li > a:not(.btn) {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+ border-radius: 0;
+  padding-left: 20px;
+  font-size: .9em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #343331;
+  font-weight:"Inconsolata";
+}
+
+
+.navbar-default .navbar-nav li > a:not(.btn) small {
+  display: block;
+  line-height: 1;
+}
+.navbar-default .navbar-nav li > a:not(.btn):hover .dropdown-menu {
+  display: block;
+}
+.navbar-default .navbar-nav li.icon-link a {
+  text-align: left;
+  font-size: 20px;
+  color: #343331;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .navbar-default .navbar-nav li.icon-link a {
+    height: 60px;
+    line-height: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+  }
+}
+
+
+.navbar-default .navbar-nav .dropdown-menu {
+  margin-top: 0px;
+  padding: 15px;
+  left: auto;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border-top: 3px solid #bf5c3f;
+  background: #f3f3f3;
+  min-width: 200px;
+}
+
+
+
+.navbar-default .navbar-nav .dropdown-menu li {
+  border: none;
+  list-style: none;
+}
+.navbar-default .navbar-nav .dropdown-menu li.dropdown-header {
+  padding-left: 0;
+  padding-right: 0;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color:#ffffff !important;
+}
+.navbar-default .navbar-nav .dropdown-menu li.dropdown-footer {
+  background: #6b7175;
+  padding: 7.5px 15px;
+  margin: 15px -15px -15px -15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.navbar-default .navbar-nav .dropdown-menu li.dropdown-footer:before,
+.navbar-default .navbar-nav .dropdown-menu li.dropdown-footer:after {
+  content: " ";
+  display: table;
+}
+.navbar-default .navbar-nav .dropdown-menu li.dropdown-footer:after {
+  clear: both;
+}
+.navbar-default .navbar-nav .dropdown-menu li.dropdown-footer strong {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav .dropdown-menu li.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.navbar-default .navbar-nav .dropdown-menu li a:not(.btn) {
+  margin: 0;
+  padding: 8px;
+  height: auto;
+  line-height: .8;
+  font-size: 13.5px;
+  border: none;
+  text-transform: none;
+  position: relative;
+  color: #343331;
+  display: block;
+  list-style: none !important;
+}
+.navbar-default .navbar-nav .dropdown-menu li a:not(.btn):before {
+  content: "\f111";
+  font-family: 'Inconsolata';
+  font-size: 5px;
+  /* color: #ff5821; */
+  margin: 0 6px 0 0;
+  padding: 0;
+  vertical-align: middle;
+  list-style: none !important;
+}
+.navbar-default .navbar-nav .dropdown .dropdown-menu li a:not(.btn):hover {
+  color: #ffffff;
+  background: #343331;
+  text-decoration: none;
+  list-style:none !important;
+}
+.navbar-default .navbar-nav .dropdown-menu-right {
+  right: 0;
+  left: auto;
+}
+.navbar-default .navbar-nav .dropdown-mm {
+  position: static;
+}
+.navbar-default .navbar-nav .dropdown-menu.dropdown-menu-mm {
+  list-style: none;
+}
+@media (min-width: 768px) {
+  .navbar-default .navbar-nav .dropdown-menu.dropdown-menu-mm {
+    min-width: 480px;
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+/*show dropdown menu on hover*/
+.dropdown:hover{
+	background-color: #BF5C40 !important;
+	color: #ffffff;
+}
+
+.dropdown:hover #finance{
+	display: block;
+	left: 0;
+
+}
+.dropdown:hover #education {
+  display: block;
+  left: 0;
+	
+}
+.dropdown:hover #health {
+	display: block;
+	
+}
+.dropdown:hover #agriculture {
+	display: block;
+	
+}
+.dropdown:hover #population {
+	display: block;
+	
+}
+.dropdown:hover #governance {
+	display: block;
+	
+}
+
+.dropdown:hover #population {
+	display: block;
+	
+}
+.dropdown:hover #land {
+	display: block;
+	
+}
+
+.dropdown:hover #more {
+	display: block;
+	right:-1px !important;
+}
+/*start of dropdown additional styling*/
+ #finance{
+  background-image:linear-gradient(15deg,
+  rgba(216, 159, 159, 0.1),
+  rgba(245, 177, 158, 0.5),
+  #f0e4df 95% ), url(../img/menu/sh.jpg);
+  background-position: left 35% top 18%;
+  /*  */
+  list-style: none !important;
+}
+#education{ 
+  color: #033;
+  background-image:linear-gradient(240deg,
+  rgba(223, 37, 37, 0.05),
+  rgba(17, 83, 105, 0.664),
+  #078c4e 95% ), url(../img/menu/education.jpg);
+  background-position: left 25% top 18%;
+   
+}
+#education li a{
+ color:rgb(230, 202, 202);
+}
+#education li a:hover{
+  color:#ffffff;
+  }
+#health{ 
+  color: #fff;
+  background-image:linear-gradient(15deg,
+  rgba(216, 159, 159, 0.1),
+  rgba(31, 153, 197, 0.664),
+  #078c4e 95% ), url(../img/menu/hospital.jpg);
+  background-position: left 15% top 8%;
+
+}
+#health li a{
+  color:rgb(230, 202, 202);
+}
+#agriculture{ 
+  color: #fff;
+  background-image:linear-gradient(25deg,
+  rgba(187, 176, 56, 0.71),
+  rgba(31, 153, 197, 0.664),
+  #6f8c07 98% ), url(../img/menu/image.jpg);
+
+}
+#agriculture li a{
+  color:#fff;
+}
+#population{ 
+  color: #fff;
+  background-image:linear-gradient(15deg,
+  rgba(216, 159, 159, 0.1),
+  rgba(31, 153, 197, 0.664),
+  #078c4e 95%), url(../img/menu/popu.png);
+
+}
+/* .dropdown-menu #population li {
+  list-style: none !important; 
+} */
+#governance{ 
+  color: #fff;
+  background-image:linear-gradient(15deg,
+  rgba(216, 159, 159, 0.1),
+  rgba(31, 153, 197, 0.664),
+  #078c4e 95% ), url(../img/menu/court.jpg);
+  background-position: left 55% top 18%;
+  
+
+}
+#governance li a{
+  color:#E0E0E0 !important;
+}
+#land{ 
+  color: #fff;
+  background-image:linear-gradient(15deg,
+  rgba(216, 159, 159, 0.1),
+  rgba(245, 177, 158, 0.5),
+  #8c3107 95% ), url(../img/menu/climate.jpg);
+
+}
+#more{ 
+  color: #fff;
+  background-image:linear-gradient(15deg,
+  rgba(216, 159, 159, 0.1),
+  rgba(245, 177, 158, 0.5),
+  #8c3107 95% ), url(../img/menu/education.jpg);
+
+}
+#finance  li a{
+  list-style: square;
+}
+
+/*End of dropdown additional styling*/
+ /*end of navbar css*/
+
+
+/*
+Landing page css*/
+
+
+#landing{
+  margin-top: -4%;
+  margin-left: -15px;
+  margin-right: -15px;
+  height: 100vh;
+   /* background-image:linear-gradient(
+      to left top,
+      rgba(216, 159, 159, 0.9),
+       rgba(238, 214, 207, 0.9)), url(/assets/chart1.jpg); */ 
+
+background-image:linear-gradient(15deg,
+rgba(216, 159, 159, 0.4),
+rgba(245, 177, 158, 0.45),
+#8c3107 95% ),url(../img/menu/chart4.jpg);
+    background-position: left 30%;
+     
+background-size: cover;
+background-position: top;
+position: relative;
+/* clip-path: polygon(0 0,100% 0,100% 100vh,0 100%); */
+clip-path: polygon(0 0,100% 0,100% 100vh,0 100%);
+}
+
+
+.text-box{
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+
+}
+
+.heading-primary{
+  color: #fff !important;
+  font-weight: bolder;
+text-transform: uppercase;
+backface-visibility: hidden;
+margin-bottom: 60px;
+}
+
+.heading-primary-main{
+  font-weight: bolder;
+display: block;
+font-size: 30px;
+font-weight: 400;
+letter-spacing: 5px;
+animation-name: moveInLeft;
+animation-duration: 5s;
+animation-timing-function: ease-out;
+/*animation-delay: 1s;
+animation-iteration-count: 3;*/
+}
+.heading-primary-sub{
+display: block;
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 5px;
+animation:moveInRight  5s ease-out;
+}
+
+@keyframes moveInLeft{
+0%{
+     opacity: 0;
+     transform: translateX(-500px) rotate(0deg);
+
+} 
+60%{
+  transform: rotate(360deg);
+}
+80%{
+      transform: translateX(20px);  
+}
+100%{
+     opacity: 1;
+     transform: translate(0) rotate(360deg);
+}
+}
+
+@keyframes moveInRight{
+0%{
+     opacity: 0;
+     transform: translateX(500px);
+
+} 
+80%{
+      transform: translateX(-20px);  
+}
+100%{
+      opacity: 1;
+     transform: translate(0);
+}
+}
+
+.btn:link,
+.btn:visited{
+text-transform: uppercase;
+text-decoration: none;
+padding: 15px 40px;
+display: inline-block;
+border-radius: 100px;
+transition: all .2s;
+position: relative;
+
+   
+}
+.btn:hover{
+transform: translateY(-3px);
+box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.btn:active{
+transform: translateY(-1px);
+box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.btn-white{
+background-color: #8c3107;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.btn::after{
+content: "";
+display: inline-block;
+height: 100%;
+width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: all .5s; 
+
+}
+
+.btn-white::after{
+background-color:#8c3107;
+}
+
+.btn:hover::after{
+transform: scaleX(1.4) scaleY(1.6);
+opacity: 0;
+}
+.btn-animated{
+animation:moveInButton 3s ease-out .75s;
+animation-fill-mode: backwards; 
+}
+
+@keyframes moveInButton{
+0%{
+     opacity: 0;
+     transform: translateY(40px);
+
+} 
+100%{
+      opacity: 1;
+     transform: translate(0);
+}
+}
+
+
+ /* End of Landing page CSS*/
+
+
+ /* start sectors css */
+
+ 
+  #sectors{
+    margin-top:-1px;
+    min-height: 800px;
+    /* background-image:url(../img/menu/education.jpg);
+  background: #595966; */
+
+    background-image:linear-gradient(
+      rgba(89,89,102,0.95),
+      rgba(89,89,102,0.95)), url(../img/menu/education.jpg); 
+  opacity: 0.9;
+   background:cover;
+    background-repeat: no-repeat;
+    background-position: left 5% top 10%;
+  }
+
+#fa  {
+    color: #cc5522 !important;
+    text-decoration: none !important;
+  }
+  .fa-cirlce .text-primary{
+    background: #cc5522;
+  }
+
+  #sectors-heading{
+    color:#fff;
+    font-weight: bolder;
+    margin-bottom:10vh !important;
+    margin-top: 15vh !important;
+  }
+
+ .text-weight-strong  a{
+     color:#fff;
+     font-weight: bolder;
+     font-size:23px;
+     text-decoration: none;
+  }
+ /* end sectors css */

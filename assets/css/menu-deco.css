@@ -1,0 +1,104 @@
+
+ #finance{
+    background-image:linear-gradient(15deg,
+    rgba(216, 159, 159, 0.1),
+    rgba(245, 177, 158, 0.5),
+    #f0e4df 95% ), url(../img/menu/sh.jpg);
+    background-position: left -35% top 18%;
+    /*  */
+    list-style: none !important;
+  }
+  
+  
+  #education{ 
+    color: #033;
+    background-image:linear-gradient(200deg,
+    rgba(223, 37, 37, 0.05),
+    rgba(17, 83, 105, 0.664),
+    #078c4e 95% ), url(../img/menu/education.jpg);
+    background-position: left 25% top 18%;
+     
+  }
+  
+  
+  #education li a{
+    color:#fff;
+   }
+   #education .dropdown-header {
+   color:#fff;
+  }
+  
+  
+  #health{ 
+    /* color: #fff; */
+    background-image:linear-gradient(15deg,
+    rgba(216, 159, 159, 0.1),
+    rgba(31, 153, 197, 0.664),
+    #078c4e 95% ), url(../img/menu/hospital.jpg);
+    background-position:left -90% top 55%;
+    /* clip-path: polygon(0 0,100% 0,100% 100vh,0 100%); */
+  
+  }
+  
+  #health li a{
+    color:#fff;
+  }
+  
+  
+  
+  #agriculture{ 
+    color: #fff;
+    background-image:linear-gradient(25deg,
+    rgba(187, 176, 56, 0.71),
+    rgba(31, 153, 197, 0.664),
+    #6f8c07 98% ), url(../img/menu/image.jpg);
+  
+  }
+  #agriculture li a{
+    color:#fff;
+  }
+  #population{ 
+    color: #fff;
+    background-image:linear-gradient(15deg,
+    rgba(216, 159, 159, 0.1),
+    rgba(31, 153, 197, 0.664),
+    #078c4e 95%), url(../img/menu/popu.png);
+  
+  }
+  /* .dropdown-menu #population li {
+    list-style: none !important; 
+  } */
+  #governance{ 
+    color: #fff;
+    background-image:linear-gradient(15deg,
+    rgba(216, 159, 159, 0.1),
+    rgba(31, 153, 197, 0.664),
+    #078c4e 95% ), url(../img/menu/court.jpg);
+    background-position: left 55% top 18%;
+    
+  
+  }
+  #governance li a{
+    color:#E0E0E0 !important;
+  }
+  #land{ 
+    color: #fff;
+    background-image:linear-gradient(15deg,
+    rgba(216, 159, 159, 0.1),
+    rgba(245, 177, 158, 0.5),
+    #8c3107 95% ), url(../img/menu/climate.jpg);
+  
+  }
+  #more{ 
+    color: #fff;
+    background-image:linear-gradient(15deg,
+    rgba(216, 159, 159, 0.1),
+    rgba(245, 177, 158, 0.5),
+    #8c3107 95% ), url(../img/menu/education.jpg);
+  
+  }
+  #finance  li a{
+    list-style: square;
+  }
+   
+  
