@@ -46,12 +46,19 @@
 
                                         <ul class="col-md-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
-                                            <li><a href="#Excise_Revenue_By_Commodity" tabindex="-1" class="menu-item">Excise Revenue By Commodity</a></li>
-                                            <li><a href="nationalgovernmentexpenditure.php" tabindex="-1" class="menu-item">Economic Classification of National Government Expenditure</a></li>
-                                            <li><a href="nationalgovernmentrevenue.php" tabindex="-1" class="menu-item">Economic Classification of National Government Revenue</a></li>
-                                            <li><a href="expenditurebypurpose.php" tabindex="-1" class="menu-item">National Government Expenditure By Purpose</a></li>
-                                            <li><a href="outstandingdebtlendingcountry.php" tabindex="-1" class="menu-item">Outstanding Debt by Lending Country</a></li>
-                                            <li><a href="outstandingdebtmultilateralenders.php" tabindex="-1" class="menu-item">Outstanding Debt by Multilateral Lenders</a></li>
+
+                                            <li><a href="<?=site_url('Public_Finance/excise_revenenue_by_commodity')?>" tabindex="-1" class="menu-item">Excise Revenue By Commodity</a></li>
+
+                                            <li><a href="<?=site_url('Public_Finance/expenditure_classification')?>" tabindex="-1" class="menu-item">Economic Classification of National Government Expenditure</a></li>
+
+                                            <li><a href="<?=site_url('Public_Finance/revenue_classification')?>" tabindex="-1" class="menu-item">Economic Classification of National Government Revenue</a></li>
+
+                                            <li><a href="<?=site_url('Public_Finance/expenditure_by_purpose')?>" tabindex="-1" class="menu-item">National Government Expenditure By Purpose</a></li>
+                                            
+                                            <li><a href="<?=site_url('Public_Finance/outstanding_debt_by_country')?>" tabindex="-1" class="menu-item">Outstanding Debt by Lending Country</a></li>
+
+                                            <li><a href="
+                                            <?=site_url('Public_Finance/outstanding_debt_by_multilateral_lenders')?>" tabindex="-1" class="menu-item">Outstanding Debt by Multilateral Lenders</a></li>
                                         </ul>
                                         
                                     </li>
