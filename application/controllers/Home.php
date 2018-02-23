@@ -11,5 +11,6 @@ class Home extends CI_Controller {
 		$this->load->view('includes/landing_page');
 		$this->load->view('includes/sectors_view');
 		$this->load->view('includes/partners_view');
+		$this->load->view('includes/footer_view');
 	}
 }

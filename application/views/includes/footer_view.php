@@ -173,9 +173,36 @@
 
 
 <footer>
-   <date_interval_create_from_date_string
-
-</footer>
+   <div class="container-fluid" id="footer">
+        <div class="row">
+             <div class="col-lg-4" id="contact">
+               <header>
+                    <h5>CONTACT US ON:</h5>
+                  <li><i class="fa fa-map-pin fa-fw-2x  text-primary"></i>
+                   Herufi House</li>    
+                  <li><i class="fa fa-phone fa-fw-2x  text-primary"></i>
+                  019223 8092344 </li>
+                  <li><i class="fa fa-envelope-o fa-fw-2x  text-primary">
+                    
+                  </i>   info@knbs.or.ke </li>
+    
+                  </header>
+             </div>
+             <div class="col-lg-4" id="social">
+               <header>
+                    <h5>FOLLOW US ON:</h5>
+                    <li><i class="fa fa-twitter fa-fw"></i>Twitter</li>
+                    <li><i class="fa fa-facebook fa-fw"></i>Facebook</li>
+                  </header>
+             </div>
+             <div class="col-lg-4">
+                  <header>
+                    <center><p>Copyright © iLabAfrica</p></center>
+                  </header>
+             </div>
+          
+        </div>
+   </div>
 
 </body>
 </html>

@@ -25,18 +25,19 @@ h2 { margin-top:10px; text-align:center; }
 
 #touchSlider { 
     width:100%;
-max-height:100%; 
+    max-height:100%; 
     /* margin:0 auto; */
      background:#fff;
      position:relative; 
      overflow:hidden;
 
      margin:10px;
-    }
+}
 #touchSlider ul {
      width:100%; height:900px;
      position:absolute; top:0; left:0; 
-    overflow:hidden; }
+    overflow:hidden;
+     }
 #touchSlider ul li { float:left; width:100%; height:1000px; 
      background:#fff; font-size:14px; color:#fff; }
 
@@ -82,7 +83,7 @@ max-height:100%;
 </style>
 
 <!-- jQuery 1.7+, IE 7+ -->
-<script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>7
+<script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 
 <script type="text/javascript" src="<?php echo base_url().'assets/js/jquery.event.drag-1.5.1.min.js';?>"></script>
 
@@ -117,15 +118,8 @@ $(document).ready(function() {
 </head>
 
 <body>
- <!-- <div class="btn_area">
-        <button type="button" class="btn_prev">prev</button>
-        <button type="button" class="btn_next">next</button>
-        <div id="count" style="height:36px; font-size:16px; line-height:36px; text-align:center;">
-        </div>
-</div> --> 
 
-
-        <div id="touchSlider">
+  <div id="touchSlider">
             <ul>
                 
                 <li>
@@ -278,24 +272,8 @@ $(document).ready(function() {
             </ul>
         </div>
 <div class="btn_area">
-	<button type="button" class="btn_prev"><i class="fa fa-arrow-left"></i></button>
-	<button type="button" class="btn_next"><i class="fa fa-arrow-right"></i></button>
-	<div id="count" style="height:36px; font-size:16px; line-height:36px; text-align:center;">
-	</div>
+    <button type="button" class="btn_prev"><i class="fa fa-arrow-left"></i></button>
+    <button type="button" class="btn_next"><i class="fa fa-arrow-right"></i></button>
+    <div id="count" style="height:36px; font-size:16px; line-height:36px; text-align:center;">
+    </div>
 </div>
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/wow.min.js"></script>
-
-    <script>
-    new WOW().init();
-    </script>
-
-    
-  </body>
-</html>

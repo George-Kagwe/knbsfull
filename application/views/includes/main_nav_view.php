@@ -14,9 +14,9 @@
             <div class="collapse navbar-collapse">
                 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#" target="_blank">API</a></li>
-                    <li><a href="#" target="_blank">PARTNERS</a></li>
-                    <li><a href="#" target="_blank">REQUEST DATA</a></li>
+                    <li><a href="#" target="_blank" class="btn-menu">API</a></li>
+                    <li><a href="#" target="_blank" class="btn-menu">PARTNERS</a></li>
+                    <li><a href="#" target="_blank" class="btn-menu">REQUEST DATA</a></li>
                 </ul>
                 <!-- <ul class="nav navbar-nav navbar-right">
                     
@@ -42,6 +42,11 @@
                                           <li><a href="<?=site_url('Public_Finance/county_government_revenue')?>" tabindex="-1" class="menu-item">County Government Revenue</a></li>
 
                                           <li><a href="<?=site_url('Public_Finance/county_government_expenditure')?>" tabindex="-1" class="menu-item">County Government Expenditure</a></li>
+
+                                              <br><br>
+                                               <a href="<?=site_url('Public_Finance/all')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                         </ul>
 
                                         <ul class="col-md-6 menus">
@@ -201,7 +206,6 @@
                               
                                   </ul>
                                   <ul class="col-md-6">
-                                    <li class="dropdown-header">National Datasets</li>
                                     <li class="dropdown-header">National Datasets</li>
                                     <li><a href="caseshandledbyvariouscourts.php" tabindex="-1" class="menu-item">Cases Handled by Various Courts</a></li>
                                     <li><a href="convictedprisonersoffencesex.php" tabindex="-1" class="menu-item">Convicted Prisoners by Type of Offence and Sex</a></li>

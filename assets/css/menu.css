@@ -59,7 +59,7 @@ padding: 9px 10px !important;
 }
 #myNavbar {
   /* background-color: #f7f3f2; */
-  background-color: #fff;
+  background-color: rgb(214, 214, 214, 0.9);
   
 } 
 
@@ -275,16 +275,16 @@ Landing page css*/
   margin-top: -4%;
   margin-left: -15px;
   margin-right: -15px;
-  height: 100vh;
+  height: 60vh;
    /* background-image:linear-gradient(
       to left top,
       rgba(216, 159, 159, 0.9),
        rgba(238, 214, 207, 0.9)), url(/assets/chart1.jpg); */ 
 
 background-image:linear-gradient(15deg,
-rgba(216, 159, 159, 0.4),
-rgba(245, 177, 158, 0.45),
-#8c3107 95% ),url(../img/menu/chart4.jpg);
+rgba(240, 90, 40, 0.4),
+rgba(240, 77, 33, 0.45),
+#8c3107 95% ),url(../img/menu/cart4.jpg);
     background-position: left 30%;
      
 background-size: cover;
@@ -365,6 +365,13 @@ animation:moveInRight  5s ease-out;
 }
 }
 
+.btn-menu{
+  border-radius: 100px;
+transition: all .2s;
+
+
+}
+
 .btn:link,
 .btn:visited{
 text-transform: uppercase;
@@ -441,25 +448,12 @@ animation-fill-mode: backwards;
  
  #sectorss{
   margin-top:-1px;
-
-  /* background-image:url(../img/menu/education.jpg);
-background: #595966; */
-/* 
-  background-image:linear-gradient(to left top,
-  rgb(80, 80, 80, .9),
-    #916250 95% ), url(../img/menu/eduhcation.jpg);   */
-    background-image:linear-gradient(
-      to right top,
-      rgba(63, 63, 63, 0.9),
-       rgba(238, 214, 207, 0.9)), url(../img/menu/eduhcation.jpg); */ 
-
-   
-   /* // background: rgb(80, 80, 80); */
-/* opacity:0.9; */
- background:cover;
+  background: #005073;
+  opacity:0.9; 
+  background:cover;
   background-repeat: no-repeat;
   background-position: left 5% top 10%; 
-}
+  }
 
 #fa  {
   color: #cc5522 !important;
@@ -471,15 +465,13 @@ background: #595966; */
 
 #sectors-heading{
   color:#fff;
-  font-weight: bolder;
-  margin-bottom:2vh !important;
-  margin-top: 3vh !important;
-}
+  font-weight: normal;
+ }
 
 .text-weight-strong  a{
    color:#fff;
-   font-weight: bolder;
-   font-size:23px;
+   font-weight: normal;
+   font-size:18px;
    text-decoration: none;
 }
 /* end sectors css */
@@ -538,15 +530,22 @@ background: #595966; */
 
 #health{ 
  
-   background-image:linear-gradient(250deg,
+   /*background-image:linear-gradient(250deg,
    rgba(172, 90, 68, 0.1),
   rgba(245, 177, 158, 0.5),
   #f0e4df 95% ), url(../img/menu/hospital.jpg);
   background-repeat: no-repeat;
-   background-position: right 0 bottom 0 !important; 
+   background-position: left 25% top 8%;
+  */
+  background-image:
+ linear-gradient(107deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),
+   linear-gradient(107deg, rgba(212, 248, 212, 0.9), rgba(0,255,0,0) 99.71%), 
+  linear-gradient(90deg, rgb(165, 120, 109), rgba(245, 177, 158, 0) 99.71%),
+  url(../img/menu/hospital.jpg);
+  background-repeat: no-repeat;
+   background-position: left 30% top 8% !important;
   
-  
-  
+   max-height: 34.5em !important
 
 }
 #agriculture{ 
@@ -559,11 +558,12 @@ background: #595966; */
   background-repeat: no-repeat; */
   
   background-image:
- linear-gradient(107deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),
-  linear-gradient(107deg, rgba(212, 248, 212, 0.9), rgba(0,255,0,0) 99.71%),
-  linear-gradient(100deg, rgb(165, 120, 109), rgba(245, 177, 158, 0) 99.71%),
+ linear-gradient(90deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),
+  linear-gradient(-90deg, rgba(248, 252, 248, 0.99), rgba(0,255,0,0) 99.71%),
+  linear-gradient(200deg, rgb(165, 120, 109), rgba(245, 177, 158, 0) 99.71%),
   url(../img/menu/arabica.jpg);
-
+  background-position: left 30% top 8% !important;
+  
   /* background-image:
   linear-gradient(7deg,  rgba(212, 248, 212, 0.5), rgba(212, 248, 212, 0.5) 90.71%),
    linear-gradient(207deg, rgba(212, 248, 212, 0.9), rgba(212,248,0,0) 99.71%),
@@ -576,29 +576,44 @@ background: #595966; */
   color:#fff;
 } */
 #population{ 
-  color: #fff;
+ /* color: #fff;
   background-image:linear-gradient(15deg,
   rgba(216, 159, 159, 0.1),
   rgba(31, 153, 197, 0.664),
-  #078c4e 95%), url(../img/menu/popu.png);
+  #078c4e 95%), url(../img/menu/popu.png);*/
+
+  background-image:
+ linear-gradient(90deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),
+  linear-gradient(90deg, rgba(248, 252, 248, 0.99), rgba(0,255,0,0) 99.71%),
+  linear-gradient(200deg, rgb(165, 120, 109), rgba(245, 177, 158, 0) 99.71%),
+  url(../img/menu/demo.png);
+  background-position: left 30% top 8% !important;
 
 }
 /* .dropdown-menu #population li {
   list-style: none !important; 
 } */
 #governance{ 
-  color: #fff;
+  /*color: #fff;
   background-image:linear-gradient(15deg,
   rgba(216, 159, 159, 0.1),
   rgba(31, 153, 197, 0.664),
   #078c4e 95% ), url(../img/menu/court.jpg);
-  background-position: left 55% top 18%;
+  background-position: left 55% top 18%;*/
+
+  background-image:
+ linear-gradient(-90deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),
+  linear-gradient(-90deg, rgba(248, 252, 248, 0.99), rgba(0,255,0,0) 99.71%),
+  /*linear-gradient(200deg, rgb(165, 120, 109), rgba(245, 177, 158, 0) 99.71%),*/
+  url(../img/menu/scales.jpg);
+
+  background-position: left -120% top 90% !important;
+  background-repeat: no-repeat;
+
   
 
 }
-#governance li a{
-  color:#E0E0E0 !important;
-}
+
 #land{ 
   color: #fff;
   background-image:linear-gradient(15deg,
@@ -621,3 +636,36 @@ background: #595966; */
 
 /*End of dropdown additional styling*/
  /*end of navbar css*/
+
+
+ #footer{
+  list-style: none;
+  
+  padding-left: 30%;
+  margin-top:1px;
+  bottom: 0;
+  color:#fff;
+  /*background-color:rgba(182,208,46,0.8); */
+  /*background-image:url(../img/menu/ele.jpg);*/
+   background-image:linear-gradient(15deg,
+  rgba(143, 112, 112, 0.9),
+  #b06444,
+  #b06444 95% ), url(../img/menu/elephant.jpg);
+   background-position: bottom 40% !important;
+ 
+  height: 250px;
+ }
+
+  #footer h5{
+    font-weight: bold;
+
+  }
+
+ #contact li{
+  font-size:15px;
+  line-height: .8em;
+  padding:6px;
+ }
+ #contact .fa{
+  color:#fff !important;
+ }
