@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans');
 
+@import url('<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">');
  body{
    overflow-x: hidden;
-    padding-top: 120px; 
+    padding-top: 100px; 
  }
  /*navbar brand */
  #logo{
@@ -52,14 +53,14 @@ padding: 9px 10px !important;
   
 }
 .dropdowndropdown:hover {
-  
+  color:#fff;
   background: #b06444;
 
  
 }
 #myNavbar {
   /* background-color: #f7f3f2; */
-  background-color: rgb(214, 214, 214, 0.9);
+  /* background-color: rgb(214, 214, 214, 0.9); */
   
 } 
 
@@ -137,6 +138,26 @@ border-bottom: 1px #fff solid;
   color: #000000 important;
   
 }
+#imaginary_container{
+  margin-left:3%;
+   margin-top:7%; 
+  width: 550px;
+}
+.stylish-input-group .input-group-addon{
+  background: white !important; 
+}
+.stylish-input-group .form-control{
+border-right:0; 
+box-shadow:0 0 0; 
+border-color:#ccc;
+}
+.stylish-input-group button{
+  border:none;
+  background:transparent;
+  color:#b06444;
+
+}
+
 /* . li:hover{
  text-decoration:  none !important;
   color:#ffff;
@@ -230,10 +251,25 @@ input {
 input[type=text] {
   background-color: #f1f1f1;
   width: 100%;
+  color: #222;
+}
+.icon{
+/* border:none; */
+background-color:transparent;
+color: #b06444;
+font-size: 33px;
+font-weight: bold;
+margin-left: -1.4%;
+
+}
+.fa-search{
+  margin-top: 1em;
 }
 input[type=submit] {
-  background-color: #b06444;
-  color: #fff;
+  /* content:"\f002"; */
+ background:#b06444 ;
+
+ 
 }
 .autocomplete-items {
   position: absolute;
@@ -247,6 +283,7 @@ input[type=submit] {
   right: 0;
 }
 .autocomplete-items div {
+  color: #222;
   padding: 10px;
   cursor: pointer;
   background-color: #fff; 
@@ -254,12 +291,13 @@ input[type=submit] {
 }
 .autocomplete-items div:hover {
   /*when hovering an item:*/
+  color:#222;
   background-color: #e9e9e9; 
 }
 .autocomplete-active {
   /*when navigating through the items using the arrow keys:*/
   background-color: DodgerBlue !important; 
-  color: #ffffff; 
+  color: #222; 
 }
 
 /* end of autocomplete */
@@ -275,17 +313,17 @@ Landing page css*/
   margin-top: -4%;
   margin-left: -15px;
   margin-right: -15px;
-  height: 60vh;
+  height: 66vh;
    /* background-image:linear-gradient(
       to left top,
       rgba(216, 159, 159, 0.9),
        rgba(238, 214, 207, 0.9)), url(/assets/chart1.jpg); */ 
 
 background-image:linear-gradient(15deg,
-rgba(240, 90, 40, 0.4),
-rgba(240, 77, 33, 0.45),
-#8c3107 95% ),url(../img/menu/cart4.jpg);
-    background-position: left 30%;
+rgba(106, 117, 138, 0.842),
+rgba(33, 164, 240, 0.45),
+#6f7777 95% ),url(../img/menu/bulb.jpg);
+    background-position: right 40% !important;
      
 background-size: cover;
 background-position: top;
@@ -365,12 +403,9 @@ animation:moveInRight  5s ease-out;
 }
 }
 
-.btn-menu{
-  border-radius: 100px;
-transition: all .2s;
-
-
-}
+.btn-menu:hover{
+  color:#b06444;
+  }
 
 .btn:link,
 .btn:visited{
@@ -581,10 +616,10 @@ animation-fill-mode: backwards;
   rgba(216, 159, 159, 0.1),
   rgba(31, 153, 197, 0.664),
   #078c4e 95%), url(../img/menu/popu.png);*/
-
+  text-overflow: nowrap;
   background-image:
- linear-gradient(90deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),
-  linear-gradient(90deg, rgba(248, 252, 248, 0.99), rgba(0,255,0,0) 99.71%),
+ linear-gradient(107deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),
+  linear-gradient(107deg, rgba(140, 141, 140, 0.99), rgba(0,255,0,0) 99.71%),
   linear-gradient(200deg, rgb(165, 120, 109), rgba(245, 177, 158, 0) 99.71%),
   url(../img/menu/demo.png);
   background-position: left 30% top 8% !important;
@@ -615,12 +650,19 @@ animation-fill-mode: backwards;
 }
 
 #land{ 
-  color: #fff;
+  /*color: #fff;
   background-image:linear-gradient(15deg,
   rgba(216, 159, 159, 0.1),
   rgba(245, 177, 158, 0.5),
-  #8c3107 95% ), url(../img/menu/climate.jpg);
-
+  #8c3107 95% ), url(../img/menu/climate.jpg);*/
+  
+  background-image:
+ linear-gradient(90deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),
+  linear-gradient(90deg, rgba(248, 252, 248, 0.99), rgba(0,255,0,0) 99.71%),
+  linear-gradient(200deg, rgb(165, 120, 109), rgba(245, 177, 158, 0) 99.71%),
+  url(../img/menu/land.jpg);
+  background-repeat: no-repeat;
+  background-position: left 30% top 8% !important;
 }
 #more{ 
   color: #fff;

@@ -228,6 +228,7 @@
                                 <ul class="dropdown-menu " id="land">
                                     <li class="row menus" >
                                        <ul class="col-md-6">
+                                        <li class="dropdown-header">National Datasets</li>
                                             <li><a href="landsurfacearea.php" tabindex="-1" class="menu-item">County Surface Area by Category</a></li> 
                                             <li><a href="landtemparature.php" tabindex="-1" class="menu-item">County Temparature</a></li>
                                              <li><a href="landrainfall.php" tabindex="-1" class="menu-item">County Rainfall</a></li>
@@ -535,11 +536,19 @@
                             </li>
                         </ul>
                     </li>
-                    <li>  <form autocomplete="off" action="agriculture.php">
-                        <div class="autocomplete" style="width:450px; margin-top:7%;">
-                          <input id="myInput" type="text" name="County" placeholder="Search here"style="background-color:#d8d1d1;">
-                        </div>
-                        <input type="submit" value="SEARCH">
+                    <li> 
+                    <form autocomplete="off" action="agriculture.php">
+                     <div id="imaginary_container"> 
+                    <div class="input-group stylish-input-group">
+                        <input type="text" class="form-control input-lg"  placeholder="Search" >
+                        <span class="input-group-addon">
+                            <button type="submit" id="search_button">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>  
+                        </span>
+                    </div>
+                </div>
+                  </form>
                       </form></li>
                     
                 </ul>

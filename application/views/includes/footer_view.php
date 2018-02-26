@@ -4,7 +4,6 @@
 
 
 
-
 <!--  start of js for searching the counties -->
 <script>
         function autocomplete(inp, arr) {
