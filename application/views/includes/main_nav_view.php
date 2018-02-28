@@ -14,7 +14,7 @@
             <div class="collapse navbar-collapse">
                 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#" target="_blank" class="btn-menu">API</a></li>
+                    <li><a href="<?=site_url('api/')?>"  class="btn-menu">API</a></li>
                     <li><a href="#" target="_blank" class="btn-menu">PARTNERS</a></li>
                     <li><a href="#" target="_blank" class="btn-menu">REQUEST DATA</a></li>
                 </ul>

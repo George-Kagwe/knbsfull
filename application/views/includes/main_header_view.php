@@ -32,9 +32,25 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-   
+    <script type="text/javascript" 
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script type="text/javascript">
+        function initViz() {
+            var containerDiv = document.getElementById("vizContainer"),
+                url = "http://public.tableau.com/views/EconomicClassificationofNationalGovernmentExpenditure/BarGraph?:embed=y&:toolbar=no&:embed_code_version=3&:loadOrderID=0&:display_count=yes&publish=yes",
+                options = {
+                    hideTabs: true,
+                    onFirstInteractive: function () {
+                        console.log("Run this code when the viz has finished loading.");
+                    }
+                };
+            
+            var viz = new tableau.Viz(containerDiv, url, options); 
+            // Create a viz object and embed it in the container div.
+        }
+    </script>
     
   </head>
-   <body data-spy="scroll" data-target="#myNavbar" data-offset="70" >
+   <body data-spy="scroll" data-target="#myNavbar" data-offset="70" onload="initViz();">
 
 <!-- start navbar -->

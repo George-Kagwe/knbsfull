@@ -1,6 +1,7 @@
 <!-- partners data -->
 <div class="container">
         <div class="row" id="partnerss">
+           <h3 id="partners-heading"><center>PARTNERS</center></h3>
               <div class="col-md-4">
                   <div class="wb">
                    <a href=""><img src="

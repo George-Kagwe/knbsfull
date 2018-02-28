@@ -167,41 +167,90 @@
         </script>
         
 <!-- end of js to search for counties -->
+<script type="text/javascript">
+   //$(window).load(function(){        
+  // $('#fsModal').modal('show');
+   // }); // A $( document ).ready() block.
+
+$( document ).ready(function() {
+  if (document.cookie.indexOf('visited=true') == -1){
+    // load the overlay
+    $('#fsModal').modal({show:true});
+    
+    // var year = 1000*60*60*24*365;
+    var day  =1000*60*60*24;
+    var expires = new Date((new Date()).valueOf() + day);
+    document.cookie = "visited=true;expires=" + expires.toUTCString();
+
+  }
+}); 
 
 
 
+   // A $( document ).ready() block.
+$( document ).ready(function() {
+  if (document.cookie.indexOf('visited=true') == -1){
+    // load the overlay
+    $('#myModal').modal({show:true});
+    
+    var year = 1000*60*60*24*365;
+    var expires = new Date((new Date()).valueOf() + year);
+    document.cookie = "visited=true;expires=" + expires.toUTCString();
 
-<footer>
-   <div class="container-fluid" id="footer">
-        <div class="row">
+  }
+}); 
+
+
+</script>
+
+
+
+ <footer>
+   <div class="container" id="footer">
+        <div class="row" id="footer_content">
+             <div class="col-lg-4" id="contact">
+                 <header>
+                    <h4>QUICK LINKS</h4>
+                  </header>
+                <li>
+                  <i class="fa fa-map-pin fa-fw-4x  text-primary"></i>
+                   About Us</li>    
+                  <li><i class="fa fa-phone fa-fw-4x  text-primary"></i>
+                  Site Map </li>
+                  <li><i class="fa fa-envelope-o fa-fw-4x  text-primary">
+                    
+                  </i> Chart of the Day </li>
+             </div>
              <div class="col-lg-4" id="contact">
                <header>
-                    <h5>CONTACT US ON:</h5>
-                  <li><i class="fa fa-map-pin fa-fw-2x  text-primary"></i>
+                    <h4>CONTACT US ON:</h4>
+                </header>
+                  <li>
+                  <i class="fa fa-map-pin fa-fw-4x  text-primary"></i>
                    Herufi House</li>    
-                  <li><i class="fa fa-phone fa-fw-2x  text-primary"></i>
+                  <li><i class="fa fa-phone fa-fw-4x  text-primary"></i>
                   019223 8092344 </li>
-                  <li><i class="fa fa-envelope-o fa-fw-2x  text-primary">
+                  <li><i class="fa fa-envelope-o fa-fw-4x  text-primary">
                     
                   </i>   info@knbs.or.ke </li>
     
-                  </header>
+                  
              </div>
-             <div class="col-lg-4" id="social">
-               <header>
-                    <h5>FOLLOW US ON:</h5>
+             <div class="col-lg-4" id="contact">
+                   <header>
+                    <h4>FOLLOW US ON:</h4>
+                    </header>
                     <li><i class="fa fa-twitter fa-fw"></i>Twitter</li>
                     <li><i class="fa fa-facebook fa-fw"></i>Facebook</li>
-                  </header>
+                  
              </div>
-             <div class="col-lg-4">
-                  <header>
-                    <center><p>Copyright © iLabAfrica</p></center>
-                  </header>
-             </div>
-          
+
+           
+           
         </div>
+       
    </div>
+</footer>
 
 </body>
 </html>

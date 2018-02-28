@@ -17,69 +17,7 @@
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <style type="text/css">
-body{
-    overflow-x: hidden !important;
-}
-h1 { font-size:16px; font-weight:bold; }
-h2 { margin-top:10px; text-align:center; }
 
-#touchSlider { 
-    width:100%;
-    max-height:100%; 
-    /* margin:0 auto; */
-     background:#fff;
-     position:relative; 
-     overflow:hidden;
-
-     margin:10px;
-}
-#touchSlider ul {
-     width:100%; height:900px;
-     position:absolute; top:0; left:0; 
-    overflow:hidden;
-     }
-#touchSlider ul li { float:left; width:100%; height:1000px; 
-     background:#fff; font-size:14px; color:#fff; }
-
-.btn_area {
-     background:#eeeded; 
-    text-align:center;
-     overflow:hidden;
-     bottom:0;
-     position: -webkit-sticky;
-   position: sticky;
- }
-.btn_area button { 
-     display:block;
-      width:50px; 
-      height:50px;
-     margin-left:5em;
-      margin-right:5em;
-
-     background:#B06444; 
-     font-size:16px; 
-     color:#fff; 
-     font-weight:bold;
-     border-radius: 50%;
- }
-.btn_area button.btn_prev { float:left; }
-.btn_area button.btn_next { float:right; }
-.paging { 
-    background:#f5f5f5;
-     text-align:center; overflow:hidden; }
-.paging .btn_page { display:inline-block; 
-    width:10px; height:10px; margin:3px; font-size:0px;
-     line-height:0; text-indent:-9999px;
-      background:#3399CC; }
-.paging .btn_page.on { background:#ff0000; }
-.row{
-    margin-bottom: 5em !important;
-}
-#chart_title{
-    position: -webkit-sticky;
-   position: sticky;
-   top: 0;
-}
 </style>
 
 <!-- jQuery 1.7+, IE 7+ -->
@@ -272,8 +210,10 @@ $(document).ready(function() {
             </ul>
         </div>
 <div class="btn_area">
-    <button type="button" class="btn_prev"><i class="fa fa-arrow-left"></i></button>
-    <button type="button" class="btn_next"><i class="fa fa-arrow-right"></i></button>
+    <!-- <button type="button" class="btn btn_prev"><i class="fa fa-arrow-left"></i></button>
+    <button type="button" class="btn_next"><i class="fa fa-arrow-right"></i></button> -->
+    <button type="button" class="btn btn_prev"><i class="fa fa-arrow-left"></i></button>
+    <button type="button" class="btn btn_next"><i class="fa fa-arrow-right"></i></button>
     <div id="count" style="height:36px; font-size:16px; line-height:36px; text-align:center;">
     </div>
 </div>
