@@ -212,27 +212,26 @@ $( document ).ready(function() {
                  <header>
                     <h4>QUICK LINKS</h4>
                   </header>
-                <li>
-                  <i class="fa fa-map-pin fa-fw-4x  text-primary"></i>
-                   About Us</li>    
-                  <li><i class="fa fa-phone fa-fw-4x  text-primary"></i>
-                  Site Map </li>
-                  <li><i class="fa fa-envelope-o fa-fw-4x  text-primary">
-                    
-                  </i> Chart of the Day </li>
+                   <li>
+                  <i class="fa fa-address-card-o fa-1x" aria-hidden="true"></i>
+                    About Us
+                  </li>    
+                  <li><i class="fa fa-map-o fa-1x" aria-hidden="true"></i>
+                     Site Map 
+                  </li>
+                  <li><i class="fa fa-bar-chart fa-1x" aria-hidden="true"></i>     Chart of the Day </li>
              </div>
              <div class="col-lg-4" id="contact">
                <header>
                     <h4>CONTACT US ON:</h4>
                 </header>
                   <li>
-                  <i class="fa fa-map-pin fa-fw-4x  text-primary"></i>
+                  <i class="fa fa-map-marker fa-1x" aria-hidden="true"></i>
                    Herufi House</li>    
-                  <li><i class="fa fa-phone fa-fw-4x  text-primary"></i>
+                  <li><i class="fa fa-volume-control-phone fa-1x" aria-hidden="true"></i>
                   019223 8092344 </li>
-                  <li><i class="fa fa-envelope-o fa-fw-4x  text-primary">
-                    
-                  </i>   info@knbs.or.ke </li>
+                  <li><i class="fa fa-envelope fa-1x" aria-hidden="true"></i>                 
+                   info@knbs.or.ke </li>
     
                   
              </div>
@@ -240,15 +239,22 @@ $( document ).ready(function() {
                    <header>
                     <h4>FOLLOW US ON:</h4>
                     </header>
-                    <li><i class="fa fa-twitter fa-fw"></i>Twitter</li>
-                    <li><i class="fa fa-facebook fa-fw"></i>Facebook</li>
+                    <li><i class="fa fa-twitter fa-1x" aria-hidden="true"></i>Twitter</li>
+                    <li><i class="fa fa-facebook fa-1x" aria-hidden="true"></i>Facebook</li>
                   
              </div>
 
+          <!--   <hr> -->
+       
+            
+                <!--   <center><p>Copyright ©  <?php echo date('Y');?>  iLabAfrica</p></center> -->
            
+        <!-- </div> -->
            
         </div>
-       
+          
+
+         
    </div>
 </footer>
 

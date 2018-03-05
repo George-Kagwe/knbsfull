@@ -44,7 +44,7 @@
                                           <li><a href="<?=site_url('Public_Finance/county_government_expenditure')?>" tabindex="-1" class="menu-item">County Government Expenditure</a></li>
 
                                               <br><br>
-                                               <a href="<?=site_url('Public_Finance/all')?>" class="btn btn-success active">
+                                               <a href="<?=site_url('All/Public_Finance')?>" class="btn btn-success active">
                                                     View all charts
                                                </a>
                                         </ul>
@@ -85,7 +85,10 @@
                                     <li><a href="secondaryschoolenrollment.php" tabindex="-1" class="menu-item">Number of Secondary School Enrollment</a></li>
                                     <li><a href="youthpolytechnics.php" tabindex="-1" class="menu-item">Youth Polytechnics by Category and Subcounty</a></li>
                                     <li><a href="teachertrainingcolleges.php" tabindex="-1" class="menu-item">Teacher Training Colleges</a></li>
-                              
+                                        <br><br>
+                                               <a href="<?=site_url('All/Education')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                   </ul>
                                   <ul class="col-md-6">
                                     <li class="dropdown-header" style=" color:#fff;">National Datasets</li>
@@ -128,7 +131,10 @@
                                           <li><a href="medicalpersonnel.php" tabindex="-1" class="menu-item">Medical Personnel</a></li>
                                           <li><a href="registereddeathsbymajorcause.php" tabindex="-1" class="menu-item">Deaths by Major Cause</a></li>
                                           <li><a href="nhifresources.php" tabindex="-1" class="menu-item">NHIF Resources</a></li>
-                                          <li><a href="nhifmembers.php" tabindex="-1" class="menu-item">NHIF Members</a></li>           
+                                          <li><a href="nhifmembers.php" tabindex="-1" class="menu-item">NHIF Members</a></li>     
+                                               <a href="<?=site_url('All/Health')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>      
                                         </ul>
                                   </li>
     
@@ -141,16 +147,19 @@
                                         <ul class="col-md-6">
                                           <li class="dropdown-header">County Datasets</li>
                                           <li><a href="landpotential.php">Agricultural Land Potential</a></li>
-                                            <br><br>
-                                          <label><center>Filter Data By County</center></label>
-                                          <br><br>
+                                           <!--  <br><br>
+                                          <label><center>Filter Data By County</center></label> -->
+                                          <!-- <br><br>
                                           <form autocomplete="off" action="agriculture.php">
                                             <div class="autocomplete" style="width:300px;">
                                               <input id="myInput" type="text" name="County" placeholder="Enter County Name">
                                             </div>
                                             <input type="submit" value="GO">
                                           </form>
-                                         
+                                          --><br><br>
+                                               <a href="<?=site_url('All/Agriculture')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                         </ul>
                                         <ul class="col-md-6">
                                           <li class="dropdown-header">National Datasets</li>
@@ -182,7 +191,11 @@
                                             <li><a href="deathcauses.php" tabindex="-1" class="menu-item">Top 10 Death Causes</a></li>
                                             <li><a href="populationsexhouseholdandcensus.php" tabindex="-1" class="menu-item">Population by Sex, Households and Density, and Census Years</a></li>
                                             <li><a href="projectionselectedagegroup.php" tabindex="-1" class="menu-item">Population Projections by Selected Age Group</a></li>
-                                            <li><a href="projectionspecialagegroup.php" tabindex="-1" class="menu-item">Population Projections by Special Age Groups</a></li>         
+                                            <li><a href="projectionspecialagegroup.php" tabindex="-1" class="menu-item">Population Projections by Special Age Groups</a></li> 
+                                            <br><br>
+                                               <a href="<?=site_url('All/Population')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>        
                                   </ul>
                                   <ul class="col-md-6">
                                    
@@ -216,7 +229,10 @@
                                     <li><a href="policeandprobationofficers.php" tabindex="-1" class="menu-item">Number of Police Prisons and Probation Officers</a></li>
                                     <li><a href="offencescommittedagainstmorality.php" tabindex="-1" class="menu-item">Offences Committed Against Morality</a></li>
                                     <li><a href="committedhomicidebysex.php" tabindex="-1" class="menu-item">Persons Reported to have Committed Homicide by Sex</a></li>    
-                                    <li><a href="committedrobberyandtheft.php" tabindex="-1" class="menu-item">Persons Reported to have Committed Robbery and Theft</a></li>
+                                    <li><a href="committedrobberyandtheft.php" tabindex="-1" class="menu-item">Persons Reported to have Committed Robbery and Theft</a></li><br><br>
+                                               <a href="<?=site_url('All/Governance')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                   </ul>
                                         
                                     </li>
@@ -236,7 +252,10 @@
                               
                                   </ul>
                                   <ul class="col-md-6">
-                                    
+                                    <br><br>
+                                               <a href="<?=site_url('All/land')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                   </ul>
                                         
                                     </li>
@@ -252,7 +271,10 @@
                                             <li><a href="percentagechangeinquantumindicesofmanufacturingproduction.php">Percentage Change in Quantum Indices of Manufacturing Production</a></li>      
                                   </ul>
                                   <ul class="col-md-6">
-                                   
+                                   <br><br>
+                                               <a href="<?=site_url('All/manufacturing')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                   </ul>
                                         
                                     </li>
@@ -309,6 +331,11 @@
                                       <li><a href="enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
                                       <li><a href="approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
                                       <li><a href="studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+
+                                      <br><br>
+                                               <a href="<?=site_url('All/Energy')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                   </ul>
                                         
                                     </li>
@@ -337,6 +364,10 @@
                                       <li><a href="enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
                                       <li><a href="approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
                                       <li><a href="studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+                                      <br><br>
+                                               <a href="<?=site_url('All/Energy')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                   </ul>
                                         
                                     </li>
@@ -365,6 +396,11 @@
                                       <li><a href="enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
                                       <li><a href="approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
                                       <li><a href="studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+
+                                      <br><br>
+                                               <a href="<?=site_url('All/CPI')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                   </ul>
                                         
                                     </li>
@@ -392,6 +428,11 @@
                                       <li><a href="enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
                                       <li><a href="approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
                                       <li><a href="studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+
+                                      <br><br>
+                                               <a href="<?=site_url('All/Transport')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                   </ul>
                                         
                                     </li>
@@ -419,6 +460,10 @@
                                       <li><a href="enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
                                       <li><a href="approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
                                       <li><a href="studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+                                      <br><br>
+                                               <a href="<?=site_url('All/Trade')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                   </ul>
                                         
                                     </li>
@@ -447,6 +492,10 @@
                                       <li><a href="enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
                                       <li><a href="approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
                                       <li><a href="studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+                                      <br><br>
+                                               <a href="<?=site_url('All/Tourism')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                   </ul>
                                         
                                     </li>

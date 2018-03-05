@@ -18,6 +18,13 @@ class Public_Finance extends CI_Controller {
 		$this->load->view('includes/main_nav_view');
 		$this->load->view('public_finance/allcharts');
 		$this->load->view('includes/footer_view');
+		
+		$data['list']=$this->Api_Model->api();
+		// var_dump($data); die();
+		$this->load->view('includes/header_view');
+		$this->load->view('includes/main_nav_view');
+		$this->load->view('includes/api_list',$data);
+		$this->load->view('includes/footer_view');
 	}
 	
 	

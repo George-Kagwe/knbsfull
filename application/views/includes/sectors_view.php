@@ -32,11 +32,12 @@
 </style>
 
 <!-- sectors -->
-    <div class="container-fluid wow fadeIn " data-wow-delay="0.6s" id="sectorss" >
+    <!-- <div class="container-fluid wow fadeIn " data-wow-delay="0.6s" id="sectorss" >
                       <h4 id="sectors-heading"><center>SECTORS</center></h4>
        
-        </div> 
+        </div>  -->
  <div class="container-fluid "        id="sectorss" >
+ <h4 id="sectors-heading"><center>SECTORS</center></h4>
      <div class="row">
          
            <div id="slicky" class="slicky">

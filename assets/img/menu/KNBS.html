@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://localhost/knbsfull/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>KNBS</title>
+
+    <!-- Bootstrap -->
+   <link rel="stylesheet" href="./KNBS_files/bootstrap.min.css">
+   <link href="./KNBS_files/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <link href="./KNBS_files/slick.css" rel="stylesheet">
+<link href="./KNBS_files/slick-theme.css" rel="stylesheet">
+    <link href="./KNBS_files/menu.css" rel="stylesheet">
+
+    <link href="./KNBS_files/chart.css" rel="stylesheet">
+
+    <link href="./KNBS_files/animate.css" rel="stylesheet">
+      
+    
+   <script type="text/javascript" src="./KNBS_files/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="./KNBS_files/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="./KNBS_files/slick.min.js"></script>
+  <script src="./KNBS_files/bootstrap.min.js"></script>
+ 
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="./KNBS_files/tableau-2.min.js"></script><script src="./KNBS_files/tableau-2.2.1.min.js"></script>
+    <script type="text/javascript">
+        function initViz() {
+            var containerDiv = document.getElementById("vizContainer"),
+                url = "http://public.tableau.com/views/EconomicClassificationofNationalGovernmentExpenditure/BarGraph?:embed=y&:toolbar=no&:embed_code_version=3&:loadOrderID=0&:display_count=yes&publish=yes",
+                options = {
+                    hideTabs: true,
+                    onFirstInteractive: function () {
+                        console.log("Run this code when the viz has finished loading.");
+                    }
+                };
+            
+            var viz = new tableau.Viz(containerDiv, url, options); 
+            // Create a viz object and embed it in the container div.
+        }
+    </script>
+    
+  <style type="text/css">@keyframes fadeInOpacity{0%{opacity:0}to{opacity:1}}:hover>*>.fbvd--wrapper{animation-name:fadeInOpacity;animation-duration:.3s;opacity:1}.fbvd--wrapper{position:absolute;top:10px;left:10px;opacity:0;text-align:center;margin:0;z-index:5}.fbvd--wrapper a{background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZmlsbD0iIzRiNGY1NiIgZD0iTTggMTUuNWw3LjUtNy41aC00LjV2LThoLTZ2OGgtNC41eiI+PC9wYXRoPjwvc3ZnPg==) no-repeat 3px 4.55px; background-color: #fff; display:inline-block;font:700 14px Helvetica,Arial,sans-serif;color:#4b4f56;text-decoration:none;vertical-align:middle;padding:0px 8px 0px;margin-right:8px;border-radius:2px; line-height: 22px; padding-left:19px; border: 1px solid #e7e7e7; background-size: 13px}.fbvd--wrapper a:last-child{margin-right:0}.fbvd--wrapper a:hover{text-decoration:none}.fbvd--wrapper a:focus{box-shadow:0 0 1px 2px rgba(88,144,255,.75),0 1px 1px rgba(0,0,0,.15);outline:none}.fbvd--wrapper b{font-size:13px;position:relative;top:1px;color:#3b5998;font-weight:400}</style></head>
+   <body data-spy="scroll" data-target="#myNavbar" data-offset="70" onload="initViz();" style="">
+
+<!-- start navbar --><!-- start navbar -->
+  
+    <div id="myNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://localhost/knbsfull/"><img id="logo" src="./KNBS_files/knbslogo.png" class="img-responsive"></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://localhost/knbsfull/api/" class="btn-menu">API</a></li>
+                    <li><a href="http://localhost/knbsfull/#" target="_blank" class="btn-menu">PARTNERS</a></li>
+                    <li><a href="http://localhost/knbsfull/#" target="_blank" class="btn-menu">REQUEST DATA</a></li>
+                </ul>
+                <!-- <ul class="nav navbar-nav navbar-right">
+                    
+                </ul> -->
+                <ul class="nav navbar-nav">
+                   
+                    <li class="dropdowndropdown">
+                        <a href="http://localhost/knbsfull/#" class="dropdown-toggle sectorslinks" data-toggle="dropdown" id="sectorslinks"> SECTORS <b class="caret"></b></a>
+                        <ul class="dropdown-menu multi-level" id="sectors">
+                            
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">Public Finance</a>
+                                <ul class="dropdown-menu " id="finance">
+                                    <li class="row ">
+                                        <ul class="col-md-6 menus">
+                                          <li class="dropdown-header">County Datasets</li>
+                                          <li><a href="http://localhost/knbsfull/Public_Finance/money_banking" tabindex="-1" class="menu-item">Money and Banking</a></li>
+
+                                          <li><a href="http://localhost/knbsfull/Public_Finance/cdf_allocations" tabindex="-1" class="menu-item">CDF Allocations</a></li>
+
+                                          <li><a href="http://localhost/knbsfull/Public_Finance/county_budget_allocations" tabindex="-1" class="menu-item">County Budget Allocation</a></li>  
+
+                                          <li><a href="http://localhost/knbsfull/Public_Finance/county_government_revenue" tabindex="-1" class="menu-item">County Government Revenue</a></li>
+
+                                          <li><a href="http://localhost/knbsfull/Public_Finance/county_government_expenditure" tabindex="-1" class="menu-item">County Government Expenditure</a></li>
+
+                                              <br><br>
+                                               <a href="http://localhost/knbsfull/Public_Finance/all" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
+                                        </ul>
+
+                                        <ul class="col-md-6 menus">
+                                            <li class="dropdown-header">National Datasets</li>
+
+                                            <li><a href="http://localhost/knbsfull/Public_Finance/excise_revenenue_by_commodity" tabindex="-1" class="menu-item">Excise Revenue By Commodity</a></li>
+
+                                            <li><a href="http://localhost/knbsfull/Public_Finance/expenditure_classification" tabindex="-1" class="menu-item">Economic Classification of National Government Expenditure</a></li>
+
+                                            <li><a href="http://localhost/knbsfull/Public_Finance/revenue_classification" tabindex="-1" class="menu-item">Economic Classification of National Government Revenue</a></li>
+
+                                            <li><a href="http://localhost/knbsfull/Public_Finance/expenditure_by_purpose" tabindex="-1" class="menu-item">National Government Expenditure By Purpose</a></li>
+                                            
+                                            <li><a href="http://localhost/knbsfull/Public_Finance/outstanding_debt_by_country" tabindex="-1" class="menu-item">Outstanding Debt by Lending Country</a></li>
+
+                                            <li><a href="http://localhost/knbsfull/Public_Finance/outstanding_debt_by_multilateral_lenders" tabindex="-1" class="menu-item">Outstanding Debt by Multilateral Lenders</a></li>
+                                        </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">Education</a>
+                                <ul class="dropdown-menu " id="education">
+                                    <li class="row menus">
+                                       <ul class="col-md-6">
+                                    <li class="dropdown-header" style=" color:#fff;">County Datasets</li>                 
+                                    <li><a href="http://localhost/knbsfull/primaryschoolenrollmentcategory.php" tabindex="-1" class="menu-item">Primary SchooL Enrollment by Category and SubCounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/primaryenrollmentclasssexsubcounty.php" tabindex="-1" class="menu-item">Primary School Enrollment by Class, Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultenrollmenteducationbysex.php" tabindex="-1" class="menu-item">Adult Enrollment Education by Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultcentreseducationsubcounty.php" tabindex="-1" class="menu-item">Adult Centre Education by Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultproficiencytestresults.php" tabindex="-1" class="menu-item">Adult Proficiency Test Results</a></li>
+                                    <li><a href="http://localhost/knbsfull/ecdecentrescategory.php" tabindex="-1" class="menu-item">ECDE Centres by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/secondaryschoolenrollment.php" tabindex="-1" class="menu-item">Number of Secondary School Enrollment</a></li>
+                                    <li><a href="http://localhost/knbsfull/youthpolytechnics.php" tabindex="-1" class="menu-item">Youth Polytechnics by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/teachertrainingcolleges.php" tabindex="-1" class="menu-item">Teacher Training Colleges</a></li>
+                              
+                                  </ul>
+                                  <ul class="col-md-6">
+                                    <li class="dropdown-header" style=" color:#fff;">National Datasets</li>
+                                      <li><a href="http://localhost/knbsfull/enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
+                                      <li><a href="http://localhost/knbsfull/approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
+                                      <li><a href="http://localhost/knbsfull/studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+                                  
+                                       <div class="education">
+                                           </div>                                  
+                                    </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">Health</a>
+                                <ul class="dropdown-menu " id="health">
+                                    <li class="row menus">
+                                        <ul class="col-md-6">
+                                          <li class="dropdown-header">County Datasets</li>
+                                          <li><a href="http://localhost/knbsfull/healthfacilitiesbyownership.php" tabindex="-1" class="menu-item">Health Facilities by Ownership</a></li>
+                                          <li><a href="http://localhost/knbsfull/numberofhealthfacilities.php" tabindex="-1" class="menu-item">Number of Health Facilities</a></li>
+                                          <li><a href="http://localhost/knbsfull/bedsandcots.php" tabindex="-1" class="menu-item">Hospital Beds and Cots</a></li>
+                                          <li><a href="http://localhost/knbsfull/registeredmedicalpersonnel.php" tabindex="-1" class="menu-item">Registered Medical Personnel</a></li>
+                                          <li><a href="http://localhost/knbsfull/immunizationcoveragerates.php" tabindex="-1" class="menu-item">Immunization Coverage Rates for Children Under One Year</a></li>
+                                          <li><a href="http://localhost/knbsfull/maternalcare.php" tabindex="-1" class="menu-item">Maternal Care</a></li>
+                                          <li><a href="http://localhost/knbsfull/hivawarenessandtesting.php" tabindex="-1" class="menu-item">HIV Awareness and Testing</a></li>
+                                          <li><a href="http://localhost/knbsfull/useofmosquitonetsbychildren.php" tabindex="-1" class="menu-item">Use of Mosquito Nets by Children Under 5 Years</a></li>
+                                          <li><a href="http://localhost/knbsfull/nutritionalstatusofchildren.php" tabindex="-1" class="menu-item">Nutritional Status of Children</a></li>
+                                          <li><a href="http://localhost/knbsfull/nutritionalstatusofwomen.php" tabindex="-1" class="menu-item">Nutritional Status of Women</a></li>
+                                          <li><a href="http://localhost/knbsfull/useofcontraceptionbycounty.php" tabindex="-1" class="menu-item">Use Of Contraception by County</a></li>
+                                          <li><a href="http://localhost/knbsfull/outpatientvisitsbytypeofprovider.php" tabindex="-1" class="menu-item">Distribution of Out Patient Visits by Type of Healthcare Provider</a></li>
+                                          <li><a href="http://localhost/knbsfull/registeredmedicallaboratories.php" tabindex="-1" class="menu-item">Registered Medical Laboratories</a></li>
+                                          <li><a href="http://localhost/knbsfull/insurancecoveragebycountiesandtypes.php" tabindex="-1" class="menu-item">Insurance Coverage By Counties and Types</a></li>
+                                        </ul>
+                                        <ul class="col-md-6">
+                                          <li class="dropdown-header">National Datasets</li>
+                                          <li><a href="http://localhost/knbsfull/incidenceofdisease.php" tabindex="-1" class="menu-item">Top Ten Incidence of Disease</a></li>
+                                          <li><a href="http://localhost/knbsfull/medicalpersonnel.php" tabindex="-1" class="menu-item">Medical Personnel</a></li>
+                                          <li><a href="http://localhost/knbsfull/registereddeathsbymajorcause.php" tabindex="-1" class="menu-item">Deaths by Major Cause</a></li>
+                                          <li><a href="http://localhost/knbsfull/nhifresources.php" tabindex="-1" class="menu-item">NHIF Resources</a></li>
+                                          <li><a href="http://localhost/knbsfull/nhifmembers.php" tabindex="-1" class="menu-item">NHIF Members</a></li>           
+                                        </ul>
+                                  </li>
+    
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">Agriculture</a>
+                                <ul class="dropdown-menu " id="agriculture">
+                                    <li class="row menus">
+                                        <ul class="col-md-6">
+                                          <li class="dropdown-header">County Datasets</li>
+                                          <li><a href="http://localhost/knbsfull/landpotential.php">Agricultural Land Potential</a></li>
+                                            <br><br>
+                                          <label><center>Filter Data By County</center></label>
+                                          <br><br>
+                                          <form autocomplete="off" action="http://localhost/knbsfull/agriculture.php">
+                                            <div class="autocomplete" style="width:300px;">
+                                              <input id="myInput" type="text" name="County" placeholder="Enter County Name">
+                                            </div>
+                                            <input type="submit" value="GO">
+                                          </form>
+                                         
+                                        </ul>
+                                        <ul class="col-md-6">
+                                          <li class="dropdown-header">National Datasets</li>
+                                          <li><a href="http://localhost/knbsfull/agriculturalinputs.php">Value of Agricultural Inputs</a></li>
+                                          <li><a href="http://localhost/knbsfull/chemicalmedicinalfeedinputs.php">Chemical, Medicinal and Feed Inputs</a></li>
+                                          <li><a href="http://localhost/knbsfull/irrigationschemes.php">Irrigation Schemes</a></li>
+                                          <li><a href="http://localhost/knbsfull/totalsharecapital.php">Total Share Capital</a></li>
+                                          <li><a href="http://localhost/knbsfull/turnoversocietiesandunions.php">Total Turnover of Societies and Unions</a></li>
+                                          <li><a href="http://localhost/knbsfull/marketedproductionbyagricultureandlivestock.php">Gross Marketed Production by Agriculture and Livestock</a></li>
+                                          <li><a href="http://localhost/knbsfull/pricetoproducersmeatporkandwholemilk.php">Price To Producers For Meat , Pork And Wholemilk</a></li>
+                                          <li><a href="http://localhost/knbsfull/grossmarketedproductionatconstant.php">Gross Marketed Production At Constant</a></li>
+                                         <li><a href="http://localhost/knbsfull/membershipofcooperativesocieties.php">Membership Of Co-operative Societies by Type Of Societies</a></li> 
+                                        </ul>
+                                  </li>
+    
+                                </ul>
+                            </li>
+                            
+
+
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">Population</a>
+                                <ul class="dropdown-menu " id="population">
+                                    <li class="row menus">
+                                       <ul class="col-md-6">
+                                          <li class="dropdown-header">Country Datasets</li>
+                                          
+                                            <li><a href="http://localhost/knbsfull/birthsdeaths.php" tabindex="-1" class="menu-item">Number of Births and Deaths Registered by Sex</a></li>
+                                            <li><a href="http://localhost/knbsfull/deathcauses.php" tabindex="-1" class="menu-item">Top 10 Death Causes</a></li>
+                                            <li><a href="http://localhost/knbsfull/populationsexhouseholdandcensus.php" tabindex="-1" class="menu-item">Population by Sex, Households and Density, and Census Years</a></li>
+                                            <li><a href="http://localhost/knbsfull/projectionselectedagegroup.php" tabindex="-1" class="menu-item">Population Projections by Selected Age Group</a></li>
+                                            <li><a href="http://localhost/knbsfull/projectionspecialagegroup.php" tabindex="-1" class="menu-item">Population Projections by Special Age Groups</a></li>         
+                                  </ul>
+                                  <ul class="col-md-6">
+                                   
+                                  </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">Governance</a>
+                                <ul class="dropdown-menu " id="governance">
+                                    <li class="row menus">
+                                       <ul class="col-md-6">
+                                            <li class="dropdown-header">County Datasets</li>
+                                            <li><a href="http://localhost/knbsfull/crimesreportedbycommandstations.php" tabindex="-1" class="menu-item">Crimes Reported to Police by Command Stations</a></li>
+                                            <li><a href="http://localhost/knbsfull/identitycards.php" tabindex="-1" class="menu-item">Identity Cards Made, Processed and Collected</a></li>
+                                            <li><a href="http://localhost/knbsfull/offencebysexandcommandstations.php" tabindex="-1" class="menu-item">Offence by Sex and Command Stations</a></li>
+                                            <li><a href="http://localhost/knbsfull/registeredvotersbycounty.php" tabindex="-1" class="menu-item">Registered Voters by County and by Sex</a></li>
+                              
+                                  </ul>
+                                  <ul class="col-md-6">
+                                    <li class="dropdown-header">National Datasets</li>
+                                    <li><a href="http://localhost/knbsfull/caseshandledbyvariouscourts.php" tabindex="-1" class="menu-item">Cases Handled by Various Courts</a></li>
+                                    <li><a href="http://localhost/knbsfull/convictedprisonersoffencesex.php" tabindex="-1" class="menu-item">Convicted Prisoners by Type of Offence and Sex</a></li>
+                                    <li><a href="http://localhost/knbsfull/caseshandledethicscommision.php" tabindex="-1" class="menu-item">Cases Handled by Ethics Commision</a></li>  
+                                    <li><a href="http://localhost/knbsfull/environmentalcrimesreportedtonema.php" tabindex="-1" class="menu-item">Environmental Crimes Reported to Nema</a></li>
+                                    <li><a href="http://localhost/knbsfull/casesforwardedandctiontaken.php" tabindex="-1" class="menu-item">Cases Forwarded and Action Taken</a></li>
+                                    <li><a href="http://localhost/knbsfull/convictedprisonpopulationagesex.php" tabindex="-1" class="menu-item">Convicted Prison Population by Age and Sex</a></li>
+                                    <li><a href="http://localhost/knbsfull/policeandprobationofficers.php" tabindex="-1" class="menu-item">Number of Police Prisons and Probation Officers</a></li>
+                                    <li><a href="http://localhost/knbsfull/offencescommittedagainstmorality.php" tabindex="-1" class="menu-item">Offences Committed Against Morality</a></li>
+                                    <li><a href="http://localhost/knbsfull/committedhomicidebysex.php" tabindex="-1" class="menu-item">Persons Reported to have Committed Homicide by Sex</a></li>    
+                                    <li><a href="http://localhost/knbsfull/committedrobberyandtheft.php" tabindex="-1" class="menu-item">Persons Reported to have Committed Robbery and Theft</a></li>
+                                  </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">Land &amp; Climate</a>
+                                <ul class="dropdown-menu " id="land">
+                                    <li class="row menus">
+                                       <ul class="col-md-6">
+                                        <li class="dropdown-header">National Datasets</li>
+                                            <li><a href="http://localhost/knbsfull/landsurfacearea.php" tabindex="-1" class="menu-item">County Surface Area by Category</a></li> 
+                                            <li><a href="http://localhost/knbsfull/landtemparature.php" tabindex="-1" class="menu-item">County Temparature</a></li>
+                                             <li><a href="http://localhost/knbsfull/landrainfall.php" tabindex="-1" class="menu-item">County Rainfall</a></li>
+                                             <li><a href="http://localhost/knbsfull/landtopography.php" tabindex="-1" class="menu-item">County Topography and Altitude</a></li>                
+                              
+                                  </ul>
+                                  <ul class="col-md-6">
+                                    
+                                  </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">Manufacturing</a>
+                                <ul class="dropdown-menu " id="Manufacturing">
+                                    <li class="row menus">
+                                       <ul class="col-md-6">
+                                            <li><a href="http://localhost/knbsfull/quantumindicesofmanufacturingproduction.php">Quantum Indices of Manufacturing Production</a></li>
+                                            <li><a href="http://localhost/knbsfull/percentagechangeinquantumindicesofmanufacturingproduction.php">Percentage Change in Quantum Indices of Manufacturing Production</a></li>      
+                                  </ul>
+                                  <ul class="col-md-6">
+                                   
+                                  </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">more</a>
+                                <ul class="dropdown-menu " id="more">
+                                    <li class="row menus">
+                                       <ul class="col-md-6">
+                                    <li class="dropdown-header">County Datasets</li>                 
+                                    <li><a href="http://localhost/knbsfull/primaryschoolenrollmentcategory.php" tabindex="-1" class="menu-item">Primary SchooL Enrollment by Category and SubCounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/primaryenrollmentclasssexsubcounty.php" tabindex="-1" class="menu-item">Primary School Enrollment by Class, Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultenrollmenteducationbysex.php" tabindex="-1" class="menu-item">Adult Enrollment Education by Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultcentreseducationsubcounty.php" tabindex="-1" class="menu-item">Adult Centre Education by Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultproficiencytestresults.php" tabindex="-1" class="menu-item">Adult Proficiency Test Results</a></li>
+                                    <li><a href="http://localhost/knbsfull/ecdecentrescategory.php" tabindex="-1" class="menu-item">ECDE Centres by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/secondaryschoolenrollment.php" tabindex="-1" class="menu-item">Number of Secondary School Enrollment</a></li>
+                                    <li><a href="http://localhost/knbsfull/youthpolytechnics.php" tabindex="-1" class="menu-item">Youth Polytechnics by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/teachertrainingcolleges.php" tabindex="-1" class="menu-item">Teacher Training Colleges</a></li>
+                              
+                                  </ul>
+                                  <ul class="col-md-6">
+                                    <li class="dropdown-header">National Datasets</li>
+                                      <li><a href="http://localhost/knbsfull/enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
+                                      <li><a href="http://localhost/knbsfull/approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
+                                      <li><a href="http://localhost/knbsfull/studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+                                  </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">Energy</a>
+                                <ul class="dropdown-menu " id="energy">
+                                    <li class="row menus">
+                                       <ul class="col-md-6">
+                                    <li class="dropdown-header">County Datasets</li>                 
+                                    <li><a href="http://localhost/knbsfull/primaryschoolenrollmentcategory.php" tabindex="-1" class="menu-item">Primary SchooL Enrollment by Category and SubCounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/primaryenrollmentclasssexsubcounty.php" tabindex="-1" class="menu-item">Primary School Enrollment by Class, Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultenrollmenteducationbysex.php" tabindex="-1" class="menu-item">Adult Enrollment Education by Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultcentreseducationsubcounty.php" tabindex="-1" class="menu-item">Adult Centre Education by Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultproficiencytestresults.php" tabindex="-1" class="menu-item">Adult Proficiency Test Results</a></li>
+                                    <li><a href="http://localhost/knbsfull/ecdecentrescategory.php" tabindex="-1" class="menu-item">ECDE Centres by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/secondaryschoolenrollment.php" tabindex="-1" class="menu-item">Number of Secondary School Enrollment</a></li>
+                                    <li><a href="http://localhost/knbsfull/youthpolytechnics.php" tabindex="-1" class="menu-item">Youth Polytechnics by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/teachertrainingcolleges.php" tabindex="-1" class="menu-item">Teacher Training Colleges</a></li>
+                              
+                                  </ul>
+                                  <ul class="col-md-6">
+                                    <li class="dropdown-header">National Datasets</li>
+                                      <li><a href="http://localhost/knbsfull/enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
+                                      <li><a href="http://localhost/knbsfull/approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
+                                      <li><a href="http://localhost/knbsfull/studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+                                  </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">Labor</a>
+                                <ul class="dropdown-menu " id="labor">
+                                    <li class="row menus">
+                                       <ul class="col-md-6">
+                                    <li class="dropdown-header">County Datasets</li>                 
+                                    <li><a href="http://localhost/knbsfull/primaryschoolenrollmentcategory.php" tabindex="-1" class="menu-item">Primary SchooL Enrollment by Category and SubCounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/primaryenrollmentclasssexsubcounty.php" tabindex="-1" class="menu-item">Primary School Enrollment by Class, Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultenrollmenteducationbysex.php" tabindex="-1" class="menu-item">Adult Enrollment Education by Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultcentreseducationsubcounty.php" tabindex="-1" class="menu-item">Adult Centre Education by Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultproficiencytestresults.php" tabindex="-1" class="menu-item">Adult Proficiency Test Results</a></li>
+                                    <li><a href="http://localhost/knbsfull/ecdecentrescategory.php" tabindex="-1" class="menu-item">ECDE Centres by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/secondaryschoolenrollment.php" tabindex="-1" class="menu-item">Number of Secondary School Enrollment</a></li>
+                                    <li><a href="http://localhost/knbsfull/youthpolytechnics.php" tabindex="-1" class="menu-item">Youth Polytechnics by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/teachertrainingcolleges.php" tabindex="-1" class="menu-item">Teacher Training Colleges</a></li>
+                              
+                                  </ul>
+                                  <ul class="col-md-6">
+                                    <li class="dropdown-header">National Datasets</li>
+                                      <li><a href="http://localhost/knbsfull/enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
+                                      <li><a href="http://localhost/knbsfull/approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
+                                      <li><a href="http://localhost/knbsfull/studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+                                  </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">CPI</a>
+                                <ul class="dropdown-menu " id="cpi">
+                                    <li class="row menus">
+                                       <ul class="col-md-6">
+                                    <li class="dropdown-header">County Datasets</li>                 
+                                    <li><a href="http://localhost/knbsfull/primaryschoolenrollmentcategory.php" tabindex="-1" class="menu-item">Primary SchooL Enrollment by Category and SubCounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/primaryenrollmentclasssexsubcounty.php" tabindex="-1" class="menu-item">Primary School Enrollment by Class, Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultenrollmenteducationbysex.php" tabindex="-1" class="menu-item">Adult Enrollment Education by Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultcentreseducationsubcounty.php" tabindex="-1" class="menu-item">Adult Centre Education by Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultproficiencytestresults.php" tabindex="-1" class="menu-item">Adult Proficiency Test Results</a></li>
+                                    <li><a href="http://localhost/knbsfull/ecdecentrescategory.php" tabindex="-1" class="menu-item">ECDE Centres by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/secondaryschoolenrollment.php" tabindex="-1" class="menu-item">Number of Secondary School Enrollment</a></li>
+                                    <li><a href="http://localhost/knbsfull/youthpolytechnics.php" tabindex="-1" class="menu-item">Youth Polytechnics by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/teachertrainingcolleges.php" tabindex="-1" class="menu-item">Teacher Training Colleges</a></li>
+                              
+                                  </ul>
+                                  <ul class="col-md-6">
+                                    <li class="dropdown-header">National Datasets</li>
+                                      <li><a href="http://localhost/knbsfull/enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
+                                      <li><a href="http://localhost/knbsfull/approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
+                                      <li><a href="http://localhost/knbsfull/studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+                                  </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">TRANSPORT</a>
+                                <ul class="dropdown-menu " id="transport">
+                                    <li class="row menus">
+                                       <ul class="col-md-6">
+                                    <li class="dropdown-header">County Datasets</li>                 
+                                    <li><a href="http://localhost/knbsfull/primaryschoolenrollmentcategory.php" tabindex="-1" class="menu-item">Primary SchooL Enrollment by Category and SubCounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/primaryenrollmentclasssexsubcounty.php" tabindex="-1" class="menu-item">Primary School Enrollment by Class, Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultenrollmenteducationbysex.php" tabindex="-1" class="menu-item">Adult Enrollment Education by Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultcentreseducationsubcounty.php" tabindex="-1" class="menu-item">Adult Centre Education by Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultproficiencytestresults.php" tabindex="-1" class="menu-item">Adult Proficiency Test Results</a></li>
+                                    <li><a href="http://localhost/knbsfull/ecdecentrescategory.php" tabindex="-1" class="menu-item">ECDE Centres by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/secondaryschoolenrollment.php" tabindex="-1" class="menu-item">Number of Secondary School Enrollment</a></li>
+                                    <li><a href="http://localhost/knbsfull/youthpolytechnics.php" tabindex="-1" class="menu-item">Youth Polytechnics by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/teachertrainingcolleges.php" tabindex="-1" class="menu-item">Teacher Training Colleges</a></li>
+                              
+                                  </ul>
+                                  <ul class="col-md-6">
+                                    <li class="dropdown-header">National Datasets</li>
+                                      <li><a href="http://localhost/knbsfull/enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
+                                      <li><a href="http://localhost/knbsfull/approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
+                                      <li><a href="http://localhost/knbsfull/studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+                                  </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">TRADE</a>
+                                <ul class="dropdown-menu " id="trade">
+                                    <li class="row menus">
+                                       <ul class="col-md-6">
+                                    <li class="dropdown-header">County Datasets</li>                 
+                                    <li><a href="http://localhost/knbsfull/primaryschoolenrollmentcategory.php" tabindex="-1" class="menu-item">Primary SchooL Enrollment by Category and SubCounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/primaryenrollmentclasssexsubcounty.php" tabindex="-1" class="menu-item">Primary School Enrollment by Class, Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultenrollmenteducationbysex.php" tabindex="-1" class="menu-item">Adult Enrollment Education by Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultcentreseducationsubcounty.php" tabindex="-1" class="menu-item">Adult Centre Education by Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultproficiencytestresults.php" tabindex="-1" class="menu-item">Adult Proficiency Test Results</a></li>
+                                    <li><a href="http://localhost/knbsfull/ecdecentrescategory.php" tabindex="-1" class="menu-item">ECDE Centres by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/secondaryschoolenrollment.php" tabindex="-1" class="menu-item">Number of Secondary School Enrollment</a></li>
+                                    <li><a href="http://localhost/knbsfull/youthpolytechnics.php" tabindex="-1" class="menu-item">Youth Polytechnics by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/teachertrainingcolleges.php" tabindex="-1" class="menu-item">Teacher Training Colleges</a></li>
+                              
+                                  </ul>
+                                  <ul class="col-md-6">
+                                    <li class="dropdown-header">National Datasets</li>
+                                      <li><a href="http://localhost/knbsfull/enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
+                                      <li><a href="http://localhost/knbsfull/approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
+                                      <li><a href="http://localhost/knbsfull/studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+                                  </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">TOURISM</a>
+                                <ul class="dropdown-menu " id="tourism">
+                                    <li class="row menus">
+                                       <ul class="col-md-6">
+                                    <li class="dropdown-header">County Datasets</li>                 
+                                    <li><a href="http://localhost/knbsfull/primaryschoolenrollmentcategory.php" tabindex="-1" class="menu-item">Primary SchooL Enrollment by Category and SubCounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/primaryenrollmentclasssexsubcounty.php" tabindex="-1" class="menu-item">Primary School Enrollment by Class, Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultenrollmenteducationbysex.php" tabindex="-1" class="menu-item">Adult Enrollment Education by Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultcentreseducationsubcounty.php" tabindex="-1" class="menu-item">Adult Centre Education by Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultproficiencytestresults.php" tabindex="-1" class="menu-item">Adult Proficiency Test Results</a></li>
+                                    <li><a href="http://localhost/knbsfull/ecdecentrescategory.php" tabindex="-1" class="menu-item">ECDE Centres by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/secondaryschoolenrollment.php" tabindex="-1" class="menu-item">Number of Secondary School Enrollment</a></li>
+                                    <li><a href="http://localhost/knbsfull/youthpolytechnics.php" tabindex="-1" class="menu-item">Youth Polytechnics by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/teachertrainingcolleges.php" tabindex="-1" class="menu-item">Teacher Training Colleges</a></li>
+                              
+                                  </ul>
+                                  <ul class="col-md-6">
+                                    <li class="dropdown-header">National Datasets</li>
+                                      <li><a href="http://localhost/knbsfull/enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
+                                      <li><a href="http://localhost/knbsfull/approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
+                                      <li><a href="http://localhost/knbsfull/studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+                                  </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">BUILDING AND CONSTRUCTION</a>
+                                <ul class="dropdown-menu " id="building">
+                                    <li class="row menus">
+                                       <ul class="col-md-6">
+                                    <li class="dropdown-header">County Datasets</li>                 
+                                    <li><a href="http://localhost/knbsfull/primaryschoolenrollmentcategory.php" tabindex="-1" class="menu-item">Primary SchooL Enrollment by Category and SubCounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/primaryenrollmentclasssexsubcounty.php" tabindex="-1" class="menu-item">Primary School Enrollment by Class, Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultenrollmenteducationbysex.php" tabindex="-1" class="menu-item">Adult Enrollment Education by Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultcentreseducationsubcounty.php" tabindex="-1" class="menu-item">Adult Centre Education by Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultproficiencytestresults.php" tabindex="-1" class="menu-item">Adult Proficiency Test Results</a></li>
+                                    <li><a href="http://localhost/knbsfull/ecdecentrescategory.php" tabindex="-1" class="menu-item">ECDE Centres by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/secondaryschoolenrollment.php" tabindex="-1" class="menu-item">Number of Secondary School Enrollment</a></li>
+                                    <li><a href="http://localhost/knbsfull/youthpolytechnics.php" tabindex="-1" class="menu-item">Youth Polytechnics by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/teachertrainingcolleges.php" tabindex="-1" class="menu-item">Teacher Training Colleges</a></li>
+                              
+                                  </ul>
+                                  <ul class="col-md-6">
+                                    <li class="dropdown-header">National Datasets</li>
+                                      <li><a href="http://localhost/knbsfull/enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
+                                      <li><a href="http://localhost/knbsfull/approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
+                                      <li><a href="http://localhost/knbsfull/studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+                                  </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">POVERTY</a>
+                                <ul class="dropdown-menu " id="poverty">
+                                    <li class="row menus">
+                                       <ul class="col-md-6">
+                                    <li class="dropdown-header">County Datasets</li>                 
+                                    <li><a href="http://localhost/knbsfull/primaryschoolenrollmentcategory.php" tabindex="-1" class="menu-item">Primary SchooL Enrollment by Category and SubCounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/primaryenrollmentclasssexsubcounty.php" tabindex="-1" class="menu-item">Primary School Enrollment by Class, Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultenrollmenteducationbysex.php" tabindex="-1" class="menu-item">Adult Enrollment Education by Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultcentreseducationsubcounty.php" tabindex="-1" class="menu-item">Adult Centre Education by Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultproficiencytestresults.php" tabindex="-1" class="menu-item">Adult Proficiency Test Results</a></li>
+                                    <li><a href="http://localhost/knbsfull/ecdecentrescategory.php" tabindex="-1" class="menu-item">ECDE Centres by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/secondaryschoolenrollment.php" tabindex="-1" class="menu-item">Number of Secondary School Enrollment</a></li>
+                                    <li><a href="http://localhost/knbsfull/youthpolytechnics.php" tabindex="-1" class="menu-item">Youth Polytechnics by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/teachertrainingcolleges.php" tabindex="-1" class="menu-item">Teacher Training Colleges</a></li>
+                              
+                                  </ul>
+                                  <ul class="col-md-6">
+                                    <li class="dropdown-header">National Datasets</li>
+                                      <li><a href="http://localhost/knbsfull/enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
+                                      <li><a href="http://localhost/knbsfull/approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
+                                      <li><a href="http://localhost/knbsfull/studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+                                  </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="http://localhost/knbsfull/#" class="dropdown-toggle sub-head" data-toggle="dropdown">MONEY AND BANKING</a>
+                                <ul class="dropdown-menu " id="money">
+                                    <li class="row menus">
+                                       <ul class="col-md-6">
+                                    <li class="dropdown-header">County Datasets</li>                 
+                                    <li><a href="http://localhost/knbsfull/primaryschoolenrollmentcategory.php" tabindex="-1" class="menu-item">Primary SchooL Enrollment by Category and SubCounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/primaryenrollmentclasssexsubcounty.php" tabindex="-1" class="menu-item">Primary School Enrollment by Class, Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultenrollmenteducationbysex.php" tabindex="-1" class="menu-item">Adult Enrollment Education by Sex and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultcentreseducationsubcounty.php" tabindex="-1" class="menu-item">Adult Centre Education by Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/adultproficiencytestresults.php" tabindex="-1" class="menu-item">Adult Proficiency Test Results</a></li>
+                                    <li><a href="http://localhost/knbsfull/ecdecentrescategory.php" tabindex="-1" class="menu-item">ECDE Centres by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/secondaryschoolenrollment.php" tabindex="-1" class="menu-item">Number of Secondary School Enrollment</a></li>
+                                    <li><a href="http://localhost/knbsfull/youthpolytechnics.php" tabindex="-1" class="menu-item">Youth Polytechnics by Category and Subcounty</a></li>
+                                    <li><a href="http://localhost/knbsfull/teachertrainingcolleges.php" tabindex="-1" class="menu-item">Teacher Training Colleges</a></li>
+                              
+                                  </ul>
+                                  <ul class="col-md-6">
+                                    <li class="dropdown-header">National Datasets</li>
+                                      <li><a href="http://localhost/knbsfull/enrollmentpublicuniversities.php" tabindex="-1" class="menu-item">Student Enrollment in Public Universities</a></li>
+                                      <li><a href="http://localhost/knbsfull/approveddegreevalidateddiploma.php" tabindex="-1" class="menu-item">Approved Degree Programmes and Validated Diploma Programmes</a></li>
+                                      <li><a href="http://localhost/knbsfull/studentsextechnicalinstitutions.php" tabindex="-1" class="menu-item">Student Enrollment by Sex in Technical Institutions</a></li>
+                                  </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li> 
+                    <form autocomplete="off" action="http://localhost/knbsfull/agriculture.php">
+                     <div id="imaginary_container"> 
+                    <div class="input-group stylish-input-group">
+                        <input type="text" class="form-control input-lg" placeholder="Search">
+                        <span class="input-group-addon">
+                            <button type="submit" id="search_button">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>  
+                        </span>
+                    </div>
+                </div>
+                  </form>
+                      </li>
+                    
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+
+<!-- end navbar -->
+
+<!-- start Landing Page -->
+
+        <div class="">
+
+            <div id="landing">
+            <div>
+            <!-- <span class="heading-primary-main"> KNBS OPEN DATA </span> -->
+                
+            </div>
+            <div class="text-box">
+                <!-- <h1 class="heading-primary">
+            <span class="heading-primary-sub">KEEPING YOU INFORMED WITH ANALYTICS</span>
+
+            </h1> -->
+            <span class="heading-primary-main" style="color:#fff;"> KNBS OPEN DATA </span>
+            <a href="http://localhost/knbsfull/#" class="btn btn-white btn-animated">GET MOBILE APP</a>
+            </div>
+            </div>
+        </div>  
+
+<!--  end Landing gage -->
+
+
+
+<style type="text/css">
+    #slicky .item{
+ /* background: #42bdc2;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;*/
+}
+.slick-prev:before, .slick-next:before{
+    color:#fff;
+  
+}
+.slick-next ..slick-prev .slick-arrow{
+    z-index: 99999999;
+}
+
+.slick-prev {
+    left: 50px;
+    color: #fff; /*to notice it, is white*/
+}
+.slick-next {
+    right: 50px;
+    color: #fff; /*to notice it, is white*/
+}
+</style>
+
+<!-- sectors -->
+    <div class="container-fluid wow fadeIn " data-wow-delay="0.6s" id="sectorss">
+                      <h4 id="sectors-heading"><center>SECTORS</center></h4>
+       
+        </div> 
+ <div class="container-fluid " id="sectorss">
+     <div class="row">
+         
+           <div id="slicky" class="slicky slick-initialized slick-slider slick-dotted"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="display: block;">Previous</button>
+                      
+                       <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 5152px; transition: transform 500ms ease; transform: translate3d(-1932px, 0px, 0px);"><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide slick-cloned" data-wow-delay="0.3s" data-slick-index="-4" aria-hidden="true" style="width: 322px;" tabindex="-1"> 
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle   fa-stack-2x icon-a" id=""></i>
+                <a href="http://localhost/knbsfull/#public_finance_sector" data-toggle="modal" data-target="#public_finance_sector" tabindex="-1">
+                <i class="fa fa-money fa-stack-1x fa-inverse"></i> </a></span><a href="http://localhost/knbsfull/#public_finance_sector" data-toggle="modal" data-target="#public_finance_sector" tabindex="-1">
+                </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#public_finance_sector" data-toggle="modal" data-target="#public_finance_sector" tabindex="-1">Public Finance</a></h4>    
+                </div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide slick-cloned" data-wow-delay="0.3s" data-slick-index="-3" aria-hidden="true" style="width: 322px;" tabindex="-1"> 
+
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id=""></i>
+
+                <a href="http://localhost/knbsfull/#agriculture_sector" data-toggle="modal" data-target="#agriculture_sector" tabindex="-1">
+                <i class="fa fa-pagelines fa-stack-1x fa-inverse"></i>
+                   </a></span><a href="http://localhost/knbsfull/#agriculture_sector" data-toggle="modal" data-target="#agriculture_sector" tabindex="-1">
+                   </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#agriculture_sector" data-toggle="modal" data-target="#agriculture_sector" tabindex="-1">Agriculture</a> </h4>
+                </div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide slick-cloned" data-wow-delay="0.3s" data-slick-index="-2" aria-hidden="true" style="width: 322px;" tabindex="-1">
+
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id=""></i> 
+                <a href="http://localhost/knbsfull/#population_sector" data-toggle="modal" data-target="#population_sector" tabindex="-1">
+                 
+                <i class="fa fa-users fa-stack-1x fa-inverse"></i> </a></span><a href="http://localhost/knbsfull/#population_sector" data-toggle="modal" data-target="#population_sector" tabindex="-1">
+                </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#population_sector" data-toggle="modal" data-target="#population_sector" tabindex="-1">Population</a></h4>    
+                </div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide slick-cloned" data-wow-delay="0.3s" data-slick-index="-1" aria-hidden="true" style="width: 322px;" tabindex="-1"> 
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle   fa-stack-2x icon-a" id=""></i>
+                <a href="http://localhost/knbsfull/#governance_sector" data-toggle="modal" data-target="#governance_sector" tabindex="-1">
+                <i class="fa fa-bank fa-stack-1x fa-inverse"></i> </a></span><a href="http://localhost/knbsfull/#governance_sector" data-toggle="modal" data-target="#governance_sector" tabindex="-1">
+                </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#governance_sector" data-toggle="modal" data-target="#governance_sector" tabindex="-1">Governance</a></h4>    
+                </div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide" data-wow-delay="0.3s" data-slick-index="0" aria-hidden="true" style="width: 322px;" tabindex="-1" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00">    
+                    <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i>
+                <a href="http://localhost/knbsfull/#health_sector" data-toggle="modal" data-target="#health_sector" tabindex="-1">
+                <i class="fa fa-medkit fa-stack-1x fa-inverse"></i>
+                </a></span><a href="http://localhost/knbsfull/#health_sector" data-toggle="modal" data-target="#health_sector" tabindex="-1">
+                </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#health_sector" data-toggle="modal" data-target="#health_sector" tabindex="-1">Health</a></h4>          
+                </div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide" data-wow-delay="0.3s" data-slick-index="1" aria-hidden="true" style="width: 322px;" tabindex="0" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01"> 
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i>
+                 <a href="http://localhost/knbsfull/#education_sector" data-toggle="modal" data-target="#education_sector" tabindex="0">
+                <i class="fa fa-book fa-stack-1x fa-inverse"></i> 
+                </a></span><a href="http://localhost/knbsfull/#education_sector" data-toggle="modal" data-target="#education_sector" tabindex="0">
+                </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#education_sector" data-toggle="modal" data-target="#education_sector" tabindex="0">Education</a></h4>       
+                </div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide slick-current slick-active" data-wow-delay="0.3s" data-slick-index="2" aria-hidden="false" style="width: 322px;" tabindex="0" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02"> 
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle   fa-stack-2x icon-a" id="fa"></i>
+                <a href="http://localhost/knbsfull/#public_finance_sector" data-toggle="modal" data-target="#public_finance_sector" tabindex="0">
+                <i class="fa fa-money fa-stack-1x fa-inverse"></i> </a></span><a href="http://localhost/knbsfull/#public_finance_sector" data-toggle="modal" data-target="#public_finance_sector" tabindex="0">
+                </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#public_finance_sector" data-toggle="modal" data-target="#public_finance_sector" tabindex="0">Public Finance</a></h4>    
+                </div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide slick-active" data-wow-delay="0.3s" data-slick-index="3" aria-hidden="false" style="width: 322px;" tabindex="0" role="tabpanel" id="slick-slide03" aria-describedby="slick-slide-control03"> 
+
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i>
+
+                <a href="http://localhost/knbsfull/#agriculture_sector" data-toggle="modal" data-target="#agriculture_sector" tabindex="0">
+                <i class="fa fa-pagelines fa-stack-1x fa-inverse"></i>
+                   </a></span><a href="http://localhost/knbsfull/#agriculture_sector" data-toggle="modal" data-target="#agriculture_sector" tabindex="0">
+                   </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#agriculture_sector" data-toggle="modal" data-target="#agriculture_sector" tabindex="0">Agriculture</a> </h4>
+                </div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide slick-active" data-wow-delay="0.3s" data-slick-index="4" aria-hidden="false" style="width: 322px;" tabindex="0" role="tabpanel" id="slick-slide04" aria-describedby="slick-slide-control04">
+
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i> 
+                <a href="http://localhost/knbsfull/#population_sector" data-toggle="modal" data-target="#population_sector" tabindex="0">
+                 
+                <i class="fa fa-users fa-stack-1x fa-inverse"></i> </a></span><a href="http://localhost/knbsfull/#population_sector" data-toggle="modal" data-target="#population_sector" tabindex="0">
+                </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#population_sector" data-toggle="modal" data-target="#population_sector" tabindex="0">Population</a></h4>    
+                </div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide slick-active" data-wow-delay="0.3s" data-slick-index="5" aria-hidden="false" style="width: 322px;" tabindex="-1" role="tabpanel" id="slick-slide05" aria-describedby="slick-slide-control05"> 
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle   fa-stack-2x icon-a" id="fa"></i>
+                <a href="http://localhost/knbsfull/#governance_sector" data-toggle="modal" data-target="#governance_sector" tabindex="-1">
+                <i class="fa fa-bank fa-stack-1x fa-inverse"></i> </a></span><a href="http://localhost/knbsfull/#governance_sector" data-toggle="modal" data-target="#governance_sector" tabindex="-1">
+                </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#governance_sector" data-toggle="modal" data-target="#governance_sector" tabindex="-1">Governance</a></h4>    
+                </div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide slick-cloned" data-wow-delay="0.3s" data-slick-index="6" aria-hidden="true" style="width: 322px;" tabindex="-1">    
+                    <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id=""></i>
+                <a href="http://localhost/knbsfull/#health_sector" data-toggle="modal" data-target="#health_sector" tabindex="-1">
+                <i class="fa fa-medkit fa-stack-1x fa-inverse"></i>
+                </a></span><a href="http://localhost/knbsfull/#health_sector" data-toggle="modal" data-target="#health_sector" tabindex="-1">
+                </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#health_sector" data-toggle="modal" data-target="#health_sector" tabindex="-1">Health</a></h4>          
+                </div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide slick-cloned" data-wow-delay="0.3s" data-slick-index="7" aria-hidden="true" style="width: 322px;" tabindex="-1"> 
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id=""></i>
+                 <a href="http://localhost/knbsfull/#education_sector" data-toggle="modal" data-target="#education_sector" tabindex="-1">
+                <i class="fa fa-book fa-stack-1x fa-inverse"></i> 
+                </a></span><a href="http://localhost/knbsfull/#education_sector" data-toggle="modal" data-target="#education_sector" tabindex="-1">
+                </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#education_sector" data-toggle="modal" data-target="#education_sector" tabindex="-1">Education</a></h4>       
+                </div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide slick-cloned" data-wow-delay="0.3s" data-slick-index="8" aria-hidden="true" style="width: 322px;" tabindex="-1"> 
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle   fa-stack-2x icon-a" id=""></i>
+                <a href="http://localhost/knbsfull/#public_finance_sector" data-toggle="modal" data-target="#public_finance_sector" tabindex="-1">
+                <i class="fa fa-money fa-stack-1x fa-inverse"></i> </a></span><a href="http://localhost/knbsfull/#public_finance_sector" data-toggle="modal" data-target="#public_finance_sector" tabindex="-1">
+                </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#public_finance_sector" data-toggle="modal" data-target="#public_finance_sector" tabindex="-1">Public Finance</a></h4>    
+                </div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide slick-cloned" data-wow-delay="0.3s" data-slick-index="9" aria-hidden="true" style="width: 322px;" tabindex="-1"> 
+
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id=""></i>
+
+                <a href="http://localhost/knbsfull/#agriculture_sector" data-toggle="modal" data-target="#agriculture_sector" tabindex="-1">
+                <i class="fa fa-pagelines fa-stack-1x fa-inverse"></i>
+                   </a></span><a href="http://localhost/knbsfull/#agriculture_sector" data-toggle="modal" data-target="#agriculture_sector" tabindex="-1">
+                   </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#agriculture_sector" data-toggle="modal" data-target="#agriculture_sector" tabindex="-1">Agriculture</a> </h4>
+                </div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide slick-cloned" data-wow-delay="0.3s" data-slick-index="10" aria-hidden="true" style="width: 322px;" tabindex="-1">
+
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id=""></i> 
+                <a href="http://localhost/knbsfull/#population_sector" data-toggle="modal" data-target="#population_sector" tabindex="-1">
+                 
+                <i class="fa fa-users fa-stack-1x fa-inverse"></i> </a></span><a href="http://localhost/knbsfull/#population_sector" data-toggle="modal" data-target="#population_sector" tabindex="-1">
+                </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#population_sector" data-toggle="modal" data-target="#population_sector" tabindex="-1">Population</a></h4>    
+                </div><div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item slick-slide slick-cloned" data-wow-delay="0.3s" data-slick-index="11" aria-hidden="true" style="width: 322px;" tabindex="-1"> 
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle   fa-stack-2x icon-a" id=""></i>
+                <a href="http://localhost/knbsfull/#governance_sector" data-toggle="modal" data-target="#governance_sector" tabindex="-1">
+                <i class="fa fa-bank fa-stack-1x fa-inverse"></i> </a></span><a href="http://localhost/knbsfull/#governance_sector" data-toggle="modal" data-target="#governance_sector" tabindex="-1">
+                </a><h4 class="text-weight-strong"><a href="http://localhost/knbsfull/#governance_sector" data-toggle="modal" data-target="#governance_sector" tabindex="-1">Governance</a></h4>    
+                </div></div></div>
+
+                
+
+                
+
+                
+
+                
+
+                          
+
+            <button class="slick-next slick-arrow" aria-label="Next" type="button" style="display: block;">Next</button><ul class="slick-dots" style="display: block;" role="tablist"><li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 2" tabindex="-1">1</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 2" tabindex="0" aria-selected="true">2</button></li><li role="presentation" class="slick-active"><button type="button" role="tab" id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 2" tabindex="-1">3</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03" aria-controls="slick-slide03" aria-label="4 of 2" tabindex="-1">4</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control04" aria-controls="slick-slide04" aria-label="5 of 2" tabindex="-1">5</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control05" aria-controls="slick-slide05" aria-label="6 of 2" tabindex="-1">6</button></li></ul></div> 
+    
+   </div>
+</div>
+ 
+
+
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.slicky').slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1500,
+          dots:true,
+          arrows:true
+      });
+    });
+  </script>
+<!-- partners data -->
+<div class="container">
+        <div class="row" id="partnerss">
+           <h4 id="partners-heading"><center>PARTNERS</center></h4>
+              <div class="col-md-4">
+                  <div class="wb">
+                   <a href="http://localhost/knbsfull/"><img src="./KNBS_files/wbank.png" alt="" style=" height: 100px;"></a>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="su">
+                        <a href="http://localhost/knbsfull/"><img src="./KNBS_files/UniversityLogo.png" alt="" style=" height: 100px;"></a>
+                  </div> 
+                    
+              </div>
+    
+              <div class="col-md-4">
+                    <div class="ilab">
+                        <a href="http://localhost/knbsfull/"><img src="./KNBS_files/iLabAfrica_Logo.png" alt="" style=" height: 100px;"></a>
+                        </div> 
+              </div>
+        </div>
+    
+    </div>
+    <!-- partners data -->
+
+<!-- view modal -->
+<!-- <button class="btn btn-primary btn-modal"
+        data-toggle="modal"
+        data-target="#fsModal">
+  View Fullscreen Modal
+</button> -->
+<!-- view modal -->
+
+<!-- modal -->
+<div id="fsModal" class="modal animated bounceIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+  <!-- dialog -->
+  <div class="modal-dialog chart_of_the_day">
+
+    <!-- content -->
+    <div class="modal-content">
+
+      <!-- header -->
+      <div class="modal-header">
+        <h1 id="myModalLabel" class="modal-title">
+       KNBS CHART OF THE DAY
+        </h1>
+      </div>
+      <!-- header -->
+      
+      <!-- body -->
+      <div class="modal-body">
+        <!-- <h2>1. Modal sub-title</h2> -->
+
+ <div id="vizContainer"><iframe frameborder="0" allowtransparency="true" allowfullscreen="true" title="data visualization" marginheight="0" marginwidth="0" scrolling="no" style="display: block; width: 0px; height: 27px; visibility: visible;" src="./KNBS_files/BarGraph.html"></iframe></div> 
+
+
+      </div>
+      <!-- body -->
+
+      <!-- footer -->
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-dismiss="modal">
+          close
+        </button>
+       <!--  <button class="btn btn-default">
+          Default
+        </button> -->
+        <!-- <button class="btn btn-success">
+          Subscribe
+        </button> -->
+      </div>
+      <!-- footer -->
+
+    </div>
+    <!-- content -->
+
+  </div>
+  <!-- dialog -->
+
+</div>
+<!-- modal -->
+
+
+
+<!-- agriculture modal -->
+     
+<!-- Modal -->
+<div id="agriculture_sector" class="modal fade" role="dialog">
+  <div class="modal-dialog sector_modal">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">Agricuture Sector</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end of agriculture modal -->
+
+
+
+
+<!-- education modal -->
+     
+<!-- Modal -->
+<div id="education_sector" class="modal fade" role="dialog">
+  <div class="modal-dialog sector_modal">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">Education Sector</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end of education modal -->
+
+
+<!-- public health modal -->
+     
+<!-- Modal -->
+<div id="public_health_sector" class="modal fade" role="dialog">
+  <div class="modal-dialog sector_modal">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">Education Sector</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end of public health modal -->
+
+
+<!-- governance modal -->
+     
+<!-- Modal -->
+<div id="governance_sector" class="modal fade" role="dialog">
+  <div class="modal-dialog sector_modal">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">Governance Sector</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end of governance modal -->
+
+
+
+<!-- population modal -->
+     
+<!-- Modal -->
+<div id="population_sector" class="modal fade" role="dialog">
+  <div class="modal-dialog sector_modal">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">Population Sector</h4>
+      </div>
+      <div class="modal-body">
+      <p>
+       Density: Refers number of persons per square kilometre, obtained by dividing the enumerated persons in a given area by the size of the area expressed in KM2.</p>
+
+ <p>Area: Is the extent of a surface enclosed within a specified boundary, expressed in square kilometers. This excludes areas covered by water.</p>
+
+ <p>Birth: Is the complete expulsion or extraction from its mother of a product of conception, irrespective of the duration of pregnancy</p>
+
+ <p>Death: Is the permanent disappearance of all evidence of life at any time after live birth has taken place (postnatal cessation of vital functions without capability of resuscitation). This definition excludes fetal deaths.</p>
+
+ <p>Expected Birth or Expected Death:Is derived from the prevailing fertility or mortality conditions and total female population of reproductive age or the total population. The number of expected births or deaths is calculated using age-specific birth and death rates.</p>
+
+ <p>Place of Occurrence:: It is where birth or death occurs</p>
+
+ <p>Coverage rate:Coverage rate is the percentage of registered events out of the total number of expected events. Although the denominators ideally should be the total number of events, which occurred, the actual number of such events is unknown and hence estimated as ‘expected events’.</p>
+
+ <p>Births or Deaths Registered at Health Facilities:Refer to births or deaths that occur at a health facility and a notification is issued by a health worker at the facility</p>
+
+ <p>Births or Deaths Registered outside Health Facilities:Refer to births or deaths that occur at home and a notification is issued by an Assistant Chief.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+        <button type="link" class="btn btn-primary" data-dismiss="modal"><a href="http://localhost/knbsfull/Public_Finance/all">View Charts</a></button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end of population modal -->
+
+
+
+
+
+<!--  start of js for searching the counties -->
+<script>
+        function autocomplete(inp, arr) {
+          /*the autocomplete function takes two arguments,
+          the text field element and an array of possible autocompleted values:*/
+          var currentFocus;
+          /*execute a function when someone writes in the text field:*/
+          inp.addEventListener("input", function(e) {
+              var a, b, i, val = this.value;
+              /*close any already open lists of autocompleted values*/
+              closeAllLists();
+              if (!val) { return false;}
+              currentFocus = -1;
+              /*create a DIV element that will contain the items (values):*/
+              a = document.createElement("DIV");
+              a.setAttribute("id", this.id + "autocomplete-list");
+              a.setAttribute("class", "autocomplete-items");
+              /*append the DIV element as a child of the autocomplete container:*/
+              this.parentNode.appendChild(a);
+              /*for each item in the array...*/
+              for (i = 0; i < arr.length; i++) {
+                /*check if the item starts with the same letters as the text field value:*/
+                if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+                  /*create a DIV element for each matching element:*/
+                  b = document.createElement("DIV");
+                  /*make the matching letters bold:*/
+                  b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+                  b.innerHTML += arr[i].substr(val.length);
+                  /*insert a input field that will hold the current array item's value:*/
+                  b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+                  /*execute a function when someone clicks on the item value (DIV element):*/
+                  b.addEventListener("click", function(e) {
+                      /*insert the value for the autocomplete text field:*/
+                      inp.value = this.getElementsByTagName("input")[0].value;
+                      /*close the list of autocompleted values,
+                      (or any other open lists of autocompleted values:*/
+                      closeAllLists();
+                  });
+                  a.appendChild(b);
+                }
+              }
+          });
+          /*execute a function presses a key on the keyboard:*/
+          inp.addEventListener("keydown", function(e) {
+              var x = document.getElementById(this.id + "autocomplete-list");
+              if (x) x = x.getElementsByTagName("div");
+              if (e.keyCode == 40) {
+                /*If the arrow DOWN key is pressed,
+                increase the currentFocus variable:*/
+                currentFocus++;
+                /*and and make the current item more visible:*/
+                addActive(x);
+              } else if (e.keyCode == 38) { //up
+                /*If the arrow UP key is pressed,
+                decrease the currentFocus variable:*/
+                currentFocus--;
+                /*and and make the current item more visible:*/
+                addActive(x);
+              } else if (e.keyCode == 13) {
+                /*If the ENTER key is pressed, prevent the form from being submitted,*/
+                e.preventDefault();
+                if (currentFocus > -1) {
+                  /*and simulate a click on the "active" item:*/
+                  if (x) x[currentFocus].click();
+                }
+              }
+          });
+          function addActive(x) {
+            /*a function to classify an item as "active":*/
+            if (!x) return false;
+            /*start by removing the "active" class on all items:*/
+            removeActive(x);
+            if (currentFocus >= x.length) currentFocus = 0;
+            if (currentFocus < 0) currentFocus = (x.length - 1);
+            /*add class "autocomplete-active":*/
+            x[currentFocus].classList.add("autocomplete-active");
+          }
+          function removeActive(x) {
+            /*a function to remove the "active" class from all autocomplete items:*/
+            for (var i = 0; i < x.length; i++) {
+              x[i].classList.remove("autocomplete-active");
+            }
+          }
+          function closeAllLists(elmnt) {
+            /*close all autocomplete lists in the document,
+            except the one passed as an argument:*/
+            var x = document.getElementsByClassName("autocomplete-items");
+            for (var i = 0; i < x.length; i++) {
+              if (elmnt != x[i] && elmnt != inp) {
+                x[i].parentNode.removeChild(x[i]);
+              }
+            }
+          }
+          /*execute a function when someone clicks in the document:*/
+          document.addEventListener("click", function (e) {
+              closeAllLists(e.target);
+              });
+        }
+        
+        /*An array containing all the country names in the world:*/
+        var countries =
+        [
+                                                
+                                            "Baringo",
+                                            "Bomet",
+                                            "Bungoma",
+                                            "Busia",
+                                            "Elgeyo Marakwet",
+                                            "Embu",
+                                            "Garissa",
+                                            "Homa Bay",
+                                            "Isiolo",
+                                            "Kajiado",
+                                            "Kakamega",
+                                            "Kericho",
+                                            "Kiambu",
+
+
+                                            "Kilifi",
+                                            "Kirinyaga",
+                                            "Kisii",
+                                            "Kisumu",
+                                            "Kitui",
+                                            "Kwale",
+                                            "Laikipia",
+                                            "Lamu",
+                                            "Machakos",
+                                            "Makueni",
+                                            "Mandera",
+                                            "Meru",
+                                            "Migori",
+
+
+                                            "Marsabit",
+                                            "Mombasa",
+                                            "Muranga",
+                                            "Nairobi",
+                                            "Nakuru",
+                                            "Nandi",
+                                            "Narok",
+                                            "Nyamira",
+                                            "Nyandarua",
+                                            "Nyeri",
+                                            "Samburu",
+                                            "Siaya",
+                                            "Taita Taveta",
+
+
+                                            "Tana River",
+                                            "Tharaka Nithi",
+                                            "Trans Nzoia",
+                                            "Turkana",
+                                            "Uasin Gishu",
+                                            "Vihiga",
+                                            "Wajir",
+                                            "West Pokot"
+        ];     
+        
+        /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
+        autocomplete(document.getElementById("myInput"), countries);
+        </script>
+        
+<!-- end of js to search for counties -->
+<script type="text/javascript">
+   //$(window).load(function(){        
+  // $('#fsModal').modal('show');
+   // }); // A $( document ).ready() block.
+
+$( document ).ready(function() {
+  if (document.cookie.indexOf('visited=true') == -1){
+    // load the overlay
+    $('#fsModal').modal({show:true});
+    
+    // var year = 1000*60*60*24*365;
+    var day  =1000*60*60*24;
+    var expires = new Date((new Date()).valueOf() + day);
+    document.cookie = "visited=true;expires=" + expires.toUTCString();
+
+  }
+}); 
+
+
+
+   // A $( document ).ready() block.
+$( document ).ready(function() {
+  if (document.cookie.indexOf('visited=true') == -1){
+    // load the overlay
+    $('#myModal').modal({show:true});
+    
+    var year = 1000*60*60*24*365;
+    var expires = new Date((new Date()).valueOf() + year);
+    document.cookie = "visited=true;expires=" + expires.toUTCString();
+
+  }
+}); 
+
+
+</script>
+
+
+
+ <footer>
+   <div class="container" id="footer">
+        <div class="row" id="footer_content">
+             <div class="col-lg-4" id="contact">
+                 <header>
+                    <h4>QUICK LINKS</h4>
+                  </header>
+                   <li>
+                  <i class="fa fa-address-card-o fa-1x" aria-hidden="true"></i>
+                    About Us
+                  </li>    
+                  <li><i class="fa fa-map-o fa-1x" aria-hidden="true"></i>
+                     Site Map 
+                  </li>
+                  <li><i class="fa fa-bar-chart fa-1x" aria-hidden="true"></i>     Chart of the Day </li>
+             </div>
+             <div class="col-lg-4" id="contact">
+               <header>
+                    <h4>CONTACT US ON:</h4>
+                </header>
+                  <li>
+                  <i class="fa fa-map-marker fa-1x" aria-hidden="true"></i>
+                   Herufi House</li>    
+                  <li><i class="fa fa-volume-control-phone fa-1x" aria-hidden="true"></i>
+                  019223 8092344 </li>
+                  <li><i class="fa fa-envelope fa-1x" aria-hidden="true"></i>                 
+                   info@knbs.or.ke </li>
+    
+                  
+             </div>
+             <div class="col-lg-4" id="contact">
+                   <header>
+                    <h4>FOLLOW US ON:</h4>
+                    </header>
+                    <li><i class="fa fa-twitter fa-1x" aria-hidden="true"></i>Twitter</li>
+                    <li><i class="fa fa-facebook fa-1x" aria-hidden="true"></i>Facebook</li>
+                  
+             </div>
+
+           
+           
+        </div>
+           <hr>
+        <div class="row">
+            <div class="col-lg-12">
+                  <center><p>Copyright ©  2018  iLabAfrica</p></center>
+            </div>
+        </div>
+
+         
+   </div>
+</footer>
+
+
+</body></html>

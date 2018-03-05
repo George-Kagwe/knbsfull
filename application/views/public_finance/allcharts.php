@@ -212,8 +212,8 @@ $(document).ready(function() {
 <div class="btn_area">
     <!-- <button type="button" class="btn btn_prev"><i class="fa fa-arrow-left"></i></button>
     <button type="button" class="btn_next"><i class="fa fa-arrow-right"></i></button> -->
-    <button type="button" class="btn btn_prev"><i class="fa fa-arrow-left"></i></button>
-    <button type="button" class="btn btn_next"><i class="fa fa-arrow-right"></i></button>
+    <button type="button" class="btn navi btn_prev"><i class="fa fa-arrow-left"></i></button>
+    <button type="button" class="btn navi btn_next"><i class="fa fa-arrow-right"></i></button>
     <div id="count" style="height:36px; font-size:16px; line-height:36px; text-align:center;">
     </div>
 </div>
