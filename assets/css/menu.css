@@ -957,7 +957,7 @@ p {
   background-image:linear-gradient(25deg,
 rgba(216, 159, 159, 0.9),
 rgba(19, 17, 17, 0.6),
-#8c3107 96% ),url(../img/menu/changed.png);
+#8c3107 96% ),url(../img/menu/chaged.png);
 /* background-repeat:no-repeat; */
 /* background-size: auto; */
 /* background-position: right 20%; */
@@ -1151,3 +1151,37 @@ rgba(19, 17, 17, 0.6),
     transform: translate(0);
 }
 }
+
+
+#suggestions li{
+  
+}
+#suggestions a{
+    color:  black ;
+    list-style: none;
+  }
+  #suggestions  li:hover{
+    color: #fff !important;
+    background-color: #b06444;
+    list-style: none;
+    text-decoration: none;
+  } 
+  #suggestions  li:hover a{
+   
+  color: white ;
+    list-style: none;
+    text-decoration: none;
+  }
+  #suggestions{
+    padding-left: -1px;
+   margin-left:3% !important;
+    background-color: white;
+    list-style: none;
+    line-height: 2.5em !important;
+   width: 99.5%;
+   margin-top:0%;
+    position: absolute;
+    z-index: 10;
+    color:  black;
+    border-color: 2px solid grey;
+  }

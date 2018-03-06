@@ -49,7 +49,33 @@
             // Create a viz object and embed it in the container div.
         }
     </script>
-    
+    <script type="text/javascript">
+
+function lookup(inputString) {
+if(inputString.length == 0) {
+    $('#suggestions').hide();
+} else {
+    $.post("<?php echo base_url() ?>search_engine/autocomplete/"+inputString, function(data){
+        if(data.length > 0) {
+            $('#suggestions').show();
+            $('#autoSuggestionsList').html(data);
+        }
+    });
+}
+}
+
+function fill(thisValue) {
+$('#searching').val(thisValue);
+  setTimeout("$('#suggestions').hide();", 200);
+}
+
+
+
+
+
+
+
+</script>
   </head>
    <body data-spy="scroll" data-target="#myNavbar" data-offset="70" onload="initViz();">
 

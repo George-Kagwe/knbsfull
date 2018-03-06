@@ -31,7 +31,33 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<script type="text/javascript">
 
+function lookup(inputString) {
+if(inputString.length == 0) {
+    $('#suggestions').hide();
+} else {
+    $.post("<?php echo base_url() ?>search_engine/autocomplete/"+inputString, function(data){
+        if(data.length > 0) {
+            $('#suggestions').show();
+            $('#autoSuggestionsList').html(data);
+        }
+    });
+}
+}
+
+function fill(thisValue) {
+$('#searching').val(thisValue);
+  setTimeout("$('#suggestions').hide();", 200);
+}
+
+
+
+
+
+
+
+</script>
    
     
   </head>

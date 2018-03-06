@@ -586,10 +586,14 @@
                         </ul>
                     </li>
                     <li> 
-                    <form autocomplete="off" action="agriculture.php">
+                    <form autocomplete="off" action="<?=site_url('search_engine/search')?>">
                      <div id="imaginary_container"> 
                     <div class="input-group stylish-input-group">
-                        <input type="text" class="form-control input-lg"  placeholder="Search" >
+                        <input type="text" class="form-control input-lg"  name ="search" class="form-control" 
+                            name="search" id="searching" 
+                            autocomplete='off' onKeyUp='lookup(this.value)'
+                             placeholder=" Quick search " required="true">
+
                         <span class="input-group-addon">
                             <button type="submit" id="search_button">
                                 <span class="glyphicon glyphicon-search"></span>
@@ -598,7 +602,10 @@
                     </div>
                 </div>
                   </form>
-                      </form></li>
+                     <div id="suggestions" class="ui-widget">
+                    <div class="autoSuggestionsList_l" id="autoSuggestionsList"></div>
+                    </div>
+                      <!-- </form> --></li>
                     
                 </ul>
             </div><!--/.nav-collapse -->
