@@ -138,8 +138,8 @@
  <p>Births or Deaths Registered outside Health Facilities:Refer to births or deaths that occur at home and a notification is issued by an Assistant Chief.</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
-        <button type="link" class="btn btn-primary" data-dismiss="modal"><a href="<?=site_url('Public_Finance/all')?>">View Charts</a></button>
+        <button type="link" class="btn btn-success" data-dismiss="modal"><a href="<?phpsite_url('all/population')?>">View Charts</a></button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
     </div>
 

@@ -147,6 +147,11 @@ border-bottom: 1px #fff solid;
    margin-top:7%; 
   width: 550px;
 }
+#imaginary_container1{
+  margin-left:3%;
+   margin-top:5%; 
+  width: 720px;
+}
 .stylish-input-group .input-group-addon{
   background: white !important; 
 }
@@ -183,7 +188,7 @@ border-color:#ccc;
   display: block;
   margin-left: 110%;
   min-width: 750px;
-  min-height: 35.42em !important;
+  min-height: 31.8em !important;
   
 
 }
@@ -570,9 +575,9 @@ animation-fill-mode: backwards;
 
 /*start of dropdown additional styling*/
 #finance{
-  background-image:linear-gradient(15deg,
-  rgba(216, 159, 159, 0.1),
-  rgba(245, 177, 158, 0.5),
+  background-image:linear-gradient(30deg,
+  rgba(216, 159, 159, 0),
+  rgba(245, 177, 158, 0.938),
   #f0e4df 95% ), url(../img/menu/sh.jpg);
   background-position: left 35% top 18%;
   /*  */
@@ -673,7 +678,6 @@ animation-fill-mode: backwards;
   background-position: left -120% top 90% !important;
   background-repeat: no-repeat;
 
-  
 
 }
 
@@ -688,7 +692,7 @@ animation-fill-mode: backwards;
  linear-gradient(90deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),
   linear-gradient(90deg, rgba(248, 252, 248, 0.99), rgba(0,255,0,0) 99.71%),
   linear-gradient(200deg, rgb(165, 120, 109), rgba(245, 177, 158, 0) 99.71%),
-  url(../img/menu/land.jpg);
+  url(../img/menu/laand.jpg);
   background-repeat: no-repeat;
   background-position: left 30% top 8% !important;
 }
@@ -969,6 +973,28 @@ rgba(19, 17, 17, 0.6),
    list-style: none;
  
  }
+ .one  p{
+  visibility:hidden;
+
+}
+.one:hover p{
+  visibility: visible;
+}
+
+.two p{
+visibility:hidden;
+}
+.two:hover p{
+  visibility: visible;
+}
+
+.three button{
+  visibility:hidden;
+}
+.three:hover button{
+  visibility:visible;
+}
+
     .one{
           margin-top: 6%;
           background-color: #b06444;
@@ -1152,6 +1178,9 @@ rgba(19, 17, 17, 0.6),
 }
 }
 
+#suggestions{
+  background: grey;
+}
 
 #suggestions li{
   

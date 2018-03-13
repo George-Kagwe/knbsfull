@@ -41,15 +41,38 @@
      <div class="row">
          
            <div id="slicky" class="slicky">
-                      
-                       <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s">    
-                    <span class="fa-stack fa-2x">
+                       <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s"> 
+
+                <span class="fa-stack fa-2x">
                 <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i>
-                <a href="#health_sector" data-toggle="modal" data-target="#health_sector">
-                <i class="fa fa-medkit fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="text-weight-strong">Health</a></h4>          
+
+                <a href="#agriculture_sector" data-toggle="modal" data-target="#agriculture_sector">
+                <i class="fa fa-pagelines fa-stack-1x fa-inverse" ></i>
+                   </span>
+                   <h4 class="text-weight-strong">Agriculture</a> </h4>
                 </div>
+
+                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s"> 
+
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i>
+
+                <a href="#building" data-toggle="modal" data-target="#building">
+                <i class="fa fa-wrench fa-stack-1x fa-inverse" ></i>
+                   </span>
+                   <h4 class="text-weight-strong">Building and Costruction</a> </h4>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s"> 
+
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i>
+
+                <a href="#cpi" data-toggle="modal" data-target="#cpi">
+                <i class="fa fa-shopping-basket fa-stack-1x fa-inverse" ></i>
+                   </span>
+                   <h4 class="text-weight-strong">CPI</a> </h4>
+                </div>
+                
 
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s"> 
                 <span class="fa-stack fa-2x">
@@ -61,11 +84,30 @@
                 </div>
 
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s"> 
+
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i>
+
+                <a href="#energy" data-toggle="modal" data-target="#energy">
+                <i class="fa fa-lightbulb-o fa-stack-1x fa-inverse" ></i>
+                   </span>
+                   <h4 class="text-weight-strong">Energy</a> </h4>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s"> 
                 <span class="fa-stack fa-2x">
                 <i class="fa fa-circle   fa-stack-2x icon-a" id="fa"></i>
-                <a href="#public_finance_sector" data-toggle="modal" data-target="#public_finance_sector">
-                <i class="fa fa-money fa-stack-1x fa-inverse"></i> </span>
-                <h4 class="text-weight-strong">Public Finance</a></h4>    
+                <a href="#governance_sector" data-toggle="modal" data-target="#governance_sector">
+                <i class="fa fa-balance-scale fa-stack-1x fa-inverse"></i> </span>
+                <h4 class="text-weight-strong">Governance</a></h4>    
+                </div>  
+                 
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s">    
+                    <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i>
+                <a href="#health_sector" data-toggle="modal" data-target="#health_sector">
+                <i class="fa fa-medkit fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="text-weight-strong">Health</a></h4>          
                 </div>
 
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s"> 
@@ -73,12 +115,34 @@
                 <span class="fa-stack fa-2x">
                 <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i>
 
-                <a href="#agriculture_sector" data-toggle="modal" data-target="#agriculture_sector">
-                <i class="fa fa-pagelines fa-stack-1x fa-inverse" ></i>
+                <a href="#labor" data-toggle="modal" data-target="#labor">
+                <i class="fa fa-handshake-o fa-stack-1x fa-inverse" ></i>
                    </span>
-                   <h4 class="text-weight-strong">Agriculture</a> </h4>
+                   <h4 class="text-weight-strong">Labor</a> </h4>
                 </div>
 
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s"> 
+
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i>
+
+                <a href="#land" data-toggle="modal" data-target="#land">
+                <i class="fa fa-cloud fa-stack-1x fa-inverse" ></i>
+                   </span>
+                   <h4 class="text-weight-strong">Land and climate</a> </h4>
+                </div>
+
+                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s"> 
+
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i>
+
+                <a href="#Manufacturing" data-toggle="modal" data-target="#Manufacturing">
+                <i class="fa fa-cogs fa-stack-1x fa-inverse" ></i>
+                   </span>
+                   <h4 class="text-weight-strong">Manufacturing</a> </h4>
+                </div>
+                 
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s">
 
                 <span class="fa-stack fa-2x">
@@ -88,14 +152,56 @@
                 <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
                 <h4 class="text-weight-strong">Population</a></h4>    
                 </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s">
 
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i> 
+                <a href="#poverty" data-toggle="modal" data-target="#poverty">
+                 
+                <i class="fa fa-minus fa-stack-1x fa-inverse"></i> </span>
+                <h4 class="text-weight-strong">Poverty</a></h4>    
+                </div>
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s"> 
                 <span class="fa-stack fa-2x">
                 <i class="fa fa-circle   fa-stack-2x icon-a" id="fa"></i>
-                <a href="#governance_sector" data-toggle="modal" data-target="#governance_sector">
-                <i class="fa fa-bank fa-stack-1x fa-inverse"></i> </span>
-                <h4 class="text-weight-strong">Governance</a></h4>    
-                </div>          
+                <a href="#public_finance_sector" data-toggle="modal" data-target="#public_finance_sector">
+                <i class="fa fa-money fa-stack-1x fa-inverse"></i> </span>
+                <h4 class="text-weight-strong">Public Finance</a></h4>    
+                </div>
+
+                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s">
+
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i> 
+                <a href="#tourism" data-toggle="modal" data-target="#tourism">
+                 
+                <i class="fa fa-plane fa-stack-1x fa-inverse"></i> </span>
+                <h4 class="text-weight-strong">Tourism</a></h4>    
+                </div>
+
+                
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s">
+
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i> 
+                <a href="#trade" data-toggle="modal" data-target="#trade">
+                 
+                <i class="fa fa-cart-arrow-down fa-stack-1x fa-inverse"></i> </span>
+                <h4 class="text-weight-strong">Trade</a></h4>    
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s">
+
+                <span class="fa-stack fa-2x">
+                <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i> 
+                <a href="#transport" data-toggle="modal" data-target="#transport">
+                 
+                <i class="fa fa-bus fa-stack-1x fa-inverse"></i> </span>
+                <h4 class="text-weight-strong">Transport</a></h4>    
+                </div>
+
+               
+
+                        
 
             </div> 
     
@@ -109,7 +215,7 @@
 <script type="text/javascript">
     $(document).ready(function(){
       $('.slicky').slick({
-          slidesToShow: 4,
+          slidesToShow: 5,
           slidesToScroll: 1,
           autoplay: true,
           autoplaySpeed: 1500,

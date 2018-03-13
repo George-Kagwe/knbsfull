@@ -29,8 +29,8 @@
                                <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
-                                        <th>Sector Name</th>
-                                        <th>Report</th>
+                                      
+                                        <th>Report /Dateset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
                                         <th>Api Link</th>
@@ -41,7 +41,7 @@
                                              <?php foreach ($agriculture as $agriculture):?>
                                      
                                               <tr>
-                                                <td><?php echo $agriculture->sector_name;?></td>
+                                               
                                                 <td><?php echo $agriculture->report;?></td>
                                                 <td><?php echo $agriculture->coverage;?></td>
                                                 <td><?php echo $agriculture->source;?></td>
@@ -87,8 +87,7 @@
                                <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
-                                        <th>Sector Name</th>
-                                        <th>Report</th>
+                                        <th>Report /Dateset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
                                         <th>Api Link</th>
@@ -99,7 +98,7 @@
                                              <?php foreach ($education as $education):?>
                                      
                                               <tr>
-                                                <td><?php echo $education->sector_name;?></td>
+                                                
                                                 <td><?php echo $education->report;?></td>
                                                 <td><?php echo $education->coverage;?></td>
                                                 <td><?php echo $education->source;?></td>
@@ -146,8 +145,8 @@
                                <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
-                                        <th>Sector Name</th>
-                                        <th>Report</th>
+                                          
+                                        <th>Report /Dateset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
                                         <th>Api Link</th>
@@ -158,7 +157,7 @@
                                              <?php foreach ($energy as $energy):?>
                                      
                                               <tr>
-                                                <td><?php echo $energy->sector_name;?></td>
+                                                  
                                                 <td><?php echo $energy->report;?></td>
                                                 <td><?php echo $energy->coverage;?></td>
                                                 <td><?php echo $energy->source;?></td>
@@ -204,8 +203,8 @@
                                <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
-                                        <th>Sector Name</th>
-                                        <th>Report</th>
+                                          
+                                       <th>Report /Dateset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
                                         <th>Api Link</th>
@@ -216,7 +215,7 @@
                                              <?php foreach ($governance as $governance):?>
                                      
                                               <tr>
-                                                <td><?php echo $governance->sector_name;?></td>
+                                                  
                                                 <td><?php echo $governance->report;?></td>
                                                 <td><?php echo $governance->coverage;?></td>
                                                 <td><?php echo $governance->source;?></td>
@@ -264,8 +263,8 @@
                                <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
-                                        <th>Sector Name</th>
-                                        <th>Report</th>
+                                        
+                                      <th>Report /Dateset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
                                         <th>Api Link</th>
@@ -276,7 +275,7 @@
                                              <?php foreach ($labour as $labour):?>
                                      
                                               <tr>
-                                                <td><?php echo $labour->sector_name;?></td>
+                                                  
                                                 <td><?php echo $labour->report;?></td>
                                                 <td><?php echo $labour->coverage;?></td>
                                                 <td><?php echo $labour->source;?></td>
@@ -322,8 +321,8 @@
                                <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
-                                        <th>Sector Name</th>
-                                        <th>Report</th>
+                                          
+                                       <th>Report /Dateset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
                                         <th>Api Link</th>
@@ -334,7 +333,7 @@
                                              <?php foreach ($land as $land):?>
                                      
                                               <tr>
-                                                <td><?php echo $land->sector_name;?></td>
+                                                
                                                 <td><?php echo $land->report;?></td>
                                                 <td><?php echo $land->coverage;?></td>
                                                 <td><?php echo $land->source;?></td>
@@ -380,8 +379,8 @@
                                <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
-                                        <th>Sector Name</th>
-                                        <th>Report</th>
+                                        
+                                       <th>Report /Dateset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
                                         <th>Api Link</th>
@@ -392,7 +391,7 @@
                                              <?php foreach ($political as $political):?>
                                      
                                               <tr>
-                                                <td><?php echo $political->sector_name;?></td>
+                                                
                                                 <td><?php echo $political->report;?></td>
                                                 <td><?php echo $political->coverage;?></td>
                                                 <td><?php echo $political->source;?></td>
@@ -438,7 +437,7 @@
                                <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
-                                        <th>Sector Name</th>
+                                          
                                         <th>Report</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
@@ -450,7 +449,7 @@
                                              <?php foreach ($public_finance as $public_finance):?>
                                      
                                               <tr>
-                                                <td><?php echo $public_finance->sector_name;?></td>
+                                                
                                                 <td><?php echo $public_finance->report;?></td>
                                                 <td><?php echo $public_finance->coverage;?></td>
                                                 <td><?php echo $public_finance->source;?></td>
@@ -496,8 +495,8 @@
                                <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
-                                        <th>Sector Name</th>
-                                        <th>Report</th>
+                                        
+                                       <th>Report /Dateset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
                                         <th>Api Link</th>
@@ -508,7 +507,7 @@
                                              <?php foreach ($public_health as $public_health):?>
                                      
                                               <tr>
-                                                <td><?php echo $public_health->sector_name;?></td>
+                                                
                                                 <td><?php echo $public_health->report;?></td>
                                                 <td><?php echo $public_health->coverage;?></td>
                                                 <td><?php echo $public_health->source;?></td>
@@ -554,8 +553,8 @@
                                <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
-                                        <th>Sector Name</th>
-                                        <th>Report</th>
+                                          
+                                       <th>Report /Dateset Indicator Name</th>>
                                         <th>Coverage</th>
                                         <th>Source</th>
                                         <th>Api Link</th>
@@ -566,7 +565,7 @@
                                              <?php foreach ($trade as $trade):?>
                                      
                                               <tr>
-                                                <td><?php echo $trade->sector_name;?></td>
+                                                  
                                                 <td><?php echo $trade->report;?></td>
                                                 <td><?php echo $trade->coverage;?></td>
                                                 <td><?php echo $trade->source;?></td>
@@ -612,8 +611,8 @@
                                <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
-                                        <th>Sector Name</th>
-                                        <th>Report</th>
+                                          
+                                       <th>Report /Dateset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
                                         <th>Api Link</th>
@@ -624,7 +623,7 @@
                                              <?php foreach ($transport as $transport):?>
                                      
                                               <tr>
-                                                <td><?php echo $transport->sector_name;?></td>
+                                                  
                                                 <td><?php echo $transport->report;?></td>
                                                 <td><?php echo $transport->coverage;?></td>
                                                 <td><?php echo $transport->source;?></td>

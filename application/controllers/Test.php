@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Test extends CI_Controller {
 
 	 public function __construct(){
 		parent:: __construct();
@@ -9,20 +9,8 @@ class Home extends CI_Controller {
 		$this->load->model('Menu_Model');
         
 	}
-	// this function loads the home page
-	// public function index()
-	// {
 
-	// 	   // $this->load->view('includes/overlay');
-	// 	$this->load->view('includes/main_header_view');
-	// 	$this->load->view('includes/main_nav_view');
-	// 	$this->load->view('includes/landing_page');
-	// 	$this->load->view('includes/sectors_view');
-	// 	$this->load->view('includes/partners_view');
-	// 	$this->load->view('includes/chart_of_the_day');
-	// 	$this->load->view('includes/modals');
-	// 	$this->load->view('includes/footer_view');
-	// }
+	// this function loads the home page
 	public function index()
 	{
 
@@ -119,20 +107,4 @@ class Home extends CI_Controller {
 		$this->load->view('includes/modals');
 		$this->load->view('includes/footer_view');
 	}
-
-	// this function loads the home page
-	public function old()
-	{
-
-		   // $this->load->view('includes/overlay');
-		$this->load->view('includes/main_header_view');
-		$this->load->view('includes/main_nav_view');
-		$this->load->view('includes/landing_page');
-		$this->load->view('includes/sectors_view');
-		$this->load->view('includes/partners_view');
-		$this->load->view('includes/chart_of_the_day');
-		$this->load->view('includes/modals');
-		$this->load->view('includes/footer_view');
-	}
 }
-
