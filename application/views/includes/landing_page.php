@@ -26,41 +26,41 @@ h1 { margin:150px auto 50px auto; text-align:center; color:#fff;} */
 
 <div class="container-fluid" id="bubbles">
 	 <div class="row">
-      
-	 	  <div class="col-lg-12" >
+      <div class="col-lg-1" >
+      </div>
+	 	  <div class="col-lg-10" >
 	 	  
-		
-	  	<div class="one"> 
-					<h2 class="first">About Us</h2>
-	    <p>Keeping you Informed with analytics</p>
-			</div>
-	  	<div class=" two"> 
-					<h2 class="first">Download App</h2>
-	        <p>iPhone | Android</p>
-				</div>
-	  	<div class=" three"> 
-					<h2 class="first">Chart of The day</h2>
-	  		<button class="btn btn-success btn-modal"
-        data-toggle="modal"
-        data-target="#fsModal">
-  View Chart
-</button>
-			</div>
-	  	<div class=" four"> 
-					<h2 class="first">Request Data</h2>
-				<!-- <button class="btn btn-primary btn-modal"
-        data-toggle="modal"
-        data-target="#data">
-  View Chart
-</button> -->
-				</div>
-	   
-		
-			
-			
-
-          
+        		
+        	  	<div class="one"> 
+        					<h4 class="first">About Us</h4>
+        	        <p>Keeping you Informed with analytics</p>
+        			</div>
+        	  	<div class=" two"> 
+        					<h4 class="first">Download App</h4>
+        	        <p>  <a href="https://www.apple.com/itunes/download/">iPhone</a>|<a href="https://play.google.com/store">Android</a></p>
+        			</div>
+        	  	<div class=" three"> 
+        					<h5 class="first">Chart of The day</h5>
+                    	  		<button class="btn btn-success btn-modal"
+                            data-toggle="modal"
+                            data-target="#fsModal">
+                      VIEW CHART 
+                    </button>
+        			</div>
+        	  	<div class=" four"> 
+        					  <h4 class="first">Request Data</h4>
+                      <button class="btn btn-success btn-modal"
+                            data-toggle="modal"
+                            data-target="#data_request">
+                      REQUEST DATA
+                    </button>
+        			</div>
+	            
 	 	  </div>
+
+       <div class="col-lg-1" >
+      </div>
+
 	 </div>
 </div>
   

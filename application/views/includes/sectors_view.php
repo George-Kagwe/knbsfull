@@ -13,6 +13,9 @@
   border-radius: 3px;
   text-align: center;*/
 }
+.slick-dots {
+  top: 125%; 
+}
 .slick-prev:before, .slick-next:before{
     color:#fff;
   
@@ -104,7 +107,7 @@
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center wow fadeIn item" data-wow-delay="0.3s">    
                     <span class="fa-stack fa-2x">
                 <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i>
-                <a href="#health_sector" data-toggle="modal" data-target="#health_sector">
+                <a href="#public_health_sector" data-toggle="modal" data-target="#public_health_sector">
                 <i class="fa fa-medkit fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="text-weight-strong">Health</a></h4>          

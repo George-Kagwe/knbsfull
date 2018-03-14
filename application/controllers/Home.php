@@ -7,28 +7,13 @@ class Home extends CI_Controller {
 		parent:: __construct();
 		$this->load->model('Api_Model');
 		$this->load->model('Menu_Model');
+		$this->load->model('Charts_Model');
         
 	}
-	// this function loads the home page
-	// public function index()
-	// {
 
-	// 	   // $this->load->view('includes/overlay');
-	// 	$this->load->view('includes/main_header_view');
-	// 	$this->load->view('includes/main_nav_view');
-	// 	$this->load->view('includes/landing_page');
-	// 	$this->load->view('includes/sectors_view');
-	// 	$this->load->view('includes/partners_view');
-	// 	$this->load->view('includes/chart_of_the_day');
-	// 	$this->load->view('includes/modals');
-	// 	$this->load->view('includes/footer_view');
-	// }
 	public function index()
 	{
 
-		// $list['list']=$this->Menu_Model->api();
-		//var_dump($data);die();
-		// $count['count']=$this->Menu_Model->count_sectors();
 
 		$agriculture_county['agriculture_county']=
 		$this->Menu_Model->agriculture_county();
@@ -109,7 +94,7 @@ class Home extends CI_Controller {
 		    $money_county,$money_national
 
 			);
-		  //var_dump($data);die();
+		 
 		$this->load->view('includes/header_view');
 		$this->load->view('includes/menu',$data);
 		$this->load->view('includes/landing_page');
@@ -133,6 +118,30 @@ class Home extends CI_Controller {
 		$this->load->view('includes/chart_of_the_day');
 		$this->load->view('includes/modals');
 		$this->load->view('includes/footer_view');
+	}
+
+	public function data_request(){
+	   
+	   $name =$this->input->post('name');
+       $dataset =$this->input->post('dataset');
+       $year      =$this->input->post('year');
+       $email       =$this->input->post('email');
+
+       
+
+         
+
+    		// // save the data to the users table
+    	   $request_data=array(
+          'name'             =>$name,
+          'dataset'         =>$dataset,
+          'email'            =>$email,
+          'year'        =>$year      
+             	);
+ $this->Charts_Model->data_request($request_data);
+
+    	   redirect('/');
+            
 	}
 }
 

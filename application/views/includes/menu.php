@@ -1,7 +1,7 @@
 <!-- start navbar -->
   
     <div id ="myNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -15,12 +15,9 @@
                 
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="<?=site_url('api/')?>"  class="btn-menu">API LIST</a></li>
-                   <!--  <li><a href="#" target="_blank" class="btn-menu">PARTNERS</a></li>
-                    <li><a href="#" target="_blank" class="btn-menu">REQUEST DATA</a></li> -->
+                  
                 </ul>
-                <!-- <ul class="nav navbar-nav navbar-right">
-                    
-                </ul> -->
+               
                 <ul class="nav navbar-nav">
                    
                     <li class="dropdowndropdown">
@@ -331,7 +328,9 @@
                                           <li>"."<a href=".base_url('all/chart/')."$list->sector_id/$list->table_name/".$list->report."tabindex='-1' class='menu-item'>".$list->report."</a>"."</li>";
 
                                           ?>
+
                                            <?php endforeach; ?>
+                                           <br><br>
                                             <a href="<?=site_url('All/manufacturing')?>" class="btn btn-success active">
                                                     View all charts
                                                </a>
@@ -358,10 +357,7 @@
                                           ?>
                                          
                                            <?php endforeach; ?>
-                                           <br>
-                                            <a href="<?=site_url('All/energy')?>" class="btn btn-success active">
-                                                    View all charts
-                                               </a>
+                                         
                                               
                                         </ul>
 
@@ -373,7 +369,10 @@
 
                                           ?>
                                            <?php endforeach; ?>
-                                           
+                                             
+                                            <a href="<?=site_url('All/energy')?>" id="bulb" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                               
                                         </ul>
                                         
@@ -461,7 +460,7 @@
                             </li>
                             <li class="dropdown-submenu">
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Administrative and Political</a>
-                                <ul class="dropdown-menu " id="transport">
+                                <ul class="dropdown-menu " id="admin">
                                     <li class="row " >
                                         <ul class="col-md-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
@@ -611,7 +610,7 @@
                             </li>
                             
                             <li class="dropdown-submenu">
-                                <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Money and Banking</a>
+                                <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Finance Money and Banking</a>
                                 <ul class="dropdown-menu " id="finance">
                                     <li class="row " >
                                         <ul class="col-md-6 menus">

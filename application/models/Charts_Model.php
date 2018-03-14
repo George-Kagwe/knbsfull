@@ -37,4 +37,9 @@ public function chart($id){
 
 }
 
+public function data_request($data){
+     $this->db->insert('data_requests',$data);
+    return $this->db->insert_id();
+}
+
 }
