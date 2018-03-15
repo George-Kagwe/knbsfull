@@ -260,7 +260,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown-submenu">
-                                <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Land and climate</a>
+                                <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Environment and<br> Natural Resources</a>
                                 <ul class="dropdown-menu " id="land">
                                     <li class="row " >
                                         <ul class="col-md-6 menus">
@@ -399,9 +399,7 @@
                                            <?php endforeach; ?>
 
                                               <br><br>
-                                               <a href="<?=site_url('All/labour')?>" class="btn btn-success active">
-                                                    View all charts
-                                               </a>
+                                               
                                         </ul>
 
                                         <ul class="col-md-6 menus">
@@ -412,6 +410,9 @@
 
                                           ?>
                                            <?php endforeach; ?>
+                                           <a href="<?=site_url('All/labour')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                         </ul>
                                         
                                     </li>
@@ -590,10 +591,7 @@
                                          
                                            <?php endforeach; ?>
 
-                                              <br><br>
-                                               <a href="<?=site_url('All/building')?>" class="btn btn-success active">
-                                                    View all charts
-                                               </a>
+                                             
                                         </ul>
 
                                         <ul class="col-md-6 menus">
@@ -603,6 +601,10 @@
                                          <li><a href='all/chart/$list->sector_id/$list->table_name/' tabindex='-1' class='menu-item'>$list->report</a></li>";
                                           ?>
                                            <?php endforeach; ?>
+                                            <br><br>
+                                               <a href="<?=site_url('All/building')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                         </ul>
                                         
                                     </li>

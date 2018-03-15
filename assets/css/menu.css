@@ -215,7 +215,7 @@ border-color:#ccc;
   display: block;
   margin-left: 110%;
   min-width: 750px;
-  min-height: 31.8em !important;
+  min-height: 33.1em !important;
   
 
 }
@@ -709,26 +709,25 @@ animation-fill-mode: backwards;
 }
 
 #land{ 
-  /*color: #fff;
-  background-image:linear-gradient(15deg,
-  rgba(216, 159, 159, 0.1),
-  rgba(245, 177, 158, 0.5),
-  #8c3107 95% ), url(../img/menu/climate.jpg);*/
+  background-image:linear-gradient(-30deg,
+  rgba(240, 240, 240, 0),
+  rgba(245, 177, 158, 0.055),
+  #f0e4df 95% ), url(../img/menu/water1.jpg);
   
-  background-image:
- linear-gradient(90deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),
-  linear-gradient(90deg, rgba(248, 252, 248, 0.99), rgba(0,255,0,0) 99.71%),
-  linear-gradient(200deg, rgb(165, 120, 109), rgba(245, 177, 158, 0) 99.71%),
-  url(../img/menu/laand.jpg);
+  /* background-image:
+ linear-gradient(90deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),  */
+  /* linear-gradient(90deg, rgba(248, 252, 248, 0.99), rgba(0,255,0,0) 99.71%),
+  linear-gradient(200deg, rgb(165, 120, 109), rgba(245, 177, 158, 0) 99.71%), */
+   /* url(../img/menu/water2.jpg);
   background-repeat: no-repeat;
-  background-position: left 30% top 8% !important;
+  background-position: left 30% top 8% !important; */
 }
 
 #manufacturing{
-  background-image:linear-gradient(30deg,
-  rgba(216, 159, 159, 0),
-  rgba(245, 177, 158, 0.938),
-  #f0e4df 95% ), url(../img/menu/elephants.jpg);
+  background-image:linear-gradient(-30deg,
+  rgba(240, 240, 240, 0),
+  rgba(245, 177, 158, 0.055),
+  #f0e4df 95% ), url(../img/menu/manufacture.jpg);
   background-position: left 35% top 18%;
   /*  */
   list-style: none !important;
@@ -738,8 +737,7 @@ animation-fill-mode: backwards;
   rgba(216, 159, 159, 0),
   rgba(245, 177, 158, 0.938),
   #f0e4df 95% ), url(../img/menu/energy.jpg);
-  background-position: left 35% top 18%;
-  /*  */
+  background-position: left 27% top 18%;
   background-size: cover;
   list-style: none !important;
 }
@@ -750,63 +748,90 @@ animation-fill-mode: backwards;
   background-image:linear-gradient(30deg,
   rgba(216, 159, 159, 0),
   rgba(245, 177, 158, 0.938),
-  #f0e4df 95% ), url(../img/menu/elephants.jpg);
+  #f0e4df 95% ), url(../img/menu/labour.png);
   background-position: left 35% top 18%;
   /*  */
   list-style: none !important;
 }
 
 #cpi{
-  background-image:linear-gradient(30deg,
+  background-image:linear-gradient(-40deg,
+  rgba(160, 145, 145, 0.938),
+  rgba(231, 226, 225, 0.747),
+  #e7adad 95% ), url(../img/menu/kitchen.jpg);
+  background-position: left 90% top 58%;
+ 
+ 
+  background-repeat:no-repeat;
+  /*  */
+  list-style: none !important;
+}
+#cpi{
+  background-image:linear-gradient(-100deg,
   rgba(216, 159, 159, 0),
-  rgba(245, 177, 158, 0.938),
-  #f0e4df 95% ), url(../img/menu/elephants.jpg);
+  rgb(245, 177, 158),
+  #f0e4df 95% ), url(../img/menu/kitchen.jpg);
   background-position: left 35% top 18%;
   /*  */
+  background-repeat: no-repeat;
   list-style: none !important;
 }
 #labour{
   background-image:linear-gradient(30deg,
   rgba(216, 159, 159, 0),
   rgba(245, 177, 158, 0.938),
-  #f0e4df 95% ), url(../img/menu/elephants.jpg);
-  background-position: left 35% top 18%;
-  /*  */
+  #f0e4df 95% ), url(../img/menu/labour.jpg);
+  /* background-position: left 35% top 18%;
+   */
+   background-repeat: no-repeat;
   list-style: none !important;
 }
 #admin{
-  background-image:linear-gradient(30deg,
-  rgba(216, 159, 159, 0),
-  rgba(245, 177, 158, 0.938),
-  #f0e4df 95% ), url(../img/menu/elephants.jpg);
-  background-position: left 35% top 18%;
+  background-image:
+  linear-gradient(107deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),
+   linear-gradient(107deg, rgba(140, 141, 140, 0.99), rgba(0,255,0,0) 99.71%),
+   linear-gradient(200deg, rgb(165, 120, 109), rgba(245, 177, 158, 0) 99.71%),
+   url(../img/menu/demdo.png);
+   background-position: left 30% top 8% !important;
+  background-position: left 105% top 18%;
   /*  */
+  background-repeat: no-repeat;
   list-style: none !important;
 }#trade{
-  background-image:linear-gradient(30deg,
+  background-image:linear-gradient(-10deg,
   rgba(216, 159, 159, 0),
   rgba(245, 177, 158, 0.938),
-  #f0e4df 95% ), url(../img/menu/elephants.jpg);
+  #f0e4df 95% ), url(../img/menu/trade.jpg);
   background-position: left 35% top 18%;
   /*  */
   list-style: none !important;
 }
 #tourism{
-  background-image:linear-gradient(30deg,
-  rgba(216, 159, 159, 0),
-  rgba(245, 177, 158, 0.938),
+  background-image:linear-gradient(-65deg,
+  rgba(216, 159, 159, 0.671),
+  rgba(245, 177, 158, 0.575),
+  #f0e4df 95% ), url(../img/menu/mammals.jpg);
+  background-position: left 35% top 18%;
+  /*  */
+  list-style: none !important;
+}
+#tourism1{
+  background-image:linear-gradient(-30deg,
+  rgba(253, 250, 250, 0),
+  rgba(245, 177, 158, 0.021),
   #f0e4df 95% ), url(../img/menu/elephants.jpg);
   background-position: left 35% top 18%;
   /*  */
   list-style: none !important;
 }
 #building{
-  background-image:linear-gradient(30deg,
+  background-image:linear-gradient(100deg,
   rgba(216, 159, 159, 0),
-  rgba(245, 177, 158, 0.938),
-  #f0e4df 95% ), url(../img/menu/elephants.jpg);
+  rgb(245, 177, 158),
+  #f0e4df 95% ), url(../img/menu/buldozer.jpg);
   background-position: left 35% top 18%;
   /*  */
+  background-repeat: no-repeat;
   list-style: none !important;
 }
 

@@ -1,39 +1,32 @@
+<br><br>
+<!--  -->
+<style type="text/css">
+.panel-collapse{
+  list-style: none;
+  text-decoration: none;
+}
 
-
-<hr></hr>
-<div class="container"><h2>API LIST</h2></div>
-
-<div id="exTab2" class="container-fluid">	
-<ul class="nav nav-tabs">
-			<li class="active">
-        <a  href="#1" data-toggle="tab">Agriculure</a>
-			</li>
-			<li><a href="#2" data-toggle="tab">Education</a>
-			</li>
-			<li><a href="#3" data-toggle="tab">Energy</a>
-			</li>
-			<li><a href="#6" data-toggle="tab">Environment  and<br> Natural Resources </a>
-			</li>
-			<li>
-             <a  href="#4" data-toggle="tab">Governance</a>
-			</li>
-			<li><a href="#5" data-toggle="tab">Labour</a>
-			</li>
-			<li><a href="#8" data-toggle="tab">Political and<br>Administrative<br> Units</a>
-			</li>
-			<li><a href="#9" data-toggle="tab">Public <br>Finance</a>
-			</li>
-			<li><a href="#10" data-toggle="tab">Public <br>Health</a>
-			</li>
-			<li><a href="#11" data-toggle="tab">Trade</a>
-			</li>
-			<li><a href="#12" data-toggle="tab">Transport</a>
-			</li>
-		</ul>
-
-			<div class="tab-content ">
-			  <div class="tab-pane active" id="1">
-                   <table class="table table-bordered table-hover" id="1">
+ </style>
+  <div class="container">
+       <div class="row">
+            <div class="col-1">
+              
+            </div>
+            <div class="col-10"> 
+              
+                  <div class="panel-group">
+                        <div class="panel panel-default">
+                      
+                          <div class="panel-heading">
+                         
+                            <h4 class="panel-title">   
+                                <a data-toggle='collapse' href='#collapse1'>
+                                       Agriculture
+                                </a>
+                            </h4>
+                          </div>
+                          <div id="collapse1" class="panel-collapse collapse">
+                               <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
                                       
@@ -61,10 +54,37 @@
                                               <?php endforeach; ?>
                                    
                                       </tbody>
-                   </table>
-			  </div>
-				<div class="tab-pane" id="2">
-                 <table class="table table-bordered table-hover" id="2">
+                                </table>
+                                                                  
+                            <div class="panel-footer"></div>
+                          </div>
+
+                           
+                        </div>
+                  </div>
+             
+            </div>
+            <div class="col-1">
+              
+            </div>
+             <div class="col-1">
+              
+            </div>
+            <div class="col-10"> 
+              
+                  <div class="panel-group">
+                        <div class="panel panel-default">
+                      
+                          <div class="panel-heading">
+                         
+                            <h4 class="panel-title">   
+                                <a data-toggle='collapse' href='#collapse2'>
+                                       Education
+                                </a>
+                            </h4>
+                          </div>
+                          <div id="collapse2" class="panel-collapse collapse">
+                               <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
                                         <th>Report /Dateset Indicator Name</th>
@@ -91,10 +111,38 @@
                                               <?php endforeach; ?>
                                    
                                       </tbody>
-                 </table>
-				</div>
-                <div class="tab-pane" id="3">
-                  <table class="table table-bordered table-hover" id="3">
+                                </table>
+                                                                  
+                            <div class="panel-footer"></div>
+                          </div>
+
+                           
+                        </div>
+                  </div>
+             
+            </div>
+            <div class="col-1">
+            </div>
+            <div class="col-1">
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-10"> 
+              
+                  <div class="panel-group">
+                        <div class="panel panel-default">
+                      
+                          <div class="panel-heading">
+                         
+                            <h4 class="panel-title">   
+                                <a data-toggle='collapse' href='#collapse33'>
+                                       Energy
+                                </a>
+                            </h4>
+                          </div>
+                          <div id="collapse33" class="panel-collapse collapse">
+                               <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
                                           
@@ -122,10 +170,37 @@
                                               <?php endforeach; ?>
                                    
                                       </tbody>
-                    </table>
-				</div>
-				<div class="tab-pane" id="4">
-                   <table class="table table-bordered table-hover">
+                                </table>
+                                                                  
+                            <div class="panel-footer"></div>
+                          </div>
+
+                           
+                        </div>
+                  </div>
+             
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-10"> 
+              
+                  <div class="panel-group">
+                        <div class="panel panel-default">
+                      
+                          <div class="panel-heading">
+                         
+                            <h4 class="panel-title">   
+                                <a data-toggle='collapse' href='#collapse3'>
+                                       Governance
+                                </a>
+                            </h4>
+                          </div>
+                          <div id="collapse3" class="panel-collapse collapse">
+                               <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
                                           
@@ -153,10 +228,39 @@
                                               <?php endforeach; ?>
                                    
                                       </tbody>
-                   </table>
-				</div>
-				<div class="tab-pane" id="5">
-                    <table class="table table-bordered table-hover" id="5">
+                                </table>
+                                                                  
+                            <div class="panel-footer"></div>
+                          </div>
+
+                           
+                        </div>
+                  </div>
+             
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-1">
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-10"> 
+              
+                  <div class="panel-group">
+                        <div class="panel panel-default">
+                      
+                          <div class="panel-heading">
+                         
+                            <h4 class="panel-title">   
+                                <a data-toggle='collapse' href='#collapse4'>
+                                       Labour
+                                </a>
+                            </h4>
+                          </div>
+                          <div id="collapse4" class="panel-collapse collapse">
+                               <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
                                         
@@ -184,10 +288,37 @@
                                               <?php endforeach; ?>
                                    
                                       </tbody>
-                    </table>
-				</div>
-				<div class="tab-pane" id="6">
-					<table class="table table-bordered table-hover" id="6">
+                                </table>
+                                                                  
+                            <div class="panel-footer"></div>
+                          </div>
+
+                           
+                        </div>
+                  </div>
+             
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-10"> 
+              
+                  <div class="panel-group">
+                        <div class="panel panel-default">
+                      
+                          <div class="panel-heading">
+                         
+                            <h4 class="panel-title">   
+                                <a data-toggle='collapse' href='#collapse6'>
+                                       Land and Climate
+                                </a>
+                            </h4>
+                          </div>
+                          <div id="collapse6" class="panel-collapse collapse">
+                               <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
                                           
@@ -216,12 +347,39 @@
                                    
                                       </tbody>
                                 </table>
-				</div>
-				<div class="tab-pane" id="8">
-					<table class="table table-bordered table-hover" id="8">
+                                                                  
+                            <div class="panel-footer"></div>
+                          </div>
+
+                           
+                        </div>
+                  </div>
+             
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-10"> 
+              
+                  <div class="panel-group">
+                        <div class="panel panel-default">
+                      
+                          <div class="panel-heading">
+                         
+                            <h4 class="panel-title">   
+                                <a data-toggle='collapse' href='#collapse7'>
+                                      Political and Administrative Units
+                                </a>
+                            </h4>
+                          </div>
+                          <div id="collapse7" class="panel-collapse collapse">
+                               <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
-                                          
+                                        
                                        <th>Report /Dateset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
@@ -230,7 +388,7 @@
                                       </tr>
                                    </thead>
                                        <tbody>
-                                              <?php foreach ($political as $political):?>
+                                             <?php foreach ($political as $political):?>
                                      
                                               <tr>
                                                 
@@ -247,13 +405,40 @@
                                    
                                       </tbody>
                                 </table>
-				</div>
-				<div class="tab-pane" id="9">
-					<table class="table table-bordered table-hover" id="8">
+                                                                  
+                            <div class="panel-footer"></div>
+                          </div>
+
+                           
+                        </div>
+                  </div>
+             
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-10"> 
+              
+                  <div class="panel-group">
+                        <div class="panel panel-default">
+                      
+                          <div class="panel-heading">
+                         
+                            <h4 class="panel-title">   
+                                <a data-toggle='collapse' href='#collapse8'>
+                                      Public Finance
+                                </a>
+                            </h4>
+                          </div>
+                          <div id="collapse8" class="panel-collapse collapse">
+                               <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
                                           
-                                       <th>Report /Dateset Indicator Name</th>
+                                        <th>Report</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
                                         <th>Api Link</th>
@@ -261,7 +446,7 @@
                                       </tr>
                                    </thead>
                                        <tbody>
-                                              <?php foreach ($public_finance as $public_finance):?>
+                                             <?php foreach ($public_finance as $public_finance):?>
                                      
                                               <tr>
                                                 
@@ -278,12 +463,39 @@
                                    
                                       </tbody>
                                 </table>
-				</div>
-				<div class="tab-pane" id="10">
-					<table class="table table-bordered table-hover" id="8">
+                                                                  
+                            <div class="panel-footer"></div>
+                          </div>
+
+                           
+                        </div>
+                  </div>
+             
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-10"> 
+              
+                  <div class="panel-group">
+                        <div class="panel panel-default">
+                      
+                          <div class="panel-heading">
+                         
+                            <h4 class="panel-title">   
+                                <a data-toggle='collapse' href='#collapse9'>
+                                      Public Health
+                                </a>
+                            </h4>
+                          </div>
+                          <div id="collapse9" class="panel-collapse collapse">
+                               <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
-                                          
+                                        
                                        <th>Report /Dateset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
@@ -292,7 +504,7 @@
                                       </tr>
                                    </thead>
                                        <tbody>
-                                               <?php foreach ($public_health as $public_health):?>
+                                             <?php foreach ($public_health as $public_health):?>
                                      
                                               <tr>
                                                 
@@ -300,16 +512,49 @@
                                                 <td><?php echo $public_health->coverage;?></td>
                                                 <td><?php echo $public_health->source;?></td>
                                                 <td><a href="<?php  echo $public_health->api_url?>" target="_blank">link</a></td>
-                                    <?php endforeach; ?>
+        
+                                              </tr>
+
+         
+
+                                              <?php endforeach; ?>
+                                   
                                       </tbody>
                                 </table>
-				</div>
-				<div class="tab-pane" id="12">
-					<table class="table table-bordered table-hover" id="11">
+                                                                  
+                            <div class="panel-footer"></div>
+                          </div>
+
+                           
+                        </div>
+                  </div>
+             
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-10"> 
+              
+                  <div class="panel-group">
+                        <div class="panel panel-default">
+                      
+                          <div class="panel-heading">
+                         
+                            <h4 class="panel-title">   
+                                <a data-toggle='collapse' href='#collapse10'>
+                                      Trade and Commerce
+                                </a>
+                            </h4>
+                          </div>
+                          <div id="collapse10" class="panel-collapse collapse">
+                               <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
                                           
-                                       <th>Report /Dateset Indicator Name</th>
+                                       <th>Report /Dateset Indicator Name</th>>
                                         <th>Coverage</th>
                                         <th>Source</th>
                                         <th>Api Link</th>
@@ -317,7 +562,7 @@
                                       </tr>
                                    </thead>
                                        <tbody>
-                                               <?php foreach ($trade as $trade):?>
+                                             <?php foreach ($trade as $trade):?>
                                      
                                               <tr>
                                                   
@@ -331,12 +576,39 @@
          
 
                                               <?php endforeach; ?>
+                                   
                                       </tbody>
                                 </table>
-				</div>
+                                                                  
+                            <div class="panel-footer"></div>
+                          </div>
 
-				<div class="tab-pane" id="12">
-					<table class="table table-bordered table-hover" id="12">
+                           
+                        </div>
+                  </div>
+             
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-1">
+              
+            </div>
+            <div class="col-10"> 
+              
+                  <div class="panel-group">
+                        <div class="panel panel-default">
+                      
+                          <div class="panel-heading">
+                         
+                            <h4 class="panel-title">   
+                                <a data-toggle='collapse' href='#collapse11'>
+                                      Transport and Communication
+                                </a>
+                            </h4>
+                          </div>
+                          <div id="collapse11" class="panel-collapse collapse">
+                               <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
                                           
@@ -348,11 +620,12 @@
                                       </tr>
                                    </thead>
                                        <tbody>
-                                               <?php foreach ($transport as $transport):?>
+                                             <?php foreach ($transport as $transport):?>
                                      
                                               <tr>
                                                   
-                                                <td><?php echo $transport->report;?></tdtransport                                                <td><?php echo $transport->coverage;?></td>
+                                                <td><?php echo $transport->report;?></td>
+                                                <td><?php echo $transport->coverage;?></td>
                                                 <td><?php echo $transport->source;?></td>
                                                 <td><a href="<?php  echo $transport->api_url?>" target="_blank">link</a></td>
         
@@ -361,11 +634,22 @@
          
 
                                               <?php endforeach; ?>
+                                   
                                       </tbody>
                                 </table>
-				</div>
-			</div>
-  </div>
+                                                                  
+                            <div class="panel-footer"></div>
+                          </div>
 
-<hr></hr>
+                           
+                        </div>
+                  </div>
+             
+            </div>
+            <div class="col-1">
+              
+            </div>
+       </div>
+
+  </div>
 
