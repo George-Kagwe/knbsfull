@@ -35,7 +35,7 @@
                              
                              <input class="form-control" placeholder="Enter years separated by commas" name="year" type="text" required>    
                         </div>
-                        <input class="btn btn-lg btn-success btn-block" type="submit" value="Submit"  >   
+                        <input class="btn  btn-lg btn-success " type="submit" value="Submit"  >   
                       </form>
                       
       </div>

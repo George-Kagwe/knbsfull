@@ -9,6 +9,6 @@
                                         <?php echo $list->embed_script;?>
                                     </div>
                         </div>
-                    <div class="container">    
- 
+                     
+             </div>
                  <?php endforeach; ?>

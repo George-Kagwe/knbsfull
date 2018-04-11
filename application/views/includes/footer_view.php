@@ -175,7 +175,8 @@
 $( document ).ready(function() {
   if (document.cookie.indexOf('visited=true') == -1){
     // load the overlay
-    $('#fsModal').modal({show:true});
+    // $('#fsModal').modal({show:true});
+     $('#sectors ').ul({show:true});
     
     // var year = 1000*60*60*24*365;
     var day  =1000*60*60*24;
@@ -188,17 +189,17 @@ $( document ).ready(function() {
 
 
    // A $( document ).ready() block.
-$( document ).ready(function() {
-  if (document.cookie.indexOf('visited=true') == -1){
-    // load the overlay
-    $('#myModal').modal({show:true});
+// $( document ).ready(function() {
+//   if (document.cookie.indexOf('visited=true') == -1){
+//     // load the overlay
+//     $().class({show:true});
     
-    var year = 1000*60*60*24*365;
-    var expires = new Date((new Date()).valueOf() + year);
-    document.cookie = "visited=true;expires=" + expires.toUTCString();
+//     var year = 1000*60*60*24*365;
+//     var expires = new Date((new Date()).valueOf() + year);
+//     document.cookie = "visited=true;expires=" + expires.toUTCString();
 
-  }
-}); 
+//   }
+// }); 
 
 
 </script>
@@ -216,10 +217,10 @@ $( document ).ready(function() {
                   <i class="fa fa-address-card-o fa-1x" aria-hidden="true"></i>
                     About Us
                   </li>    
-                  <li><i class="fa fa-map-o fa-1x" aria-hidden="true"></i>
+                 <!--  <li><i class="fa fa-map-o fa-1x" aria-hidden="true"></i>
                      Site Map 
                   </li>
-                  <li><i class="fa fa-bar-chart fa-1x" aria-hidden="true"></i>     Chart of the Day </li>
+                  <li><i class="fa fa-bar-chart fa-1x" aria-hidden="true"></i>     Chart of the Day </li> -->
              </div>
              <div class="col-lg-4" id="contact">
                <header>
@@ -239,8 +240,8 @@ $( document ).ready(function() {
                    <header>
                     <h4>FOLLOW US ON:</h4>
                     </header>
-                    <li><i class="fa fa-twitter fa-1x" aria-hidden="true"></i>Twitter</li>
-                    <li><i class="fa fa-facebook fa-1x" aria-hidden="true"></i>Facebook</li>
+                    <li><i class="fa fa-twitter fa-1x" aria-hidden="true"></i>   Twitter</li>
+                    <li><i class="fa fa-facebook fa-1x" aria-hidden="true"></i>  Facebook</li>
                   
              </div>
 

@@ -36,8 +36,9 @@ h1 { margin:150px auto 50px auto; text-align:center; color:#fff;} */
         	        <p>Keeping you Informed with analytics</p>
         			</div>
         	  	<div class=" two"> 
+
         					<h4 class="first">Download App</h4>
-        	        <p>  <a href="https://www.apple.com/itunes/download/">iPhone</a>|<a href="https://play.google.com/store">Android</a></p>
+        	         <p class="first-class">  <a href="https://www.apple.com/itunes/download/"><i class="fa fa-apple fa-4x" style="color:grey;"></i></a><a href="https://play.google.com/store"><i class="fa fa-android fa-4x" style="color:#4b7d2f;"></i></a></p>
         			</div>
         	  	<div class=" three"> 
         					<h5 class="first">Chart of The day</h5>

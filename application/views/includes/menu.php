@@ -419,7 +419,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown-submenu">
-                                <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">CPI</a>
+                                <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">CONSUMER PRICE INDEX</a>
                                 <ul class="dropdown-menu " id="cpi">
                                     <li class="row " >
                                         <!-- <ul class="col-md-6 menus">

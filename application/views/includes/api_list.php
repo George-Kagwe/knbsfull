@@ -352,7 +352,7 @@
                                      
                                               <tr>
                                                   
-                                                <td><?php echo $transport->report;?></tdtransport                                                <td><?php echo $transport->coverage;?></td>
+                                                <td><?php echo $transport->report;?></td>                                               <td><?php echo $transport->coverage;?></td>
                                                 <td><?php echo $transport->source;?></td>
                                                 <td><a href="<?php  echo $transport->api_url?>" target="_blank">link</a></td>
         

@@ -94,8 +94,8 @@ class Home extends CI_Controller {
 		    $money_county,$money_national
 
 			);
-		 
-		$this->load->view('includes/header_view');
+		 $title['title'] ="KNBS | HOME";
+		$this->load->view('includes/header_view',$title);
 		$this->load->view('includes/menu',$data);
 		$this->load->view('includes/landing_page');
 		$this->load->view('includes/sectors_view');

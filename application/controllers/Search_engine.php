@@ -117,8 +117,9 @@ $agriculture_county['agriculture_county']=
         $money_county,$money_national
 
       );
+ $title['title'] ="KNBS | HOME";
 
-    $this->load->view('includes/header_view');
+    $this->load->view('includes/header_view',$title);
    $this->load->view('includes/menu',$dataa);
     $this->load->view('includes/search_result',$data);
     $this->load->view('includes/footer_view');

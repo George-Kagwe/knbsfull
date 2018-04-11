@@ -299,7 +299,7 @@ public function population_county(){
    * from 
    health_sectors 
    where embed_script !=''
-    and coverage ='national' 
+    and coverage ='county' 
    and sector_name
    ='Population and Vital Statistics'
   ;";

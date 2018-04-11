@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?=site_url('/')?>"><img id="logo" src="<?php echo base_url().'assets//img/menu/knbslogo.png';?>"  class="img-responsive"></a>
+               <!--  <a class="navbar-brand" href="<?=site_url('/')?>"><img id="logo" src="<?php echo base_url().'assets//img/menu/knbslogo.png';?>"  class="img-responsive"></a> -->
             </div>
             <div class="collapse navbar-collapse">
                 

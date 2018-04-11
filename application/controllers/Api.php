@@ -125,7 +125,8 @@ class Api extends CI_Controller {
 		    $money_county,$money_national
 
 			);
-		$this->load->view('includes/header_view');
+		$title['title'] ="KNBS | API LIST";
+		$this->load->view('includes/header_view',$title);
 		$this->load->view('includes/menu',$dataa);
 		$this->load->view('includes/api_list',$data);
 		$this->load->view('includes/footer_view');
