@@ -26,7 +26,7 @@ h1 { margin:150px auto 50px auto; text-align:center; color:#fff;} */
 	 <div class="row">
       <div class="col-lg-3" >
       </div>
-	 	  <div class="col-lg-7" >
+	 	  <div class="col-lg-8" >
 	 	  
         		
         	  	<div class="one"> 
@@ -46,14 +46,14 @@ h1 { margin:150px auto 50px auto; text-align:center; color:#fff;} */
                       VIEW CHART 
                     </button>
         			</div>
-        	  	<div class=" four"> 
+        	  	<<!-- div class=" four"> 
         					  <h4 class="first">Request Data</h4>
                       <button class="btn btn-success btn-modal"
                             data-toggle="modal"
                             data-target="#data_request">
                       REQUEST DATA
                     </button>
-        			</div>
+        			</div> -->
 	            
 	 	  </div>
 

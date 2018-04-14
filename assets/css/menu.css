@@ -99,8 +99,10 @@ padding: 9px 10px !important;
   -moz-transition: all 14s ease-out;
   -o-transition: all 14s ease-out;
   transition: all 14s ease-out;
+    font-size: 12px;
+  line-height: 24px;
 }
-#sectors{
+#sectors-main{
   display: block;
   background: #b06444;
   opacity: 90%;
@@ -108,6 +110,8 @@ padding: 9px 10px !important;
   -moz-transition: all 14s ease-out;
   -o-transition: all 14s ease-out;
   transition: all 14s ease-out;
+  font-size: 12px;
+  line-height: 24px;
   
 }
 .dropdowndropdown:hover {
@@ -147,7 +151,7 @@ border-bottom:1px solid #9E9E9E;
 }
 .menus li a {
   text-decoration:none;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 24px;
   color: rgb(48, 48, 48);
   /* overflow: hidden;
@@ -170,8 +174,8 @@ border-bottom:1px solid #9E9E9E;
   font-family: sans-serif;
   font-weight: normal;
   text-transform: uppercase;
-  font-size: 14px;
-  font-weight: bolder;
+  font-size: 12px;
+  font-weight: bold;
 }
 .sub-head{
 background:#b06444;
@@ -239,7 +243,7 @@ border-color:#ccc;
   display: block;
   margin-left: 110%;
   min-width: 750px;
-  min-height: 33.1em !important;
+  min-height: 29.4em !important;
   
 
 }
@@ -373,7 +377,7 @@ Landing page css*/
   margin-top: -1%;
   margin-left: -15px;
   margin-right: -15px;
-  height: 60vh;
+  height: 70vh;
    /* background-image:linear-gradient(
       to left top,
       rgba(216, 159, 159, 0.9),
@@ -1111,7 +1115,7 @@ rgba(19, 17, 17, 0.6),
 padding-left: 7vw;
   padding-bottom: -3%;
   margin-top: 2%;
-  height: 67.5vh;
+  height: 70.5vh;
 }
 
 }
@@ -1240,8 +1244,8 @@ visibility:hidden;
     .three{
            margin-top: 3%;
            background-color: #354e9d;
-           width:240px;
-         height:240px;
+           width:200px;
+         height:200px;
          border-radius: 50% !important;
          color: #fff;
          text-align:center;
@@ -1252,8 +1256,8 @@ visibility:hidden;
     }
     .three:hover{
       color: #222;
-     width: 230px;
- height: 230px;
+     width: 200px;
+ height: 200px;
  background:#fff;
  -webkit-transition: width 2s; /* Safari */
  transition: width 2s;

@@ -96,7 +96,7 @@ class Home extends CI_Controller {
 			);
 		 $title['title'] ="KNBS | HOME";
 		$this->load->view('includes/header_view',$title);
-		$this->load->view('includes/menu',$data);
+		$this->load->view('includes/menu_main',$data);
 		$this->load->view('includes/landing_page');
 		$this->load->view('includes/sectors_view');
 		$this->load->view('includes/partners_view');
