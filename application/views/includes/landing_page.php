@@ -20,15 +20,13 @@ h1 { margin:150px auto 50px auto; text-align:center; color:#fff;} */
 
 
 	</style>
-</head>
-<body>
 
 
 <div class="container-fluid" id="bubbles">
 	 <div class="row">
-      <div class="col-lg-1" >
+      <div class="col-lg-3" >
       </div>
-	 	  <div class="col-lg-10" >
+	 	  <div class="col-lg-7" >
 	 	  
         		
         	  	<div class="one"> 

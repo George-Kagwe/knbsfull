@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-              
+                <a class="navbar-brand" href="<?=site_url('/')?>"><img id="logo" src="<?php echo base_url().'assets//img/menu/knbslogo.png';?>"  class="img-responsive"></a>
             </div>
             <div class="collapse navbar-collapse">
                 
@@ -23,7 +23,7 @@
                     <li class="dropdowndropdown">
                         <a href="#"  class="dropdown-toggle sectorslinks" data-toggle="dropdown" id="sectorslinks"> SECTORS <b class="caret"></b></a>
                         <ul class="dropdown-menu multi-level" id="sectors">
-                             <div class="square"></div>
+                            
                             <li class="dropdown-submenu">
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Public Finance</a>
                                 <ul class="dropdown-menu " id="finance">
@@ -540,7 +540,26 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Tourism</a>
                                 <ul class="dropdown-menu " id="tourism">
                                     <li class="row " >
-                                       
+                                        <!-- <ul class="col-md-6 menus">
+                                          <li class="dropdown-header">County Datasets</li>
+                                         
+                                         
+                                           <?php foreach ($tourism_county as $list):?>
+
+                                             <?php
+                                            echo "
+                                          <li><a href='$list->table_name/' tabindex='-1' class='menu-item'>$list->report</a></li>";
+
+                                          ?>
+                                         
+                                           <?php endforeach; ?>
+
+                                              <br><br>
+                                               <a href="<?=site_url('All/Public_Finance')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
+                                        </ul>
+ -->
                                         <ul class="col-md-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($tourism_national as $list):?>
@@ -634,10 +653,7 @@
                             
                         </ul>
                     </li>
-                     <li> <a class="navbar-brand" href="<?=site_url('/')?>"><img id="logo" src="<?php echo base_url().'assets//img/menu/knbslogo.png';?>"  class="img-responsive"></a></li>
-                    <li>
-
-
+                    <li> 
                     <form autocomplete="off" action="<?=site_url('search_engine/search')?>">
                      <div id="imaginary_container1"> 
                     <div class="input-group stylish-input-group">
