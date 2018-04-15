@@ -38,22 +38,22 @@ h1 { margin:150px auto 50px auto; text-align:center; color:#fff;} */
         					<h4 class="first">Download App</h4>
         	         <p class="first-class">  <a href="https://www.apple.com/itunes/download/"><i class="fa fa-apple fa-4x" style="color:grey;"></i></a><a href="https://play.google.com/store"><i class="fa fa-android fa-4x" style="color:#4b7d2f;"></i></a></p>
         			</div>
-        	  	<div class=" three"> 
+        	  	<!-- <div class=" three"> 
         					<h5 class="first">Chart of The day</h5>
                     	  		<button class="btn btn-success btn-modal"
                             data-toggle="modal"
                             data-target="#fsModal">
                       VIEW CHART 
                     </button>
-        			</div>
-        	  	<<!-- div class=" four"> 
+        			</div> -->
+        	  	<div class=" four"> 
         					  <h4 class="first">Request Data</h4>
                       <button class="btn btn-success btn-modal"
                             data-toggle="modal"
                             data-target="#data_request">
                       REQUEST DATA
                     </button>
-        			</div> -->
+        			</div>
 	            
 	 	  </div>
 

@@ -99,7 +99,18 @@ padding: 9px 10px !important;
   -moz-transition: all 14s ease-out;
   -o-transition: all 14s ease-out;
   transition: all 14s ease-out;
-    font-size: 12px;
+    font-size: 13px;
+  line-height: 24px;
+}
+.dropdowndropdown:hover #sectors-main{
+  display: block !important;
+  background: #b06444;
+  opacity: 90%;
+  -webkit-transition: all 14s ease-out;
+  -moz-transition: all 14s ease-out;
+  -o-transition: all 14s ease-out;
+  transition: all 14s ease-out;
+    font-size: 13px;
   line-height: 24px;
 }
 #sectors-main{
@@ -110,7 +121,7 @@ padding: 9px 10px !important;
   -moz-transition: all 14s ease-out;
   -o-transition: all 14s ease-out;
   transition: all 14s ease-out;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 24px;
   
 }
@@ -151,7 +162,7 @@ border-bottom:1px solid #9E9E9E;
 }
 .menus li a {
   text-decoration:none;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 24px;
   color: rgb(48, 48, 48);
   /* overflow: hidden;
@@ -242,8 +253,8 @@ border-color:#ccc;
  .dropdown-submenu:hover>.dropdown-menu {
   display: block;
   margin-left: 110%;
-  min-width: 750px;
-  min-height: 29.4em !important;
+  min-width: 770px;
+  min-height: 30.7em !important;
   
 
 }
@@ -737,10 +748,11 @@ animation-fill-mode: backwards;
 }
 
 #land{ 
-  background-image:linear-gradient(-30deg,
-  rgba(240, 240, 240, 0),
-  rgba(245, 177, 158, 0.055),
-  #f0e4df 95% ), url(../img/menu/water1.jpg);
+  background-image:
+ linear-gradient(107deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),
+   linear-gradient(107deg, rgba(212, 248, 212, 0.9), rgba(0,255,0,0) 99.71%), 
+  linear-gradient(90deg, rgb(165, 120, 109), rgba(245, 177, 158, 0) 99.71%),
+  url(../img/menu/water1.jpg);
   
   /* background-image:
  linear-gradient(90deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),  */
@@ -1270,8 +1282,8 @@ visibility:hidden;
            margin-left: -3%;
            margin-top: 7%;
            background-color: #b5121b;
-           width:200px;
-         height:200px;
+           width:195px;
+         height:195px;
          border-radius: 50% !important;
          color: #fff;
          text-align:center;

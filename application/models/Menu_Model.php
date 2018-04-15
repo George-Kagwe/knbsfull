@@ -228,7 +228,7 @@ public function land_county(){
    * from 
    health_sectors 
    where embed_script!='' 
-   and  sector_name ='land and climate'
+   and  sector_name ='Environment and Natural Resources'
    and coverage='county'";
 
    
@@ -241,8 +241,8 @@ public function land_national(){
    * from 
    health_sectors 
    where embed_script!='' 
-   and  sector_name ='land and climate'
-   and coverage='national'";
+   and  sector_name ='Environment and Natural Resources'
+   and coverage='national ' limit 8";
 
    
 	$result=$this->db->query($sql);

@@ -263,7 +263,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Environment and<br> Natural Resources</a>
                                 <ul class="dropdown-menu " id="land">
                                     <li class="row " >
-                                        <ul class="col-md-6 menus">
+                                       <!--  <ul class="col-md-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                          
                                          
@@ -282,7 +282,7 @@
                                                <a href="<?=site_url('All/land')?>" class="btn btn-success active">
                                                     View all charts
                                                </a>
-                                        </ul>
+                                        </ul> -->
 
                                         <ul class="col-md-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
@@ -292,6 +292,9 @@
 
                                           ?>
                                            <?php endforeach; ?>
+                                            <a href="<?=site_url('All/land')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                         </ul>
                                         
                                     </li>

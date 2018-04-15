@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>404 Page Not Found</title>
+<title>= Page Not Found</title>
 <style type="text/css">
 
 ::selection { background-color: #E13300; color: white; }
@@ -24,7 +24,7 @@ a {
 }
 
 h1 {
-	color: #444;
+	color: #fff;
 	background-color: transparent;
 	border-bottom: 1px solid #D0D0D0;
 	font-size: 19px;
@@ -45,7 +45,11 @@ code {
 }
 
 #container {
-	margin: 10px;
+	margin-top: 10%;
+	width: 50%;
+	margin-left: 25%;
+	background-color:#b06444;
+	color: #fff;
 	border: 1px solid #D0D0D0;
 	box-shadow: 0 0 8px #D0D0D0;
 }
@@ -57,8 +61,8 @@ p {
 </head>
 <body>
 	<div id="container">
-		<h1><?php echo $heading; ?></h1>
-		<?php echo $message; ?>
+		<h1><?php echo "Sorry, We could not find page requested"; ?></h1>
+		<p>Please go back to homepage</p>
 	</div>
 </body>
 </html>

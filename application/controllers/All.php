@@ -915,7 +915,7 @@ class All extends CI_Controller {
 		    $money_county,$money_national
 
 			);
-		$sector="Land and Climate";
+		$sector="Environment and Natural Resources";
         $title['title'] =$sector;
 		$data['embed']=$this->Charts_Model->sector($sector);
 		 // var_dump($data); die();
