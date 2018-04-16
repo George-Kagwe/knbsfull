@@ -48,7 +48,7 @@
                                               
                                         </ul>
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                 <?php foreach ($public_finance_national as $list):?>
 
@@ -95,7 +95,7 @@
                                              
                                         </ul>
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($education_national as $list):?>
                                             <?php 
@@ -117,7 +117,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Public Health</a>
                                 <ul class="dropdown-menu " id="health">
                                     <li class="row " >
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                          
                                          
@@ -135,7 +135,7 @@
                                               
                                         </ul>
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($health_national as $list):?>
                                             <?php   echo "
@@ -156,7 +156,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Agriculture</a>
                                 <ul class="dropdown-menu " id="agriculture">
                                     <li class="row " >
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                        <?php foreach ($agriculture_county as $list):?>
                                             
@@ -166,7 +166,7 @@
                                           <?php endforeach; ?>
                                         </ul>
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($agriculture_national as $list):?>
                                             <?php   echo "
@@ -184,7 +184,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Population</a>
                                 <ul class="dropdown-menu " id="population">
                                     <li class="row " >
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                          
                                          
@@ -205,7 +205,7 @@
                                                </a>
                                         </ul>
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($population_national as $list):?>
                                             <?php   echo "
@@ -223,7 +223,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Governance</a>
                                 <ul class="dropdown-menu " id="governance">
                                     <li class="row " >
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                          
                                          
@@ -242,7 +242,7 @@
                                                
                                         </ul>
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($governance_national as $list):?>
                                             <?php   echo "
@@ -263,7 +263,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Environment and<br> Natural Resources</a>
                                 <ul class="dropdown-menu " id="land">
                                     <li class="row " >
-                                      <!--   <ul class="col-md-6 menus">
+                                      <!--   <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                          
                                          
@@ -282,7 +282,7 @@
                                                
                                         </ul> -->
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($land_national as $list):?>
                                             <?php   echo "
@@ -304,7 +304,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Manufacturing</a>
                                 <ul class="dropdown-menu " id="manufacturing">
                                     <li class="row " >
-                                        <!-- <ul class="col-md-6 menus">
+                                        <!-- <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                          
                                          
@@ -324,7 +324,7 @@
                                                </a>
                                         </ul> -->
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($manufacturing_national as $list):?>
                                             <?php   echo "
@@ -346,7 +346,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Energy</a>
                                 <ul class="dropdown-menu " id="energy">
                                     <li class="row " >
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                          
                                          
@@ -364,7 +364,7 @@
                                               
                                         </ul>
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($energy_national as $list):?>
                                             <?php   echo "
@@ -386,7 +386,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Labour</a>
                                 <ul class="dropdown-menu " id="labour">
                                     <li class="row " >
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                          
                                          
@@ -405,7 +405,7 @@
                                                
                                         </ul>
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($labour_national as $list):?>
                                             <?php   echo "
@@ -425,7 +425,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">CONSUMER PRICE INDEX</a>
                                 <ul class="dropdown-menu " id="cpi">
                                     <li class="row " >
-                                        <!-- <ul class="col-md-6 menus">
+                                        <!-- <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                          
                                          
@@ -445,7 +445,7 @@
                                                </a>
                                         </ul> -->
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($cpi_national as $list):?>
                                             <?php   echo "
@@ -466,7 +466,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Administrative and Political</a>
                                 <ul class="dropdown-menu " id="admin">
                                     <li class="row " >
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                          
                                          
@@ -487,7 +487,7 @@
                                                </a> -->
                                         </ul>
 
-                                       <!--  <ul class="col-md-6 menus">
+                                       <!--  <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($transport_national as $list):?>
                                             <?php  echo "
@@ -504,7 +504,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Trade</a>
                                 <ul class="dropdown-menu " id="trade">
                                     <li class="row " >
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                          
                                          
@@ -525,7 +525,7 @@
                                                </a>
                                         </ul>
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($trade_national as $list):?>
                                             <?php   echo "
@@ -544,7 +544,7 @@
                                 <ul class="dropdown-menu " id="tourism">
                                     <li class="row " >
                                        
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($tourism_national as $list):?>
                                             <?php echo "
@@ -561,7 +561,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Building and Construction</a>
                                 <ul class="dropdown-menu " id="building">
                                     <li class="row " >
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                          
                                          
@@ -578,7 +578,7 @@
                                              
                                         </ul>
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($building_national as $list):?>
                                             <?php echo "
@@ -599,7 +599,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Finance Money and Banking</a>
                                 <ul class="dropdown-menu " id="finance">
                                     <li class="row " >
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                          
                                          
@@ -619,7 +619,7 @@
                                                </a>
                                         </ul>
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($money_national as $list):?>
                                             <?php   echo "
