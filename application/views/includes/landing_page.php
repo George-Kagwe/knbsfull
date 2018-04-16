@@ -35,9 +35,14 @@ h1 { margin:150px auto 50px auto; text-align:center; color:#fff;} */
         			</div>
         	  	<div class=" two"> 
 
-        					<h4 class="first">Download App</h4>
-        	         <p class="first-class">  <a href="https://www.apple.com/itunes/download/"><i class="fa fa-apple fa-4x" style="color:grey;"></i></a><a href="https://play.google.com/store"><i class="fa fa-android fa-4x" style="color:#4b7d2f;"></i></a></p>
+        					<h4 class="first">Download Android App</h4>
+        	         <p class="first-class">  <a href="https://play.google.com/store"><i class="fa fa-android fa-3x" style="color:#4b7d2f;"></i></a></p>
         			</div>
+                <div class=" three"> 
+
+                  <h4 class="first">Download Ios App</h4>
+                   <p class="first-class">  <a href="https://www.apple.com/itunes/download/"><i class="fa fa-apple fa-3x" style="color:grey;"></i></a></p>
+              </div>
         	  	<!-- <div class=" three"> 
         					<h5 class="first">Chart of The day</h5>
                     	  		<button class="btn btn-success btn-modal"

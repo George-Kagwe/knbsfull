@@ -645,6 +645,19 @@ visibility:hidden;
 .two:hover p{
   visibility: visible;
 }
+.three p{
+visibility:hidden;
+}
+.three:hover p{
+  visibility: visible;
+}
+.first-class{
+     /* margin-top: -10%;*/
+      color:#fff;
+      text-align: center;
+      text-transform: uppercase;
+      font-size:20px;
+    }
 
 .three button{
   visibility:hidden;
@@ -675,7 +688,13 @@ visibility:hidden;
 
  
     }
-   
+   .first{
+      margin-top: 40%;
+      color:#fff;
+      text-align: center;
+      text-transform: uppercase;
+      font-size:12px !important;
+    }
     .one:hover{
       color: #222;
      width: 270px;
@@ -693,8 +712,8 @@ visibility:hidden;
          margin-top: 5%;
          background: #E4B43A;
          opacity: 99%;
-         width:270px;
-         height:270px;
+         width:150px;
+         height:150px;
          border-radius: 50% !important;
          color: #fff;
          text-align:center;
@@ -705,8 +724,8 @@ visibility:hidden;
     }
     .two:hover{
       color: #222;
-     width: 260px;
- height: 260px;
+     width: 150px;
+ height: 150px;
  background:#fff;
  -webkit-transition: width 2s; /* Safari */
  transition: width 2s;
@@ -717,8 +736,8 @@ visibility:hidden;
     .three{
            margin-top: 3%;
            background-color: #354e9d;
-           width:200px;
-         height:200px;
+           width:150px;
+         height:150px;
          border-radius: 50% !important;
          color: #fff;
          text-align:center;
@@ -729,8 +748,8 @@ visibility:hidden;
     }
     .three:hover{
       color: #222;
-     width: 200px;
- height: 200px;
+     width: 150px;
+ height: 150px;
  background:#fff;
  -webkit-transition: width 2s; /* Safari */
  transition: width 2s;
@@ -743,8 +762,8 @@ visibility:hidden;
            margin-left: -3%;
            margin-top: 7%;
            background-color: #b5121b;
-           width:180px;
-         height:180px;
+           width:151px;
+         height:151px;
          border-radius: 50% !important;
          color: #fff;
          text-align:center;
@@ -756,8 +775,8 @@ visibility:hidden;
     }
     .four:hover{
       color: #222;
-     width: 180px   
- height: 180px;
+     width: 150px   
+ height: 150px;
 
  background:#fff;
  -webkit-transition: width 2s; /* Safari */

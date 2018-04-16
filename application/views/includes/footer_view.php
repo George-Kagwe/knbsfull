@@ -172,19 +172,19 @@
   // $('#fsModal').modal('show');
    // }); // A $( document ).ready() block.
 
-$( document ).ready(function() {
-  if (document.cookie.indexOf('visited=true') == -1){
+// $( document ).ready(function() {
+//   if (document.cookie.indexOf('visited=true') == -1){
     // load the overlay
     // $('#fsModal').modal({show:true});
-     $('#sectors ').ul({show:true});
+//      $('#sectors ').ul({show:true});
     
-    // var year = 1000*60*60*24*365;
-    var day  =1000*60*60*24;
-    var expires = new Date((new Date()).valueOf() + day);
-    document.cookie = "visited=true;expires=" + expires.toUTCString();
+//     // var year = 1000*60*60*24*365;
+//     var day  =1000*60*60*24;
+//     var expires = new Date((new Date()).valueOf() + day);
+//     document.cookie = "visited=true;expires=" + expires.toUTCString();
 
-  }
-}); 
+//   }
+// }); 
 
 
 
