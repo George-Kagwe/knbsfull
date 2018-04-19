@@ -9,202 +9,221 @@
 
 /*for mobile phones   .col-xs-*/
 @media 
-(max-width:768px){
+(max-width:768px)
+  {
 
-  /* start menu*/
-.navbar-brand>img {
-    display: block;
-     height: 50px !important; 
-}
-         .dropdown-header{
-        color: #b06444 !important;
-        margin-bottom: 15% !important;
-        font-family: sans-serif;
-        font-weight: normal;
-        text-transform: uppercase;
-        font-size: 12px;
-        font-weight: bold;
+            /* start menu*/
+          .navbar-brand>img
+            {
+              display: block;
+               height: 50px !important; 
+            }
+          .dropdown-header
+                {
+                  color: #b06444 !important;
+                  margin-bottom: 15% !important;
+                  font-family: sans-serif;
+                  font-weight: normal;
+                  text-transform: uppercase;
+                  font-size: 12px;
+                  font-weight: bold;
+                }
+
+          .dropdown-submenu .dropdown-toggle
+                {
+                  font-family: Verdana, Geneva, Tahoma, sans-serif;
+                  font-weight: normal;
+                  text-transform: uppercase;
+                  color:#fff;
+                }
+
+
+      .one, .two, .three, .four, .five, .six {
+         float: left;
+         list-style: none;
+       
+       }
+       .one  p{
+        visibility:hidden;
+
+      }
+      .one:hover p{
+        visibility: visible;
+        margin-bottom: 30%;
       }
 
-        .dropdown-submenu .dropdown-toggle{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: normal;
-        text-transform: uppercase;
+      .two p{
+      visibility:hidden;
+      }
+      .two:hover p{
+        visibility: visible;
+      }
+      .three p{
+      visibility:hidden;
+      }
+      .three:hover p{
+        visibility: visible;
+      }
+      .first-class{
+           /* margin-top: -10%;*/
+            color:#fff;
+            text-align: center;
+            text-transform: uppercase;
+            font-size:20px;
+          }
+
+      .three button{
+        visibility:hidden;
+      }
+      .three:hover button{
+        visibility:visible;
+      }
+
+      .four button{
+        visibility:hidden;
+      }
+      .four:hover button{
+        visibility:visible;
+      }
+
+     .one{
+      display: none;
+           }
+     .first{
+        margin-top: 40%;
         color:#fff;
+        text-align: center;
+        text-transform: uppercase;
+        font-size:12px !important;
+      }
+     
+      .two{
+           margin-left: -4%;
+           margin-top: 18%;
+           background: #E4B43A;
+           opacity: 99%;
+           width:155px;
+           height:155px;
+           border-radius: 50% !important;
+           color: #fff;
+           text-align:center;
+           animation-name: moveInTwo;
+           animation-duration: 6s;
+           /* animation-timing-function: ease-in; */
+           font-family: "Lucida Console", Monaco, monospace;
+      }
+      .two:hover{
+             color: #222;
+             width:155px;
+           height:155px;
+             background:#fff;
+             -webkit-transition: width 2s; /* Safari */
+             transition: width 2s;
+             border-style: dashed;
+             border-color: #b06444;
+
+      }
+      .three{
+               margin-left: -2.5%;
+               margin-top:19%;
+               background-color: #354e9d;
+              width:155px;
+           height:155px;
+               border-radius: 50% !important;
+               color: #fff;
+               text-align:center;
+               animation-name: moveInThree;
+               animation-duration: 6s;
+                /* animation-timing-function: ease-in; */
+               font-family: "Lucida Console", Monaco, monospace;
+      }
+      .three:hover{
+                 color: #222;
+                 width:155px;
+           height:155px;
+                 background:#fff;
+                 -webkit-transition: width 2s; /* Safari */
+                 transition: width 2s;
+                 border-style: dashed;
+                 border-color: #b06444;
+
       }
 
-
-  /* end menu*/
-.first{
-      margin-top: 40%;
-      color:#fff;
-      text-align: center;
-      text-transform: uppercase;
-      font-size:10px !important;
-    }
-
-.one, .two, .three, .four, .five, .six {
-   float: left;
-   list-style: none;
- 
- }
- .one  p{
-  visibility:hidden;
-
-}
-.one:hover p{
-  visibility: visible;
-  margin-bottom: 30%;
-  font-size: 10px
-}
-
-.two p{
-visibility:hidden;
-}
-.two:hover p{
-  visibility: visible;
-   font-size: 10px
-}
-
-.three button{
-  visibility:hidden;
-}
-.three:hover button{
-  visibility:visible;
-}
-
-.four button{
-  visibility:hidden;
-}
-.four:hover button{
-  visibility:visible;
-}
-
-    .one{
-          margin-top: 6%;
-          background-color: #b06444;
-          width:100px;
-         height:100px;
-         border-radius: 50% !important;
-         color: #222;
-          font-size: 10px
-         text-align:center;
-         animation-name: moveInOne;
-         animation-duration: 6s;
-         /* animation-timing-function: ease-in; */
-         font-family: "Lucida Console", Monaco, monospace;
-
- 
-    }
-   
-    .one:hover{
-      color: #222;
-     width: 70px;
- height: 70px;
- background:#fff;
- opacity: .99;
- -webkit-transition: width 4s; /* Safari */
- transition: width 2s;
- border-style: dashed;
- border-color: #b06444;
-    }
-   
-    .two{
-         margin-left: -3%;
-         margin-top: 5%;
-         background: #E4B43A;
-         opacity: 99%;
-         width:70px;
-         height:70px;
-         border-radius: 50% !important;
-         color: #fff;
-         text-align:center;
-         animation-name: moveInTwo;
-         animation-duration: 6s;
-         /* animation-timing-function: ease-in; */
-         font-family: "Lucida Console", Monaco, monospace;
-    }
-    .two:hover{
-      color: #222;
-       font-size: 10px
-     width: 70px;
- height: 70px;
- background:#fff;
- -webkit-transition: width 2s; /* Safari */
- transition: width 2s;
- border-style: dashed;
- border-color: #b06444;
-
-    }
-    .three{
-           margin-top: 3%;
-           background-color: #354e9d;
-           width:50px;
-         height:50px;
-          font-size: 10px
-         border-radius: 50% !important;
-         color: #fff;
-         text-align:center;
-         animation-name: moveInThree;
-         animation-duration: 6s;
-         /* animation-timing-function: ease-in; */
-     font-family: "Lucida Console", Monaco, monospace;
-    }
-    .three:hover{
-      color: #222;
-     width: 50px;
- height: 50px;
-  font-size: 10px
- background:#fff;
- -webkit-transition: width 2s; /* Safari */
- transition: width 2s;
- border-style: dashed;
- border-color: #b06444;
-
-    }
-
-    .four{
-           margin-left: -3%;
-           margin-top: 7%;
+      .four{
+           margin-right: 10%;
+           margin-left: 15%;
+           margin-top: -11%;
            background-color: #b5121b;
-           width:60px;
-         height:60px;
-         border-radius: 50% !important;
-         color: #fff;
-          font-size: 10px
-         text-align:center;
-         animation-name: moveInFour;
-         animation-duration: 6s;
-         /* animation-timing-function: ease-in; */
-         font-family: "Lucida Console", Monaco, monospace;
-   
-    }
-    .four:hover{
-      color: #222;
-     width: 180px   
- height: 180px;
+           width:200px;
+           height:200px;
+           border-radius: 50% !important;
+           color: #fff;
+           text-align:center;
+           animation-name: moveInFour;
+           animation-duration: 6s;
+           /* animation-timing-function: ease-in; */
+           font-family: "Lucida Console", Monaco, monospace;
+     
+      }
+     
+      .four:hover
+       {
+             color: #222;
+ width:200px;
+           height:200px;
+            background:#fff;
+            -webkit-transition: width 2s; /* Safari */
+            transition: width 2s;
+            border-style: dashed;
+             border-color: #b06444;
 
- background:#fff;
- -webkit-transition: width 2s; /* Safari */
- transition: width 2s;
- border-style: dashed;
- border-color: #b06444;
+         }
 
-    }
+         #landing{
+  margin-top: -1%;
+  margin-left: -15px;
+  margin-right: -15px;
+  height: 40vh !important;
+   /* background-image:linear-gradient(
+      to left top,
+      rgba(216, 159, 159, 0.9),
+       rgba(238, 214, 207, 0.9)), url(/assets/chart1.jpg); */ 
 
+background-image:linear-gradient(1deg,
+rgba(216, 159, 159, 0.9),
+rgba(245, 177, 158, 0.295),
+#8c3107 99% ),url(../img/menu/changed.png);
+/* background-image:url(../img/menu/changed.png); */
+
+    background-position:  right 38% !important;
+     
+background-size: cover;
+background-position: top;
+position: relative;
+/* clip-path: polygon(0 0,100% 0,100% 100vh,0 100%); */
+clip-path: polygon(0 0,100% 0,100% 100vh,0 100%);
 }
+
+
+        
+  }
 
 /*for laptops and tablets   .col-sm-*/
 @media
 (min-width:768px){
-
-      .navbar-nav > li > a {
-        margin-top: 21px;
-        padding-top: 26.5px;
-        padding-bottom: 26.5px;
-        line-height: 27px;
-        font-weight: bold;
-      }
+     
+      .navbar-brand .phones
+       {
+          visibility: hidden !important;
+       }
+      .navbar-nav > li > a 
+          {
+            margin-top: 21px;
+            padding-top: 26.5px;
+            padding-bottom: 26.5px;
+            line-height: 27px;
+            font-weight: bold;
+          }
 
       .navbar {
           min-height: 90px;
@@ -253,7 +272,7 @@ visibility:hidden;
       }
       #sectors-main{
             
-        display: block;
+            display: block;
             background: #b06444;
             opacity: 90%;
             -webkit-transition: all 14s ease-out;
@@ -359,7 +378,7 @@ visibility:hidden;
       }
      
      .dropdown-submenu>.dropdown-menu {
-          top: -.264em !important;
+          top: -.266em !important;
           left: -1.88em;
           right: 2.7em;
           padding:1% !important;
@@ -370,7 +389,7 @@ visibility:hidden;
      .dropdown-submenu:hover>.dropdown-menu {
         display: block;
         margin-left: 110%;
-        min-width: 770px;
+        min-width: 50vw;
         min-height: 29.4em !important;
       }
      .dropdown-submenu .dropdown-menu{
@@ -411,12 +430,11 @@ visibility:hidden;
       }
       
       #imaginary_container1{
-  width:47vw;
-  margin-left:3%;
-  margin-right: 2%;
-   margin-top:5vh; 
-  
- }
+           width:47vw;
+           margin-left:3%;
+           margin-right: 2%;
+           margin-top:5vh; 
+        }
 
             /*start of dropdown additional styling*/
       #finance{
@@ -434,20 +452,16 @@ visibility:hidden;
         rgba(216, 159, 159, 0.541),
         rgba(245, 177, 158, 0.5),
         #f0e4df 95% ), url(../img/menu/education.jpg);
-       
-         
-      }
-
+       }
+      
 
       #health{ 
-       
-         
-        background-image:
-       linear-gradient(107deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),
+         background-image:
+         linear-gradient(107deg,  rgba(245, 177, 158, 0.5), rgba(245, 177, 158, 0.5) 90.71%),
          linear-gradient(107deg, rgba(212, 248, 212, 0.9), rgba(0,255,0,0) 99.71%), 
-        linear-gradient(90deg, rgb(165, 120, 109), rgba(245, 177, 158, 0) 99.71%),
-        url(../img/menu/hospital.jpg);
-        background-repeat: no-repeat;
+         linear-gradient(90deg, rgb(165, 120, 109), rgba(245, 177, 158, 0) 99.71%),
+         url(../img/menu/hospital.jpg);
+         background-repeat: no-repeat;
          background-position: left 30% top 8% !important;
         
          max-height: 34.5em !important
@@ -625,59 +639,59 @@ visibility:hidden;
        /*end of navbar css*/
 
 
-.one, .two, .three, .four, .five, .six {
-   float: left;
-   list-style: none;
- 
- }
- .one  p{
-  visibility:hidden;
+      .one, .two, .three, .four, .five, .six {
+         float: left;
+         list-style: none;
+       
+       }
+       .one  p{
+        visibility:hidden;
 
-}
-.one:hover p{
-  visibility: visible;
-  margin-bottom: 30%;
-}
+      }
+      .one:hover p{
+        visibility: visible;
+        margin-bottom: 30%;
+      }
 
-.two p{
-visibility:hidden;
-}
-.two:hover p{
-  visibility: visible;
-}
-.three p{
-visibility:hidden;
-}
-.three:hover p{
-  visibility: visible;
-}
-.first-class{
-     /* margin-top: -10%;*/
-      color:#fff;
-      text-align: center;
-      text-transform: uppercase;
-      font-size:20px;
-    }
+      .two p{
+      visibility:hidden;
+      }
+      .two:hover p{
+        visibility: visible;
+      }
+      .three p{
+      visibility:hidden;
+      }
+      .three:hover p{
+        visibility: visible;
+      }
+      .first-class{
+           /* margin-top: -10%;*/
+            color:#fff;
+            text-align: center;
+            text-transform: uppercase;
+            font-size:20px;
+          }
 
-.three button{
-  visibility:hidden;
-}
-.three:hover button{
-  visibility:visible;
-}
+      .three button{
+        visibility:hidden;
+      }
+      .three:hover button{
+        visibility:visible;
+      }
 
-.four button{
-  visibility:hidden;
-}
-.four:hover button{
-  visibility:visible;
-}
+      .four button{
+        visibility:hidden;
+      }
+      .four:hover button{
+        visibility:visible;
+      }
 
-    .one{
-          margin-top: 6%;
+     .one{
+          margin-top: 11%;
           background-color: #b06444;
-          width:300px;
-         height:300px;
+          width:255px;
+         height:255px;
          border-radius: 50% !important;
          color: #222;
          text-align:center;
@@ -687,104 +701,106 @@ visibility:hidden;
          font-family: "Lucida Console", Monaco, monospace;
 
  
-    }
-   .first{
-      margin-top: 40%;
-      color:#fff;
-      text-align: center;
-      text-transform: uppercase;
-      font-size:12px !important;
-    }
-    .one:hover{
-      color: #222;
-     width: 270px;
- height: 270px;
- background:#fff;
- opacity: .99;
- -webkit-transition: width 4s; /* Safari */
- transition: width 2s;
- border-style: dashed;
- border-color: #b06444;
-    }
-   
-    .two{
-         margin-left: -3%;
-         margin-top: 5%;
-         background: #E4B43A;
-         opacity: 99%;
-         width:150px;
-         height:150px;
-         border-radius: 50% !important;
-         color: #fff;
-         text-align:center;
-         animation-name: moveInTwo;
-         animation-duration: 6s;
-         /* animation-timing-function: ease-in; */
-         font-family: "Lucida Console", Monaco, monospace;
-    }
-    .two:hover{
-      color: #222;
-     width: 150px;
- height: 150px;
- background:#fff;
- -webkit-transition: width 2s; /* Safari */
- transition: width 2s;
- border-style: dashed;
- border-color: #b06444;
+     }
+     .first{
+        margin-top: 40%;
+        color:#fff;
+        text-align: center;
+        text-transform: uppercase;
+        font-size:12px !important;
+      }
+      .one:hover{
+            color: #222;
+           width: 255px;
+           height: 255px;
+           background:#fff;
+           opacity: .99;
+           -webkit-transition: width 4s; /* Safari */
+           transition: width 2s;
+           border-style: dashed;
+           border-color: #b06444;
+      }
+     
+      .two{
+           margin-left: -8%;
+           margin-top: 9%;
+           background: #E4B43A;
+           opacity: 99%;
+           width:230px;
+           height:230px;
+           border-radius: 50% !important;
+           color: #fff;
+           text-align:center;
+           animation-name: moveInTwo;
+           animation-duration: 6s;
+           /* animation-timing-function: ease-in; */
+           font-family: "Lucida Console", Monaco, monospace;
+      }
+      .two:hover{
+             color: #222;
+             width: 230px;
+             height: 230px;
+             background:#fff;
+             -webkit-transition: width 2s; /* Safari */
+             transition: width 2s;
+             border-style: dashed;
+             border-color: #b06444;
 
-    }
-    .three{
-           margin-top: 3%;
-           background-color: #354e9d;
-           width:150px;
-         height:150px;
-         border-radius: 50% !important;
-         color: #fff;
-         text-align:center;
-         animation-name: moveInThree;
-         animation-duration: 6s;
-         /* animation-timing-function: ease-in; */
-     font-family: "Lucida Console", Monaco, monospace;
-    }
-    .three:hover{
-      color: #222;
-     width: 150px;
- height: 150px;
- background:#fff;
- -webkit-transition: width 2s; /* Safari */
- transition: width 2s;
- border-style: dashed;
- border-color: #b06444;
+      }
+      .three{
+               margin-left: -4.5%;
+               margin-top: 7%;
+               background-color: #354e9d;
+               width:190px;
+               height:190px;
+               border-radius: 50% !important;
+               color: #fff;
+               text-align:center;
+               animation-name: moveInThree;
+               animation-duration: 6s;
+                /* animation-timing-function: ease-in; */
+               font-family: "Lucida Console", Monaco, monospace;
+      }
+      .three:hover{
+                 color: #222;
+                 width: 200px;
+                 height: 200px;
+                 background:#fff;
+                 -webkit-transition: width 2s; /* Safari */
+                 transition: width 2s;
+                 border-style: dashed;
+                 border-color: #b06444;
 
-    }
+      }
 
-    .four{
-           margin-left: -3%;
-           margin-top: 7%;
+      .four{
+           margin-left: -5%;
+           margin-top: 12%;
            background-color: #b5121b;
-           width:151px;
-         height:151px;
-         border-radius: 50% !important;
-         color: #fff;
-         text-align:center;
-         animation-name: moveInFour;
-         animation-duration: 6s;
-         /* animation-timing-function: ease-in; */
-         font-family: "Lucida Console", Monaco, monospace;
-   
-    }
-    .four:hover{
-      color: #222;
-     width: 150px   
- height: 150px;
+           width:148px;
+           height:148px;
+           border-radius: 50% !important;
+           color: #fff;
+           text-align:center;
+           animation-name: moveInFour;
+           animation-duration: 6s;
+           /* animation-timing-function: ease-in; */
+           font-family: "Lucida Console", Monaco, monospace;
+     
+      }
+     
+      .four:hover
+       {
+             color: #222;
+            width:148px;
+            height:148px;
+            background:#fff;
+            -webkit-transition: width 2s; /* Safari */
+            transition: width 2s;
+            border-style: dashed;
+             border-color: #b06444;
 
- background:#fff;
- -webkit-transition: width 2s; /* Safari */
- transition: width 2s;
- border-style: dashed;
- border-color: #b06444;
-
-    }
+         }
 }
 
 /*for large screens   .col-md-*/
@@ -954,30 +970,6 @@ input[type=submit] {
 Landing page css*/
 
 
-#landing{
-  margin-top: -1%;
-  margin-left: -15px;
-  margin-right: -15px;
-  height: 70vh;
-   /* background-image:linear-gradient(
-      to left top,
-      rgba(216, 159, 159, 0.9),
-       rgba(238, 214, 207, 0.9)), url(/assets/chart1.jpg); */ 
-
-background-image:linear-gradient(1deg,
-rgba(216, 159, 159, 0.9),
-rgba(245, 177, 158, 0.295),
-#8c3107 99% ),url(../img/menu/changed.png);
-/* background-image:url(../img/menu/changed.png); */
-
-    background-position:  right 38% !important;
-     
-background-size: cover;
-background-position: top;
-position: relative;
-/* clip-path: polygon(0 0,100% 0,100% 100vh,0 100%); */
-clip-path: polygon(0 0,100% 0,100% 100vh,0 100%);
-}
 
 
 .text-box{
@@ -1340,6 +1332,7 @@ color:#fff !important;
 }
 
 .modal-footer {
+  padding: 5%;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1438,7 +1431,7 @@ rgba(19, 17, 17, 0.6),
 padding-left: 7vw;
   padding-bottom: -3%;
   margin-top: 2%;
-  height: 70.5vh;
+  height: 60.5vh;
 }
 
 }

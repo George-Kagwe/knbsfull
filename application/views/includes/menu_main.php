@@ -8,8 +8,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+
                 </button>
-              
+             <!--  -->
             </div>
             <div class="collapse navbar-collapse">
                 
@@ -91,7 +92,8 @@
                                          
                                            <?php endforeach; ?>
 
-                                             
+                                       
+                                              
                                              
                                         </ul>
 
@@ -104,10 +106,9 @@
 
                                           ?>
                                            <?php endforeach; ?>
-                                           <br><br>
-                                             <a href="<?=site_url('All/Education')?>" class="btn btn-success active">
+                                           <a style="margin-top: 2%;" href="<?=site_url('All/Education')?>" class="btn btn-success active">
                                                     View all charts
-                                               </a>
+                                             </a>  
                                         </ul>
                                         
                                     </li>
@@ -164,6 +165,10 @@
                                           <li>"."<a href=".base_url('all/chart/')."$list->sector_id/$list->table_name/".$list->report."tabindex='-1' class='menu-item'>".$list->report."</a>"."</li>";?>
 
                                           <?php endforeach; ?>
+                                            <br><br>
+                                               <a href="<?=site_url('All/Agriculture')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                         </ul>
 
                                         <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
@@ -282,7 +287,7 @@
                                                
                                         </ul> -->
 
-                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($land_national as $list):?>
                                             <?php   echo "
@@ -481,10 +486,10 @@
                                          
                                            <?php endforeach; ?>
 
-                                              <!-- <br><br>
-                                               <a href="<?=site_url('All/transport')?>" class="btn btn-success active">
+                                              <br><br>
+                                               <a href="<?=site_url('All/Administrative')?>" class="btn btn-success active">
                                                     View all charts
-                                               </a> -->
+                                               </a>
                                         </ul>
 
                                        <!--  <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
@@ -551,6 +556,10 @@
                                          <li><a href='all/chart/$list->sector_id/$list->table_name/' tabindex='-1' class='menu-item'>$list->report</a></li>";
                                           ?>
                                            <?php endforeach; ?>
+                                           <br><br>
+                                               <a href="<?=site_url('All/Tourism')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
                                         </ul>
                                         
                                     </li>
@@ -637,30 +646,39 @@
                             
                         </ul>
                     </li>
-                     <li> <a class="navbar-brand" href="<?=site_url('/')?>"><img id="logo" src="<?php echo base_url().'assets//img/menu/knbslogo.png';?>"  class="img-responsive"></a></li>
+                    <li> 
+                            <a class="navbar-brand" href="<?=site_url('/')?>">
+                              <img id="logo" src="<?php echo base_url().'assets//img/menu/knbslogo.png';?>"  class="img-responsive">
+                            </a>
+                    </li>
                     <li>
 
 
-                    <form autocomplete="off" action="<?=site_url('search_engine/search')?>">
-                     <div id="imaginary_container1"> 
-                    <div class="input-group stylish-input-group">
-                        <input type="text" class="form-control input-lg"  name ="search" class="form-control" 
-                            name="search" id="searching" 
-                            autocomplete='off' onKeyUp='lookup(this.value)'
-                             placeholder=" Quick search " required="true">
+                          <form autocomplete="off" action="<?=site_url('search_engine/search')?>">
+                                         <div id="imaginary_container1"> 
+                                                    <div class="input-group stylish-input-group">
+                                                         <input type="text" class="form-control input-lg"  name ="search" class="form-control" 
+                                                               name="search" id="searching" 
+                                                               autocomplete='off' onKeyUp='lookup(this.value)'
+                                                               placeholder=" Quick search " required="true">
 
-                        <span class="input-group-addon">
-                            <button type="submit" id="search_button">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </button>  
-                        </span>
-                    </div>
-                </div>
-                  </form>
-                     <div id="suggestions" class="ui-widget">
-                    <div class="autoSuggestionsList_l" id="autoSuggestionsList"></div>
-                    </div>
-                      <!-- </form> --></li>
+                                                         <span class="input-group-addon">
+                                                               <button type="submit" id="search_button">
+                                                                       <span class="glyphicon glyphicon-search">
+                                                                         
+                                                                       </span>
+                                                               </button>  
+                                                        </span>
+                                                    </div>
+                                         </div>
+                          </form>
+                          <div id="suggestions" class="ui-widget">
+                                <div class="autoSuggestionsList_l" id="autoSuggestionsList">
+                                  
+                                </div>
+                          </div>
+                      <!-- </form> -->
+                    </li>
                     
                 </ul>
             </div><!--/.nav-collapse -->

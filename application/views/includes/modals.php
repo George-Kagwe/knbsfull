@@ -65,6 +65,7 @@
         <h4 class="modal-title">Agricuture Sector</h4>
       </div>
       <div class="modal-body">
+
         <h5>Notes And Definitions</h5>
 
 
@@ -87,7 +88,12 @@
             <p><strong>Farm gate Prices:</strong> The value of production given in this report uses farm gate prices as the basis of valuation of the production from the county. Farm gate price is the price paid to farmer at the farm level and hence excludes margins on transport.</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <a style="" href="<?=site_url('All/Agriculture')?>" class="btn btn-success ">
+                                                    View all charts
+                                               </a>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+         
       </div>
     </div>
 

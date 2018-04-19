@@ -1,6 +1,6 @@
 <style type="text/css">
         body{
-					padding-top: 70px;
+					padding-top: 50px;
 				}
 
 	  .first{
