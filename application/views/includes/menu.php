@@ -10,12 +10,15 @@
                     <span class="icon-bar"></span>
                     
                 </button>
+                <a class="navbar-brand" href="<?=site_url('/')?>">
+                          <img id="logo_small" src="<?php echo base_url().'assets//img/menu/knbslogo.png';?>"  class="img-responsive">
+                </a>
               
             </div>
             <div class="collapse navbar-collapse">
                 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="<?=site_url('api/')?>"  class="btn-menu">API LIST</a></li>
+                    <li><a href="<?=site_url('api/')?>"  class="btn-menu api_list">API LIST</a></li>
                   
                 </ul>
                
