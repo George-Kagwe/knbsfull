@@ -18,7 +18,7 @@
             <div class="collapse navbar-collapse">
                 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="<?=site_url('api/')?>"  class="btn-menu api_list">API LIST</a></li>
+                    <li><a href="<?=site_url('api/')?>"  class="btn-menu api_list" id="api_list">API LIST</a></li>
                   
                 </ul>
                
@@ -531,7 +531,7 @@
                                                </a>
                                         </ul>
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($trade_national as $list):?>
                                             <?php   echo "
@@ -550,7 +550,7 @@
                                 <ul class="dropdown-menu " id="tourism">
                                     <li class="row " >
                                        
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($tourism_national as $list):?>
                                             <?php echo "
@@ -571,7 +571,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Building and Construction</a>
                                 <ul class="dropdown-menu " id="building">
                                     <li class="row " >
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                          
                                          
@@ -588,7 +588,7 @@
                                              
                                         </ul>
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($building_national as $list):?>
                                             <?php echo "
@@ -609,7 +609,7 @@
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Finance Money and Banking</a>
                                 <ul class="dropdown-menu " id="finance">
                                     <li class="row " >
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>
                                          
                                          
@@ -629,7 +629,7 @@
                                                </a>
                                         </ul>
 
-                                        <ul class="col-md-6 menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($money_national as $list):?>
                                             <?php   echo "
