@@ -261,7 +261,7 @@
                                            <?php endforeach; ?>
                                            <br>
                                            <a href="<?=site_url('All/Governance')?>" class="btn btn-success active">
-                                                    View all charts
+                                                    View more charts
                                                </a> 
                                         </ul>
                                         

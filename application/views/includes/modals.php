@@ -318,10 +318,7 @@
 
 <style type="text/css">
 
-body {
-    padding:25px;
-    font-family:sans-serif;
-}
+
        .timeline {
 
     white-space:nowrap;
