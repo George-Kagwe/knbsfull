@@ -6,7 +6,7 @@
          
            <div >
              
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 text-center wow fadeIn item" data-wow-delay="0.3s"> 
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center wow fadeIn item" data-wow-delay="0.3s"> 
 
                       <span class="fa-stack fa-2x">
                             <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i>
@@ -18,7 +18,7 @@
                 </div>
 
                 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 text-center wow fadeIn item" data-wow-delay="0.3s"> 
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center wow fadeIn item" data-wow-delay="0.3s"> 
                       <span class="fa-stack fa-2x">
                             <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i>
                              <a href="#education_sector" data-toggle="modal" data-target="#education_sector">
@@ -28,7 +28,7 @@
                 </div>
 
                
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 text-center wow fadeIn item" data-wow-delay="0.3s"> 
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center wow fadeIn item" data-wow-delay="0.3s"> 
                       <span class="fa-stack fa-2x">
                             <i class="fa fa-circle   fa-stack-2x icon-a" id="fa"></i>
                             <a href="#governance_sector" data-toggle="modal" data-target="#governance_sector">
@@ -37,7 +37,7 @@
                       <h4 class="text-weight-strong">Governance</a></h4>    
                 </div>  
                  
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 text-center wow fadeIn item" data-wow-delay="0.3s">    
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center wow fadeIn item" data-wow-delay="0.3s">    
                     <span class="fa-stack fa-2x">
                           <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i>
                           <a href="#public_health_sector" data-toggle="modal" data-target="#public_health_sector">
@@ -47,7 +47,7 @@
                 </div>
 
 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 text-center wow fadeIn item" data-wow-delay="0.3s">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center wow fadeIn item" data-wow-delay="0.3s">
 
                       <span class="fa-stack fa-2x">
                             <i class="fa fa-circle  fa-stack-2x icon-a" id="fa"></i> 
@@ -59,13 +59,22 @@
                 </div>
                
 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 text-center wow fadeIn item" data-wow-delay="0.3s"> 
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center wow fadeIn item" data-wow-delay="0.3s"> 
                     <span class="fa-stack fa-2x">
                           <i class="fa fa-circle   fa-stack-2x icon-a" id="fa"></i>
                           <a href="#public_finance_sector" data-toggle="modal" data-target="#public_finance_sector">
                           <i class="fa fa-money fa-stack-1x fa-inverse"></i> 
                     </span>
                     <h4 class="text-weight-strong">Public Finance</a></h4>    
+                </div>
+
+                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center wow fadeIn item" data-wow-delay="0.3s"> 
+                    <span class="fa-stack fa-2x">
+                          <i class="fa fa-circle   fa-stack-2x icon-a" id="fa"></i>
+                          <a href="#benchmark" data-toggle="modal" data-target="#benchmark">
+                          <i class="fa fa-money fa-stack-1x fa-inverse"></i> 
+                    </span>
+                    <h4 class="text-weight-strong">SIGNIFICANT BENCHMARKS</a></h4>    
                 </div>
 
                  

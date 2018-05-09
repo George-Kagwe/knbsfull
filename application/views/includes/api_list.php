@@ -6,7 +6,7 @@
 <div id="exTab2" class="container-fluid">	
 <ul class="nav nav-tabs">
 			<li class="active">
-        <a  href="#1" data-toggle="tab">Agriculure</a>
+        <a  href="#1" data-toggle="tab">Agriculture</a>
 			</li>
 			<li><a href="#2" data-toggle="tab">Education</a>
 			</li>
