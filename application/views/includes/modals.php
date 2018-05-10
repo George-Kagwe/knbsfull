@@ -330,7 +330,7 @@
 .entry {
     display:inline-block;
     vertical-align:top;
-    background:#13519C;
+    background:#354e9d;
     color:#fff;
     padding:10px;
     font-size:12px;

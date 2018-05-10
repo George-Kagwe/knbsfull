@@ -10,6 +10,8 @@
   /*for mobile phones   .col-xs-*/
   @media(max-width:768px)
         {   
+           
+            
          
                   #footer{
                      list-style: none;
@@ -348,7 +350,7 @@
                           margin-top: -1%;
                           margin-left: -15px;
                           margin-right: -15px;
-                          height: 40vh !important;
+                          height: 45vh !important;
                           background-image:linear-gradient(1deg,
                           rgba(216, 159, 159, 0.9),
                           rgba(245, 177, 158, 0.295),
@@ -373,6 +375,7 @@
              font-size:12px;
              text-decoration: none;
              text-transform: uppercase;
+             margin-bottom: 3%;
             }
 
            .dropdown-submenu>.dropdown-menu {
@@ -608,7 +611,7 @@
                     display: block;
                     margin-left: 110%;
                     min-width: 50vw;
-                    min-height: 29.4em !important;
+                    min-height: 33.0em !important;
                   }
                 .dropdown-submenu .dropdown-menu{
                   -webkit-border-radius: 0 !important;
@@ -1407,42 +1410,21 @@
 
 
   #sectorss{
-    margin-top:0px;
-    background: #354e9d;
-    /* background: -webkit-linear-gradient(102deg, rgb(140, 49, 7), rgb(136, 59, 78));
-    background: linear-gradient(102deg, rgb(140, 49, 7), rgb(136, 59, 78));
     
-    */
+    margin-top: 0vw;
+    background: #354e9d;
+    
+    height: 12vw;
+
     
     opacity:0.9; 
-    background:cover;
-    background-repeat: no-repeat;
-    background-position: left 5% top 10%; 
+    
   }
   .icon-a{
     color: #cc5522;
   }
 
-  /* i{
-    margin-top:1%;
-    font-size: 1.6em;
-    width: 50px;
-    text-align: center;
-    line-height: 50px;
-    background: #cc5522;
-    color: #fff;
-    border-radius: 50%; /* or 50% width & line-height */
-    /* } */
-
-
-
-    /* end sectors css */
-
-
-
-
-
-
+  
 
 
 
@@ -1665,7 +1647,7 @@
       padding-left: 7vw;
       padding-bottom: -3%;
       margin-top: 2%;
-      height: 60.5vh;
+      height: 65.5vh;
     }
 
   }

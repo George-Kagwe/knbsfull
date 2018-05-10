@@ -94,7 +94,9 @@
                                           ?>
                                          
                                            <?php endforeach; ?>
-
+                                               <a style="margin-bottom: -5.3%; margin-top: 1%;" href="<?=site_url('All/Education')?>" class="btn btn-success active">
+                                                    View all charts
+                                             </a>   
                                              
                                         </ul>
 
@@ -108,9 +110,7 @@
                                           ?>
                                            <?php endforeach; ?>
                                            
-                                             <a style="margin-top: 2%;" href="<?=site_url('All/Education')?>" class="btn btn-success active">
-                                                    View all charts
-                                             </a>
+                                             
                                         </ul>
                                         
                                     </li>
@@ -550,7 +550,7 @@
                                 <ul class="dropdown-menu " id="tourism">
                                     <li class="row " >
                                        
-                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6menus">
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6  menus">
                                             <li class="dropdown-header">National Datasets</li>
                                                <?php foreach ($tourism_national as $list):?>
                                             <?php echo "
@@ -608,6 +608,82 @@
                             <li class="dropdown-submenu">
                                 <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Finance Money and Banking</a>
                                 <ul class="dropdown-menu " id="finance">
+                                    <li class="row " >
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
+                                          <li class="dropdown-header">County Datasets</li>
+                                         
+                                         
+                                           <?php foreach ($money_county as $list):?>
+
+                                             <?php
+                                             echo "
+                                          <li>"."<a href=".base_url('all/chart/')."$list->sector_id/$list->table_name/".$list->report."tabindex='-1' class='menu-item'>".$list->report."</a>"."</li>";
+
+                                          ?>
+                                         
+                                           <?php endforeach; ?>
+
+                                              <br><br>
+                                               <a href="<?=site_url('All/money')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
+                                        </ul>
+
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
+                                            <li class="dropdown-header">National Datasets</li>
+                                               <?php foreach ($money_national as $list):?>
+                                            <?php   echo "
+                                          <li>"."<a href=".base_url('all/chart/')."$list->sector_id/$list->table_name/".$list->report."tabindex='-1' class='menu-item'>".$list->report."</a>"."</li>";
+
+                                          ?>
+                                           <?php endforeach; ?>
+                                        </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+
+                             <li class="dropdown-submenu">
+                                <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">Transport</a>
+                                <ul class="dropdown-menu " id="finance" style="display: none;">
+                                    <li class="row " >
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
+                                          <li class="dropdown-header">County Datasets</li>
+                                         
+                                         
+                                           <?php foreach ($money_county as $list):?>
+
+                                             <?php
+                                             echo "
+                                          <li>"."<a href=".base_url('all/chart/')."$list->sector_id/$list->table_name/".$list->report."tabindex='-1' class='menu-item'>".$list->report."</a>"."</li>";
+
+                                          ?>
+                                         
+                                           <?php endforeach; ?>
+
+                                              <br><br>
+                                               <a href="<?=site_url('All/money')?>" class="btn btn-success active">
+                                                    View all charts
+                                               </a>
+                                        </ul>
+
+                                        <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
+                                            <li class="dropdown-header">National Datasets</li>
+                                               <?php foreach ($money_national as $list):?>
+                                            <?php   echo "
+                                          <li>"."<a href=".base_url('all/chart/')."$list->sector_id/$list->table_name/".$list->report."tabindex='-1' class='menu-item'>".$list->report."</a>"."</li>";
+
+                                          ?>
+                                           <?php endforeach; ?>
+                                        </ul>
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown-submenu">
+                                <a href="#" class="dropdown-toggle sub-head" data-toggle="dropdown">poverty</a>
+                                <ul class="dropdown-menu " id="finance" style="display: none;">
                                     <li class="row " >
                                         <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
                                           <li class="dropdown-header">County Datasets</li>

@@ -123,7 +123,8 @@ public function Education_county(){
    health_sectors 
    where embed_script!='' 
    and  sector_name ='Education'
-   and coverage='county'";
+   and coverage='county'
+   ";
 
    
 	$result=$this->db->query($sql);
