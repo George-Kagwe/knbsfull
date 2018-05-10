@@ -116,7 +116,7 @@ public function labour(){
    health_sectors 
    where api_url !='' 
    and sector_name
-   ='Labour'
+   ='Labor'
   ;";
 
    

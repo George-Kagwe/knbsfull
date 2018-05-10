@@ -216,7 +216,7 @@ public function labour_national(){
    * from 
    health_sectors 
    where embed_script!='' 
-   and  sector_name ='labour'
+   and  sector_name ='labor'
    and coverage='national'";
 
    

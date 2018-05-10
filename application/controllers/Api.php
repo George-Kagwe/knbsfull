@@ -44,7 +44,7 @@ class Api extends CI_Controller {
 			$public_health,
 			$trade,
 			$transport);
-		  //var_dump($data);die();
+		  // var_dump($data);die();
 
 		$agriculture_county['agriculture_county']=
 		$this->Menu_Model->agriculture_county();
@@ -125,6 +125,7 @@ class Api extends CI_Controller {
 		    $money_county,$money_national
 
 			);
+
 		$title['title'] ="KNBS | API LIST";
 		$this->load->view('includes/header_view',$title);
 		$this->load->view('includes/menu',$dataa);

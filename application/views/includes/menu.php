@@ -394,7 +394,7 @@
                                 <ul class="dropdown-menu " id="labour">
                                     <li class="row " >
                                         <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6  menus">
-                                          <li class="dropdown-header">County Datasets</li>
+                                         <!--  <li class="dropdown-header">County Datasets</li> -->
                                          
                                          
                                            <?php foreach ($labour_county as $list):?>
@@ -511,7 +511,7 @@
                                 <ul class="dropdown-menu " id="trade">
                                     <li class="row " >
                                         <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6  menus">
-                                          <li class="dropdown-header">County Datasets</li>
+                                      <!--     <li class="dropdown-header">County Datasets</li> -->
                                          
                                          
                                            <?php foreach ($trade_county as $list):?>
@@ -572,7 +572,7 @@
                                 <ul class="dropdown-menu " id="building">
                                     <li class="row " >
                                         <ul class="col-xs-12 col-sm-6  col-md-6 col-lg-6 menus">
-                                          <li class="dropdown-header">County Datasets</li>
+                                          <!-- <li class="dropdown-header">County Datasets</li> -->
                                          
                                          
                                            <?php foreach ($building_county as $list):?>
