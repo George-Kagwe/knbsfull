@@ -43,7 +43,7 @@ $(document).ready(function() {
 		btn_prev : $("#touchSlider").next().find(".btn_prev"),
 		btn_next : $("#touchSlider").next().find(".btn_next"),
 		counter : function (e) {
-            $("#count").html(" " + e.current + "  CHART OF " + e.total+"  CHART(S) of  "+document.title +" Sector");
+            $("#count").html("" + e.current + "  CHART OF " + e.total+"  CHART(S) of  "+document.title +" Sector");
           
 		}
 	});

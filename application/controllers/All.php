@@ -12,7 +12,15 @@ class All extends CI_Controller {
 		$this->load->model('Menu_Model');
         
 	}
+    public function Sectoral_Datasets(){
 
+    	$this->load->view('includes/header_view');
+		$this->load->view('includes/menu');
+		$this->load->view('includes/Sectors_List_Cards');
+
+		$this->load->view('includes/footer_view');
+
+    }
 	public function chart(){
            $id=$this->uri->segment(3);
 		$chart['embed']=$this->Charts_Model->chart($id);
