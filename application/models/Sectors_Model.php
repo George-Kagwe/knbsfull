@@ -1,5 +1,5 @@
 <?php
-class Api_Model extends CI_Model {
+class Sectors_Model extends CI_Model {
 
 
 
@@ -36,7 +36,7 @@ public function Agriculture(){
    * from 
    health_sectors 
    where embed_script !='' 
-   and  sector_name ='Agriculture'";
+   and  sector_name ='Agriculture' order by coverage asc";
 
 
   $result=$this->db->query($sql);
@@ -77,7 +77,7 @@ public function Education(){
    * from 
    health_sectors 
    where embed_script !='' 
-   and  sector_name ='Education'";
+   and  sector_name ='Education' order by coverage Asc";
 
    
   $result=$this->db->query($sql);
@@ -102,7 +102,7 @@ public function governance(){
    health_sectors 
    where embed_script !='' 
    and sector_name
-   ='Governance'
+   ='Governance' order by coverage asc
   ;";
 
    
@@ -130,7 +130,7 @@ public function land(){
    health_sectors 
    where embed_script !='' 
    and sector_name
-   ='Land and Climate'
+   ='environment and natural resources' order by coverage asc
   ;";
 
    

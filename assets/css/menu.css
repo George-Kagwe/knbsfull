@@ -1,7 +1,7 @@
   @import url('https://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans');
 
   @import url('<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">');
-
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
   body{
    overflow-x: hidden;
    padding-top: 100px; 
@@ -450,6 +450,7 @@
                         padding-bottom: 26.5px;
                         line-height: 27px;
                         font-weight: bold;
+                        font-family:  OpenSans,sans-serif;
                       }
 
                     .navbar {
@@ -1104,7 +1105,7 @@
    }
    /*search bar*/
    #imaginary_container1{
-    width:57vw;
+    width:47vw;
     margin-left:3%;
     margin-right: 2%;
     margin-top:5vh; 
@@ -1122,7 +1123,7 @@
    }
    /*search bar*/
    #imaginary_container1{
-    width:60vw;
+    width:50vw;
     margin-left:3%;
     margin-right: 2%;
     margin-top:4vh; 

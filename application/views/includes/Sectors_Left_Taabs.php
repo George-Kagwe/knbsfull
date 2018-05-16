@@ -49,7 +49,12 @@
                                                 <td><?php echo $agriculture->report;?></td>
                                                 <td><?php echo $agriculture->coverage;?></td>
                                                 <td><?php echo $agriculture->source;?></td>
-                                                <td><a href="<?php  echo $agriculture->api_url?>" target="_blank">link</a></td>
+                                                 <td> <?php
+                                              
+
+                                              echo "<a href=".base_url('all/chart/')."$agriculture->sector_id/$agriculture->table_name/".$agriculture->report."' target='_blank' >"."View chart"."</a>";
+
+                                          ?></td>
         
                                               </tr>
 
@@ -79,7 +84,12 @@
                                                 <td><?php echo $education->report;?></td>
                                                 <td><?php echo $education->coverage;?></td>
                                                 <td><?php echo $education->source;?></td>
-                                                <td><a href="<?php  echo $education->api_url?>" target="_blank">link</a></td>
+                                                <td> <?php
+                                              
+
+                                              echo "<a href=".base_url('all/chart/')."$agriculture->sector_id/$agriculture->table_name/".$agriculture->report."' target='_blank'>"."View Chart"."</a>";
+
+                                          ?></td>
         
                                               </tr>
 
@@ -110,7 +120,7 @@
                                                 <td><?php echo $energy->report;?></td>
                                                 <td><?php echo $energy->coverage;?></td>
                                                 <td><?php echo $energy->source;?></td>
-                                                <td><a href="<?php  echo $energy->api_url?>" target="_blank">link</a></td>
+                                                <td><?php  echo "<a href=".base_url('all/chart/')."$energy->sector_id/$energy->table_name/".$energy->report."' target='_blank'>"."View Chart"."</a>";?></td>
         
                                               </tr>
 
@@ -143,7 +153,12 @@
                                                 <td><?php echo $land->report;?></td>
                                                 <td><?php echo $land->coverage;?></td>
                                                 <td><?php echo $land->source;?></td>
-                                                <td><a href="<?php  echo $land->api_url?>" target="_blank">link</a></td>
+                                                <td> <?php
+                                              
+
+                                              echo "<a href=".base_url('all/chart/')."$land->sector_id/$land->table_name/".$land->report."' target='_blank'>"."View Chart"."</a>";
+
+                                          ?></td>
         
                                               </tr>
 
@@ -172,10 +187,10 @@
                                      
                                               <tr>
                                                   
-                                                <td><?php echo $governance->governance->report;?></td>
+                                                <td><?php echo $governance->report;?></td>
                                                 <td><?php echo $governance->coverage;?></td>
                                                 <td><?php echo $governance->source;?></td>
-                                                <td><a href="<?php  echo $governance->api_url?>" target="_blank">link</a></td>
+                                                <td><?php  echo "<a href=".base_url('all/chart/')."$governance->sector_id/$governance->table_name/".$governance->report."' target='_blank'>"."View Chart"."</a>";?></td>
         
                                               </tr>
 
@@ -208,8 +223,7 @@
                                                 <td><?php echo $labour->coverage;?></td>
                                                 <td><?php echo $labour->source;?></td>
                                                
-                                                <td><a href="<?php  echo $labour->api_url?>" target="_blank">link</a></td>
-        
+                                                <td><?php  echo "<a href=".base_url('all/chart/')."$labour->sector_id/$labour->table_name/".$labour->report."' target='_blank'>"."View Chart"."</a>";?></td>
         
                                               </tr>
 
@@ -241,7 +255,7 @@
                                                 <td><?php echo $political->report;?></td>
                                                 <td><?php echo $political->coverage;?></td>
                                                 <td><?php echo $political->source;?></td>
-                                                <td><a href="<?php  echo $political->api_url?>" target="_blank">link</a></td>
+                                                <td><?php  echo "<a href=".base_url('all/chart/')."$political->sector_id/$political->table_name/".$political->report."' target='_blank'>"."View Chart"."</a>";?></td>
         
                                               </tr>
 
@@ -275,7 +289,7 @@
                                                 <td><?php echo $public_finance->report;?></td>
                                                 <td><?php echo $public_finance->coverage;?></td>
                                                 <td><?php echo $public_finance->source;?></td>
-                                                <td><a href="<?php  echo $public_finance->api_url?>" target="_blank">link</a></td>
+                                                <td><?php  echo "<a href=".base_url('all/chart/')."$public_finance->sector_id/$public_finance->table_name/".$public_finance->report."' target='_blank'>"."View Chart"."</a>";?></td>
         
                                               </tr>
 
@@ -309,7 +323,7 @@
                                                 <td><?php echo $public_health->report;?></td>
                                                 <td><?php echo $public_health->coverage;?></td>
                                                 <td><?php echo $public_health->source;?></td>
-                                                 <td><a href="<?php  echo $public_health->api_url?>" target="_blank">link</a></td>
+                                                <td><?php  echo "<a href=".base_url('all/chart/')."$public_health->sector_id/$public_health->table_name/".$public_health->report."' target='_blank'>"."View Chart"."</a>";?></td>
         
                                               </tr>
 
@@ -343,7 +357,7 @@
                                                 <td><?php echo $trade->report;?></td>
                                                 <td><?php echo $trade->coverage;?></td>
                                                 <td><?php echo $trade->source;?></td>
-                                                 <td><a href="<?php  echo $trade->api_url?>" target="_blank">link</a></td>
+                                                <td><?php  echo "<a href=".base_url('all/chart/')."$trade->sector_id/$trade->table_name/".$trade->report."' target='_blank'>"."View Chart"."</a>";?></td>
         
                                               </tr>
 
@@ -377,7 +391,8 @@
                                                 <td><?php echo $transport->report;?></td>
                                                 <td><?php echo $transport->coverage;?></td>
                                                 <td><?php echo $transport->source;?></td>
-                                                <td><a href="<?php  echo $trade->api_url?>" target="_blank">link</a></td>
+                                                <td><?php  echo "<a href=".base_url('all/chart/')."$transport->sector_id/$transport->table_name/".$transport->report."' target='_blank'>"."View Chart"."</a>";?></td>
+        
                                               </tr>
 
         

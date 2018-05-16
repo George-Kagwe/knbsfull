@@ -1,46 +1,43 @@
+<!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
 
 
-<hr></hr>
-<div class="container"><h2>API LIST</h2></div>
 
-<div id="exTab2" class="container-fluid">	
-<ul class="nav nav-tabs">
-			<li class="active">
-        <a  href="#1" data-toggle="tab">Agriculture</a>
-			</li>
-			<li><a href="#2" data-toggle="tab">Education</a>
-			</li>
-			<li><a href="#3" data-toggle="tab">Energy</a>
-			</li>
-			<li><a href="#6" data-toggle="tab">Environment  and<br> Natural Resources </a>
-			</li>
-			<li>
-             <a  href="#4" data-toggle="tab">Governance</a>
-			</li>
-			<li><a href="#5" data-toggle="tab">Labour</a>
-			</li>
-			<li><a href="#8" data-toggle="tab">Political and<br>Administrative<br> Units</a>
-			</li>
-			<li><a href="#9" data-toggle="tab">Public <br>Finance</a>
-			</li>
-			<li><a href="#10" data-toggle="tab">Public <br>Health</a>
-			</li>
-			<li><a href="#11" data-toggle="tab">Trade</a>
-			</li>
-			<li><a href="#12" data-toggle="tab">Transport</a>
-			</li>
-		</ul>
-
-			<div class="tab-content ">
-			  <div class="tab-pane active" id="1">
-                   <table class="table table-bordered table-hover" id="1">
+<div class="row" style="min-height:300px;">
+    <div  class="col-sm-12">
+        <h4><center>SECTORS API LIST</center></h4>
+        <hr/>
+        <div class="col-xs-3">
+            <!-- required for floating -->
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs tabs-left">
+                <li class="active"><a href="#Agriculture" data-toggle="tab">Agriculture (<?php echo sizeof($agriculture );?>)</a></li>
+                <li><a href="#Education" data-toggle="tab">Education (<?php echo sizeof($education );?>)</a></li>
+                <li><a href="#Energy" data-toggle="tab">Energy (<?php echo sizeof($energy );?>)</a></li>
+                <li><a href="#Environment" data-toggle="tab">Environment And Natural Resources (<?php echo sizeof($land );?>)</a></li>
+                <li><a href="#Governance" data-toggle="tab">Governance (<?php echo sizeof($governance );?>)</a></li>
+                <li><a href="#Labour" data-toggle="tab">Labour (<?php echo sizeof($labour );?>)</a></li>
+                <li><a href="#Political" data-toggle="tab">Political and Administrative Units (<?php echo sizeof($political );?>)</a></li>
+                <li><a href="#Finance" data-toggle="tab">Public Finance (<?php echo sizeof($public_finance );?>)</a></li>
+                <li><a href="#Health" data-toggle="tab">Public Health (<?php echo sizeof($public_health );?>)</a></li>
+                <li><a href="#Trade" data-toggle="tab">Trade (<?php echo sizeof($trade );?>)</a></li>
+                <li><a href="#Transport" data-toggle="tab">Transport (<?php echo sizeof($transport );?>)</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-9">
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="Agriculture">
+                      
+                     <table class="table table-bordered table-hover" id="Agriculture">
                                    <thead>
                                       <tr>
                                       
-                                        <th>Report /Dateset Indicator Name</th>
+                                        <th>Report /Dataset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
-                                        <th>Api Link</th>
+                                        <th> API Link</th>
                                         
                                       </tr>
                                    </thead>
@@ -62,15 +59,15 @@
                                    
                                       </tbody>
                    </table>
-			  </div>
-				<div class="tab-pane" id="2">
-                 <table class="table table-bordered table-hover" id="2">
+                </div>
+                <div class="tab-pane" id="Education">
+                     <table class="table table-bordered table-hover" id="2">
                                    <thead>
                                       <tr>
-                                        <th>Report /Dateset Indicator Name</th>
+                                        <th>Report /Dataset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
-                                        <th>Api Link</th>
+                                        <th>API Link</th>
                                         
                                       </tr>
                                    </thead>
@@ -91,17 +88,17 @@
                                               <?php endforeach; ?>
                                    
                                       </tbody>
-                 </table>
-				</div>
-                <div class="tab-pane" id="3">
-                  <table class="table table-bordered table-hover" id="3">
+                     </table>
+                </div>
+                <div class="tab-pane" id="Energy">
+                      <table class="table table-bordered table-hover" id="3">
                                    <thead>
                                       <tr>
                                           
-                                        <th>Report /Dateset Indicator Name</th>
+                                        <th>Report /Dataset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
-                                        <th>Api Link</th>
+                                        <th>API Link</th>
                                         
                                       </tr>
                                    </thead>
@@ -122,79 +119,19 @@
                                               <?php endforeach; ?>
                                    
                                       </tbody>
-                    </table>
-				</div>
-				<div class="tab-pane" id="4">
-                   <table class="table table-bordered table-hover">
+                      </table>
+                     
+                </div>
+                
+                <div class="tab-pane" id="Environment">
+                      <table class="table table-bordered table-hover" id="6">
                                    <thead>
-                                      <tr>
+                                                                          <tr>
                                           
-                                       <th>Report /Dateset Indicator Name</th>
+                                       <th>Report /Dataset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
-                                        <th>Api Link</th>
-                                        
-                                      </tr>
-                                   </thead>
-                                       <tbody>
-                                             <?php foreach ($governance as $governance):?>
-                                     
-                                              <tr>
-                                                  
-                                                <td><?php echo $governance->report;?></td>
-                                                <td><?php echo $governance->coverage;?></td>
-                                                <td><?php echo $governance->source;?></td>
-                                                <td><a href="<?php  echo $governance->api_url?>" target="_blank">link</a></td>
-        
-                                              </tr>
-
-         
-
-                                              <?php endforeach; ?>
-                                   
-                                      </tbody>
-                   </table>
-				</div>
-				<div class="tab-pane" id="5">
-                    <table class="table table-bordered table-hover" id="5">
-                                   <thead>
-                                      <tr>
-                                        
-                                      <th>Report /Dateset Indicator Name</th>
-                                        <th>Coverage</th>
-                                        <th>Source</th>
-                                        <th>Api Link</th>
-                                        
-                                      </tr>
-                                   </thead>
-                                       <tbody>
-                                             <?php foreach ($labour as $labour):?>
-                                     
-                                              <tr>
-                                                  
-                                                <td><?php echo $labour->report;?></td>
-                                                <td><?php echo $labour->coverage;?></td>
-                                                <td><?php echo $labour->source;?></td>
-                                                <td><a href="<?php  echo $labour->api_url?>" target="_blank">link</a></td>
-        
-                                              </tr>
-
-         
-
-                                              <?php endforeach; ?>
-                                   
-                                      </tbody>
-                    </table>
-				</div>
-				<div class="tab-pane" id="6">
-					<table class="table table-bordered table-hover" id="6">
-                                   <thead>
-                                      <tr>
-                                          
-                                       <th>Report /Dateset Indicator Name</th>
-                                        <th>Coverage</th>
-                                        <th>Source</th>
-                                        <th>Api Link</th>
+                                        <th>API Link</th>
                                         
                                       </tr>
                                    </thead>
@@ -215,14 +152,47 @@
                                               <?php endforeach; ?>
                                    
                                       </tbody>
-                                </table>
-				</div>
-				<div class="tab-pane" id="8">
-					<table class="table table-bordered table-hover" id="8">
+                      </table>
+
+                </div>
+                <div class="tab-pane" id="Governance">
+                      <table class="table table-bordered table-hover">
                                    <thead>
                                       <tr>
                                           
-                                       <th>Report /Dateset Indicator Name</th>
+                                       <th>Report /Dataset Indicator Name</th>
+                                        <th>Coverage</th>
+                                        <th>Source</th>
+                                        <th>API Link</th>
+                                        
+                                      </tr>
+                                   </thead>
+                                       <tbody>
+                                             <?php foreach ($governance as $governance):?>
+                                     
+                                              <tr>
+                                                  
+                                                <td><?php echo $governance->governance->report;?></td>
+                                                <td><?php echo $governance->coverage;?></td>
+                                                <td><?php echo $governance->source;?></td>
+                                                <td><a href="<?php  echo $governance->api_url?>" target="_blank">link</a></td>
+        
+                                              </tr>
+
+         
+
+                                              <?php endforeach; ?>
+                                   
+                                      </tbody>
+                      </table>
+
+                </div>
+                 <div class="tab-pane" id="Labour">
+                      <table class="table table-bordered table-hover" id="6">
+                                   <thead>
+                                      <tr>
+                                          
+                                       <th>Report /Dataset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
                                         <th>Api Link</th>
@@ -230,7 +200,41 @@
                                       </tr>
                                    </thead>
                                        <tbody>
-                                              <?php foreach ($political as $political):?>
+                                             <?php foreach ($labour as $labour):?>
+                                     
+                                              <tr>
+                                                
+                                                <td><?php echo $labour->report;?></td>
+                                                <td><?php echo $labour->coverage;?></td>
+                                                <td><?php echo $labour->source;?></td>
+                                               
+                                                <td><a href="<?php  echo $labour->api_url?>" target="_blank">link</a></td>
+        
+        
+                                              </tr>
+
+         
+
+                                              <?php endforeach; ?>
+                                   
+                                      </tbody>
+                      </table>
+
+                </div>
+                 <div class="tab-pane" id="Political">
+                      <table class="table table-bordered table-hover" id="6">
+                                   <thead>
+                                      <tr>
+                                          
+                                       <th>Report /Dataset Indicator Name</th>
+                                        <th>Coverage</th>
+                                        <th>Source</th>
+                                        <th>API Link </th>
+                                        
+                                      </tr>
+                                   </thead>
+                                       <tbody>
+                                             <?php foreach ($political as $political):?>
                                      
                                               <tr>
                                                 
@@ -241,30 +245,33 @@
         
                                               </tr>
 
+        
+                                              </tr>
+
          
 
                                               <?php endforeach; ?>
                                    
                                       </tbody>
-                                </table>
-				</div>
-				<div class="tab-pane" id="9">
-					<table class="table table-bordered table-hover" id="8">
+                      </table>
+
+                </div>
+                 <div class="tab-pane" id="Finance">
+                      <table class="table table-bordered table-hover" id="6">
                                    <thead>
                                       <tr>
                                           
-                                       <th>Report /Dateset Indicator Name</th>
+                                       <th>Report /Dataset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
-                                        <th>Api Link</th>
+                                        <th>API Link </th>
                                         
                                       </tr>
                                    </thead>
                                        <tbody>
-                                              <?php foreach ($public_finance as $public_finance):?>
+                                             <?php foreach ($public_finance as $public_finance):?>
                                      
                                               <tr>
-                                                
                                                 <td><?php echo $public_finance->report;?></td>
                                                 <td><?php echo $public_finance->coverage;?></td>
                                                 <td><?php echo $public_finance->source;?></td>
@@ -272,100 +279,220 @@
         
                                               </tr>
 
+        
+                                              </tr>
+
          
 
                                               <?php endforeach; ?>
                                    
                                       </tbody>
-                                </table>
-				</div>
-				<div class="tab-pane" id="10">
-					<table class="table table-bordered table-hover" id="8">
+                      </table>
+
+                </div>
+                <div class="tab-pane" id="Health">
+                      <table class="table table-bordered table-hover" id="6">
                                    <thead>
                                       <tr>
                                           
-                                       <th>Report /Dateset Indicator Name</th>
+                                       <th>Report /Dataset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
-                                        <th>Api Link</th>
+                                        <th>API Link </th>
                                         
                                       </tr>
                                    </thead>
                                        <tbody>
-                                               <?php foreach ($public_health as $public_health):?>
+                                             <?php foreach ($public_health as $public_health):?>
                                      
                                               <tr>
-                                                
                                                 <td><?php echo $public_health->report;?></td>
                                                 <td><?php echo $public_health->coverage;?></td>
                                                 <td><?php echo $public_health->source;?></td>
-                                                <td><a href="<?php  echo $public_health->api_url?>" target="_blank">link</a></td>
-                                    <?php endforeach; ?>
+                                                 <td><a href="<?php  echo $public_health->api_url?>" target="_blank">link</a></td>
+        
+                                              </tr>
+
+        
+                                              </tr>
+
+         
+
+                                              <?php endforeach; ?>
+                                   
                                       </tbody>
-                                </table>
-				</div>
-				<div class="tab-pane" id="11">
-					<table class="table table-bordered table-hover" id="11">
+                      </table>
+
+                </div>
+                <div class="tab-pane" id="Trade">
+                      <table class="table table-bordered table-hover" id="6">
                                    <thead>
                                       <tr>
                                           
-                                       <th>Report /Dateset Indicator Name</th>
+                                       <th>Report /Dataset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
-                                        <th>Api Link</th>
+                                        <th>API Link </th>
                                         
                                       </tr>
                                    </thead>
                                        <tbody>
-                                               <?php foreach ($trade as $trade):?>
+                                             <?php foreach ($trade as $trade):?>
                                      
                                               <tr>
-                                                  
                                                 <td><?php echo $trade->report;?></td>
                                                 <td><?php echo $trade->coverage;?></td>
                                                 <td><?php echo $trade->source;?></td>
-                                                <td><a href="<?php  echo $trade->api_url?>" target="_blank">link</a></td>
+                                                 <td><a href="<?php  echo $trade->api_url?>" target="_blank">link</a></td>
+        
+                                              </tr>
+
         
                                               </tr>
 
          
 
                                               <?php endforeach; ?>
+                                   
                                       </tbody>
-                                </table>
-				</div>
+                      </table>
 
-				<div class="tab-pane" id="12">
-					<table class="table table-bordered table-hover" id="12">
+                </div>
+                 <div class="tab-pane" id="Transport">
+                      <table class="table table-bordered table-hover" id="6">
                                    <thead>
                                       <tr>
                                           
-                                       <th>Report /Dateset Indicator Name</th>
+                                       <th>Report /Dataset Indicator Name</th>
                                         <th>Coverage</th>
                                         <th>Source</th>
-                                        <th>Api Link</th>
+                                        <th>API Link </th>
                                         
                                       </tr>
                                    </thead>
                                        <tbody>
-                                               <?php foreach ($transport as $transport):?>
+                                             <?php foreach ($transport as $transport):?>
                                      
                                               <tr>
-                                                  
-                                                <td><?php echo $transport->report;?></td>                                               <td><?php echo $transport->coverage;?></td>
+                                                <td><?php echo $transport->report;?></td>
+                                                <td><?php echo $transport->coverage;?></td>
                                                 <td><?php echo $transport->source;?></td>
-                                                <td><a href="<?php  echo $transport->api_url?>" target="_blank">link</a></td>
+                                                <td><a href="<?php  echo $trade->api_url?>" target="_blank">link</a></td>
+                                              </tr>
+
         
                                               </tr>
 
          
 
                                               <?php endforeach; ?>
+                                   
                                       </tbody>
-                                </table>
-				</div>
-			</div>
-  </div>
+                      </table>
 
-<hr></hr>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    
+</div>
+<div class="clearfix"></div>
 
+
+
+<style type="text/css">
+                        
+                        .tabs-left, .tabs-right {
+                            border-top:  1px solid #ddd;
+                         border-left: 1px solid #ddd;
+                          border-bottom: none;
+                          padding-top: 2px;
+                          background-color: #f8f8f8;
+                        }
+                        .tabs-left {
+                          border-right: 1px solid #ddd;
+                        }
+                        .tabs-right {
+                          border-left: 1px solid #ddd;
+                        }
+                        .tabs-left>li, .tabs-right>li {
+                          float: none;
+                          margin-bottom: 2px;
+                        }
+                        .tabs-left>li {
+                          margin-right: -1px;
+                        }
+                        .tabs-right>li {
+                          margin-left: -1px;
+                        }
+                        .tabs-left>li.active>a,
+                        .tabs-left>li.active>a:hover,
+                        .tabs-left>li.active>a:focus {
+                          border-bottom-color: #ddd;
+                          border-right-color: transparent;
+                        }
+
+                        .tabs-right>li.active>a,
+                        .tabs-right>li.active>a:hover,
+                        .tabs-right>li.active>a:focus {
+                          border-bottom: 1px solid #ddd;
+                          border-left-color: transparent;
+                        }
+                        .tabs-left>li>a {
+                          /*color: #000;*/
+                          border-radius: 4px 0 0 4px;
+                          margin-right: 0;
+                          display:block;
+                        }
+                        .tabs-right>li>a {
+                          border-radius: 0 4px 4px 0;
+                          margin-right: 0;
+                        }
+                        .vertical-text {
+                          margin-top:50px;
+                          border: none;
+                          position: relative;
+                        }
+                        .vertical-text>li {
+                          height: 20px;
+                          width: 120px;
+                          margin-bottom: 100px;
+                        }
+                        .vertical-text>li>a {
+                          border-bottom: 1px solid #ddd;
+                          border-right-color: transparent;
+                          text-align: center;
+                          border-radius: 4px 4px 0px 0px;
+                        }
+                        .vertical-text>li.active>a,
+                        .vertical-text>li.active>a:hover,
+                        .vertical-text>li.active>a:focus {
+                          border-bottom-color: transparent;
+                          border-right-color: #ddd;
+                          border-left-color: #ddd;
+                        }
+                        .vertical-text.tabs-left {
+                          left: -50px;
+                        }
+                        .vertical-text.tabs-right {
+                          right: -50px;
+                        }
+                        .vertical-text.tabs-right>li {
+                          -webkit-transform: rotate(90deg);
+                          -moz-transform: rotate(90deg);
+                          -ms-transform: rotate(90deg);
+                          -o-transform: rotate(90deg);
+                          transform: rotate(90deg);
+                        }
+                        .vertical-text.tabs-left>li {
+                          -webkit-transform: rotate(-90deg);
+                          -moz-transform: rotate(-90deg);
+                          -ms-transform: rotate(-90deg);
+                          -o-transform: rotate(-90deg);
+                          transform: rotate(-90deg);
+                        }
+                        h4{
+                            margin-top: 2%;
+                        }
+</style>

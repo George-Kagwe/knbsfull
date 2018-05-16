@@ -19,6 +19,7 @@
             <div class="collapse navbar-collapse">
                 
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="<?=site_url('sectors/data_list')?>"  class="btn-menu api_list" id="api_list">DATA LIST</a></li>
                     <li><a href="<?=site_url('api/')?>"  class="btn-menu api_list" id="api_list">API LIST</a></li>
                   
                 </ul>
