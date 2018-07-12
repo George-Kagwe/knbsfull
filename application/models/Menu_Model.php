@@ -500,7 +500,7 @@ public function money_county(){
    where embed_script !=''
    and coverage='county' 
    and sector_name
-   ='Money and Banking'
+   ='Money, Banking and Finance'
   ;";
 
    
@@ -516,7 +516,7 @@ public function money_national(){
    where embed_script !=''
    and coverage='national' 
    and sector_name
-   ='Money and Banking'
+   ='Money, Banking and Finance'
   ;";
 
    
